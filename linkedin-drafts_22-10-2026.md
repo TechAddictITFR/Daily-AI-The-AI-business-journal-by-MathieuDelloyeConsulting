@@ -3,56 +3,36 @@
 **Status:** Draft only — not published.
 
 ## Short version
-Even the most profitable AI platforms are now testing how fast AI can be financed.
+DeepSeek raised ~$15B to challenge US AI labs. Meta creates non-voting stock to fund AI. Banks crack down on unauthorised AI agents inside customer accounts. Global AI infra spend to hit $5T. Walmart opens to AI shopping agents; Amazon blocks theirs. Tesla starts Optimus production. Signal of the Day: a $15B round from a Chinese lab reshapes AI funding. My Take: AI is a new factory built while the old one still runs. Question: if AI capital is re-priced, which initiatives still pay back? Read the full edition: https://techaddictitfr.github.io/Daily-AI-The-AI-business-journal-by-MathieuDelloyeConsulting/daily-ai-journal_22-10-2026.html?utm_source=linkedin&utm_campaign=daily-ai#/article/deepseek-15bln-funding
 
-Meta's quarter is the clearest example: capital spending of $34.9B, negative free cash flow of $2.1B, and a new non-voting share class to help fund the build-out. Meanwhile, Google Cloud and NVIDIA are bundling agent controls with the next generation of AI capacity.
-
-Which of your AI initiatives returns cash first, and what is your stop rule?
-
-Today's Daily AI edition:
-https://techaddictitfr.github.io/Daily-AI-The-AI-business-journal-by-MathieuDelloyeConsulting/daily-ai-journal_22-10-2026.html?utm_source=linkedin&utm_campaign=daily-ai#/article/meta-q3-capex-cash-flow
-
-Daily AI — The AI Business Journal
-Mathieu Delloye Consulting
-
-*(720 characters)*
+*(716 characters)*
 
 ## Long version
-AI strategy is becoming a capital-allocation question.
-
 Six signals from the last 24 hours:
 
-1. Meta reported Q3 revenue of $64.6B (+26%) and capex of $34.9B. Free cash flow was negative $2.1B, and 2026 capex guidance is now $135–145B.
-2. Meta's board approved a new non-voting Class C share class, effective January 2027, to support capital raising while preserving founder-led control.
-3. Google Cloud and NVIDIA said Vera Rubin-based A5X instances arrive next month, with sandboxes, confidential computing and human approval steps attached.
-4. At GTC Berlin, NVIDIA's message was containment: OpenShell, Confidential Bare Metal and an expanded Agent Toolkit. These are vendor announcements; independent validation is still to come.
-5. NVIDIA's Factory Operations Blueprint is in early access. In Siemens' example, agents recommend, a digital twin tests, a human approves, then changes are applied.
-6. Meta booked a $9.9B legal charge in Q3. Read the margin line with it: operating margin was 20%, versus 40% a year earlier.
+1. DeepSeek raised about $15 billion (100 billion yuan) in its latest funding round, reported on 22 October, one of China's largest ever. Reportedly backed by Tencent and CATL, the round signals ambitions to compete globally with Anthropic PBC and OpenAI.
+2. Meta plans to issue a new class of non-voting shares to raise capital for AI infrastructure, acquisitions and employee compensation, with trading due to begin in 2027.
+3. Morgan Stanley, Bank of America, JPMorgan Chase, Wells Fargo and Citi have detected third-party AI agents logging into customer accounts with the customers' own credentials, and are cracking down.
+4. JPMorgan forecasts that global data centre and AI infrastructure spend will reach $5 trillion.
+5. Walmart is opening its site to AI shopping agents under its rules, a sharp contrast with Amazon, which blocked Perplexity's shopping agent and Meta's Muse AI assistant.
+6. Tesla began manufacturing Optimus humanoid robots on the Fremont assembly line — the first time it has produced them to commercial standards — with deliveries targeted for late 2027 and a goal of 20,000 units a week by 2027.
 
-Signal of the Day (importance 9/10, confidence 9/10): AI capex now exceeds free cash flow at one of the world's most profitable platforms. The filing is clear on the numbers; it does not show how fast AI spend converts into measurable revenue.
+Signal of the Day (importance 9/10, confidence 9/10): A $15 billion round from a Chinese lab reshapes the AI funding map. It changes the arithmetic for every frontier lab and makes the geopolitical dimension of AI investment irreducible.
 
-Weak Signal (confidence 4/10): a forward-looking hypothesis based on current industry trends. As compute commitments grow, other capital-intensive AI companies may explore non-voting or other structured equity to raise funds while keeping control. Meta's move is one data point, not a wave.
+Weak Signal (confidence 6/10): A forward-looking hypothesis based on current industry trends. As AI agents gain autonomy, enterprises and regulators are tightening approval gates, audit trails and human sign-off. The banks cracking down on unauthorised AI agents (Axios, 2026-10-22) is one early sign of this shift.
 
-Takeaway: when even the largest platforms spend faster than their operations generate cash, the question for executives is which AI spend returns cash first, and what the stop rule is. Executives who answer in numbers will outrun those who answer in ambition.
+Takeaway: When the money behind AI is being re-priced by a $15 billion Chinese round and a $5 trillion infrastructure build-out, AI strategy becomes a capital-allocation question: which spend returns cash first, and what is the stop rule?
 
-My Take: think of AI as a new factory built while the old one still runs. The old one pays for the new one, but only up to a point.
+My Take: Think of AI as a new factory being built while the old one still runs: the old one pays for the new one, but only up to a point. The question is how long the build can continue before customers, not capital markets, cover its cost.
 
-Question: if the cost of capital for AI rose, which of your initiatives would still pay back, and who would decide to stop the rest?
+Question: If the money behind AI is re-priced by a $15 billion round and a $5 trillion build-out, which of your AI initiatives still returns cash, and who decides to stop the rest?
 
-Full edition (EN / FR / IT):
-https://techaddictitfr.github.io/Daily-AI-The-AI-business-journal-by-MathieuDelloyeConsulting/daily-ai-journal_22-10-2026.html?utm_source=linkedin&utm_campaign=daily-ai#/article/meta-q3-capex-cash-flow
+Today's Daily AI edition: https://techaddictitfr.github.io/Daily-AI-The-AI-business-journal-by-MathieuDelloyeConsulting/daily-ai-journal_22-10-2026.html?utm_source=linkedin&utm_campaign=daily-ai#/article/deepseek-15bln-funding
+CTA: Let's connect to discuss more.
 
-Let's connect to discuss more.
+#EnterpriseAI #AgenticAI #AIGovernance #Cybersecurity #AIInfrastructure
 
-#AI #AIStrategy #Capex #AgenticAI #EnterpriseAI #DigitalTransformation
-
-*(2427 characters including spaces)*
-
-*Editorial note: figures and announcements are linked to their sources; forecasts and interpretations are labelled as such.*
+*(2718 characters including spaces)*
 
 ## First-comment draft
-Sources (first comment):
-- Meta Q3 2026 results, SEC Form 8-K Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066700/meta-09302026xexhibit991.htm
-- NVIDIA / Google Cloud, Vera Rubin general availability: https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/
-- NVIDIA, Confidential Computing and agent safety: https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/
-- NVIDIA, Factory Operations Blueprint (Siemens example): https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/
+DeepSeek just showed how fast AI capital is being re-priced. The question for every board is which of your AI initiatives still clears the hurdle when the cost of capital moves. Happy to map that out.

@@ -1,0 +1,455 @@
+{
+ "date": "2026-10-26",
+ "edition": "Daily AI — The AI Business Journal",
+ "publisher": "Mathieu Delloye Consulting",
+ "lead": {
+  "id": "databricks-gpu-hour-cost",
+  "section": "AI economics",
+  "headline": "Databricks prices GPU compute at $7 per H100-hour",
+  "deck": "Compute costs are rising much faster than the market expected, reshaping AI economics.",
+  "summary": "On 26 October, Databricks said it charges $7 per H100 GPU-hour, roughly 2.4 times the market benchmark. The figure signals that AI capacity is becoming a central capital and operating cost for every company deploying models.",
+  "date": "26 October 2026",
+  "reading": "4 min",
+  "body": [
+   {
+    "k": "fact",
+    "t": "Databricks published a pricing list showing $7 per H100 GPU-hour for inference and a 2.4x premium over the widely quoted market rate. The release describes H100-class GPU capacity as a scarce resource that only firms with deep pockets can secure at scale."
+   },
+   {
+    "k": "fact",
+    "t": "The pricing is part of a broader pattern: cloud and AI providers are raising rates even as demand grows, because GPU supply has not kept pace with speculation around agentic AI workloads."
+   },
+   {
+    "k": "analysis",
+    "t": "For an executive, $7 per H100-hour is not a price list item, it is a capital allocation signal. If the compute cost of a single inference is rising 2.4x, then AI products that rely on high-volume, low-value inference must be re-priced or re-architected."
+   },
+   {
+    "k": "counter",
+    "t": "Databricks commenters note the benchmark is based on a single provider's on-demand pricing and excludes reserved or spot discounts. The 2.4x figure is a snapshot of one market slice, not an industry-wide tariff."
+   }
+  ],
+  "why": "For executives, the priority is to audit AI spend per use case, separate reserved from on-demand spend, and require a payback path before new GPU commitments are signed.",
+  "sources": [
+   {
+    "label": "Databricks pricing release via The Inference",
+    "url": "https://theinference.org/article/databricks-charges-7-per-h100-gpu-hour"
+   }
+  ]
+ },
+ "leadPanel": {
+  "label": "THE EXECUTIVE QUESTION",
+  "title": "What is your AI compute budget really costing?",
+  "text": "Track GPU cost per completed task, not per hour. Set a stop rule for any workload above the market benchmark."
+ },
+ "articles": [
+  {
+   "id": "oracle-outcome-driven-ai",
+   "section": "Enterprise AI",
+   "headline": "Oracle moves to outcome-driven AI across its Fusion applications",
+   "deck": "Enterprise suites now price AI on business results, not just seat counts.",
+   "summary": "On 26 October, Oracle announced it is shifting its Fusion application suite to an outcome-driven pricing model for AI capabilities. Customers will be billed for measurable business value rather than raw access.",
+   "date": "26 October 2026",
+   "reading": "3 min",
+   "body": [
+    {
+     "k": "fact",
+     "t": "Oracle announced outcome-driven AI pricing across its Fusion applications, where customers are billed for measurable business outcomes such as leads generated, cases closed or transactions processed, not just platform access."
+    },
+    {
+     "k": "analysis",
+     "t": "This move matters because it aligns vendor incentives with customer value. If Oracle is paid for results, not hours, then the vendor must prove the AI produces revenue, not just speed."
+    },
+    {
+     "k": "counter",
+     "t": "Outcome pricing places the risk on the vendor to deliver value. If the AI underperforms, the customer's refund and the vendor's uncertainty are two sides of the same coin. The release does not quantify the conversion rate or a cap on liability."
+    }
+   ],
+   "why": "For executives, ask: which of my AI use cases can be priced on outcomes, and which need a fallback to usage-based billing until the value is proven.",
+   "sources": [
+    {
+     "label": "Oracle announcement (Oracle Newsroom)",
+     "url": "https://www.oracle.com/news/announcement/ai-world-oracle-adv"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-ipo-filing",
+   "section": "AI economics",
+   "headline": "Anthropic files for an IPO, revealing explosive growth and heavy costs",
+   "deck": "The IPO filing shows revenue growth with billions still spent on building the models.",
+   "summary": "On 26 October, Anthropic's IPO filing showed revenue growth that is impressive, but the filing also reveals billions still spent on model development and infrastructure. The filing is a window into the economics of the most visible AI competitors.",
+   "date": "26 October 2026",
+   "reading": "4 min",
+   "body": [
+    {
+     "k": "fact",
+     "t": "The IPO filing shows Anthropic's revenue growing at a double-digit rate, while the company continues to report heavy spending on model development, compute capacity and talent. The filing includes a detailed breakdown of where the money goes."
+    },
+    {
+     "k": "analysis",
+     "t": "For executives, the filing confirms that even the leading players are spending ahead of revenue. The gap between growth and cost is the defining metric of the AI build-out."
+    },
+    {
+     "k": "counter",
+     "t": "The filing is a regulated document filed by a private company, so figures may be presented in the most favourable light. Independent verification of the exact cost-to-revenue ratio is not possible until the company reports fully."
+    }
+   ],
+   "why": "For executives, the Anthropic filing is a reminder that scale is not the same as efficiency. Growth that outpaces cost is a warning, not a triumph.",
+   "sources": [
+    {
+     "label": "Detroit News coverage of Anthropic IPO filing",
+     "url": "https://www.detroitnews.com/story/business/2026/10/26/anthropic-ipo-filing-shows-explosive-growth-risks-and-huge-costs/92442927007"
+    }
+   ]
+  },
+  {
+   "id": "eu-ai-enforcement",
+   "section": "AI governance",
+   "headline": "Europe's AI rules face their first real enforcement test",
+   "deck": "Regulators are testing the rules on AI incidents in laboratories.",
+   "summary": "On 14 October, European regulators tested the EU's AI Act for the first time, using a laboratory incident as the trigger for an enforcement review. The outcome will set a precedent for how the rules are applied.",
+   "date": "14 October 2026",
+   "reading": "3 min",
+   "body": [
+    {
+     "k": "fact",
+     "t": "European regulators launched their first enforcement test of the EU AI Act using an incident in a laboratory as the trigger. The review will examine whether the AI system complied with the risk classifications and transparency obligations established by the Act."
+    },
+    {
+     "k": "analysis",
+     "t": "For executives, this is the moment the EU AI Act stops being theory and starts being practice. The enforcement test will show which categories of AI systems are considered high-risk and how incident reporting works."
+    },
+    {
+     "k": "counter",
+     "t": "Enforcement actions are rare and the first test is a single case. It is impossible to know whether the outcome represents a broad trend or a single instance. The result will be observed before any compliance decision is made."
+    }
+   ],
+   "why": "For executives operating in Europe, this is the first real test of compliance obligations: incident classification, risk disclosure and the duty to report are no longer abstract terms.",
+   "sources": [
+    {
+     "label": "Euronews reporting on EU AI rules enforcement",
+     "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "databricks-gpu-hour-cost",
+   "section": "AI economics",
+   "headline": "GPU prices rise 2.4x market",
+   "deck": "Compute becomes a cost and a capital decision.",
+   "article": "databricks-gpu-hour-cost"
+  },
+  {
+   "id": "anthropic-ipo-filing",
+   "section": "AI economics",
+   "headline": "Anthropic IPO: growth without a path to profit",
+   "deck": "The filing shows the true cost of the AI build-out.",
+   "article": "anthropic-ipo-filing"
+  },
+  {
+   "id": "oracle-outcome-driven-ai",
+   "section": "Enterprise AI",
+   "headline": "Oracle prices AI on business outcomes",
+   "deck": "Outcome pricing is the new model.",
+   "article": "oracle-outcome-driven-ai"
+  },
+  {
+   "id": "eu-ai-enforcement",
+   "section": "AI governance",
+   "headline": "The EU AI Act gets its first enforcement test",
+   "deck": "Regulators start to apply the rules.",
+   "article": "eu-ai-enforcement"
+  }
+ ],
+ "news": [
+  {
+   "section": "Enterprise AI",
+   "headline": "NetSuite launches SuiteExpress for faster AI implementation",
+   "summary": "NetSuite announced a new suite for accelerating SaaS implementation, a template-driven path to faster deployment.",
+   "url": "https://www.cio.com/article/4239667/netsuite-launches-suitee"
+  },
+  {
+   "section": "Agentic AI",
+   "headline": "Agentic news: TorchTPU, Character.AI and more",
+   "summary": "A roundup of agentic AI news from the day, including new AI chips and agent platforms.",
+   "url": "https://byobot.ai/ai-news/all-things-agentic-october-26-2026"
+  },
+  {
+   "section": "AI infrastructure",
+   "headline": "Microsoft exits a UK data centre deal",
+   "summary": "Microsoft pulls out of a UK data centre agreement, a signal of shifting supply chains.",
+   "url": "https://enca.com/business/microsoft-exits-data-centre-deal-b"
+  }
+ ],
+ "takeaway": "AI compute is getting more expensive, enterprise AI is moving to outcome pricing, and regulators are about to test the rules. Companies should audit their compute spend, align AI contracts with measurable outcomes, and treat compliance as a product requirement.",
+ "analysis": {
+  "take": "The AI economy is being rebuilt on three pillars: higher compute costs, outcome-based contracts, and regulatory scrutiny. The organisations that thrive will be those that treat compute as a managed asset, not an infinite air supply, embed measurable outcomes into AI contracts, and treat compliance as a product requirement to be engineered rather than a licence to run.",
+  "signalOfDay": {
+   "title": "AI compute costs are rising 2.4x the market benchmark",
+   "importance": 9,
+   "confidence": 8,
+   "text": "Databricks' $7 per H100-hour pricing, a 2.4x premium over the market benchmark, is a price signal that will ripple through every AI product. It tells us that compute is being treated as a scarce, expensive resource, not an infinite air supply."
+  },
+  "weakSignal": {
+   "title": "Outcome-based AI pricing becomes a standard",
+   "confidence": 4,
+   "text": "A forward-looking hypothesis based on current industry trends: as compute becomes scarcer and more expensive, AI vendors will move from usage billing to outcomes billing, measuring success in dollars, not tokens. The risk is that true value is harder to measure than compute hours."
+  },
+  "question": "If your AI spend tripled overnight, which of your products would still be profitable?"
+ },
+ "signature": {
+  "provider": "Provided by Mathieu Delloye Consulting",
+  "cta": "Let's connect to discuss more."
+ },
+ "meta": {
+  "title": "Daily AI — When AI Compute Gets More Expensive",
+  "description": "Daily AI executive intelligence: GPU costs rise 2.4x market, Oracle's outcome-driven AI pricing, Anthropic's IPO filing and Europe's first AI enforcement test.",
+  "ogDescription": "AI compute is rising 2.4x market, enterprise AI moves to outcome pricing, and Europe's AI rules get their first enforcement test.",
+  "ogLines": [
+   "AI compute",
+   "gets 2.4x pricier"
+  ],
+  "ogSub": "Economics · Governance · Enterprise"
+ },
+ "i18n": {
+  "fr": {
+   "title": "Quand l’IA devient plus chère : le calcul en hausne 2,4x",
+   "lead": {
+    "section": "Économie de l’IA",
+    "headline": "Databricks fixe le calcul GPU à 7 $ par heure H100",
+    "deck": "Les coûts de calcul augmentent nettement plus vite que prévu, bouleversant l'économie de l'IA.",
+    "summary": "Le 26 octobre, Databricks a publié une tarification à 7 $ par heure H100, soit 2.4x le marché. Résultat : le calcul devient un coût central pour toute entreprise déployant des modèles.",
+    "date": "26 Octobre 2026",
+    "why": "Pour les dirigeants, l’objectif est d'auditiser la facturation IA par usage, séparer réservé de l'on-demand et exiger un retour sur investissement avant de signer.",
+    "body": [
+     {
+      "t": "Databricks publie une tarification à 7 $ par heure H100 pour l'inférence, soit presque 2,4x le taux de référence du marché. Le quotient décrit le calcul GPU H100 comme une ressource rare accessible en volume seulement aux grands groupes."
+     },
+     {
+      "t": "La tarification s'inscrit dans une tendance : les fournisseurs cloud et IA augmentent leurs tarifs malgré la demande, parce que l'offre de GPU ne suit pas la spéculation sur les charges de type agentique."
+     },
+     {
+      "t": "Pour un dirigeant, 7 $ par heure H100 n'est pas une liste de prix, c'est un signal d'allocation de capitaux. Si le coût du calcul d'une inférence monte de 2.4x, les produits IA qui reposent sur de l'inférence à volume et faible valeur doivent être re-facturés ou ré-architecturés."
+     },
+     {
+      "t": "Des commentateurs notent que la référence repose sur la facturation on-demand d'un seul fournisseur et exclut les réserves ou le spot. Le coefficient 2,4x mesure un tranche de marché, pas une taxe sectorielle."
+     }
+    ]
+   },
+   "leadPanel": {
+    "label": "LA QUESTION EXECUTIVE",
+    "title": "À quel prix votre IA en réalité ?",
+    "text": "Tenez compte du coût GPU par tâche terminée, pas par heure. Posez une limite avant de signer un nouvel engagement."
+   },
+   "articles": [
+    {
+     "section": "IA Entreprise",
+     "headline": "Oracle passe à l'IA orientée résultats dans Fusion",
+     "deck": "Les suites d'entreprise facturent désormais des résultats métiers, pas des postes de travail.",
+     "summary": "Le 26 octobre, Oracle a annoncé qu'il déplacait sa suite d'applications Fusion vers un modèle de tarification orientée résultats pour l'IA. Les clients seront facturés sur la valeur métier mesurable plutôt que sur l'accès brut.",
+     "why": "Pour les dirigeants, l'objectif est d'auditiser la facturation IA par usage, séparer réservé de l'on-demand et exiger un retour sur investissement avant de signer.",
+     "body": [
+      {
+       "t": "Oracle annonce une tarification orientée résultats pour ses applications Fusion, où les clients paient des résultats mesurables au lieu de l'accès."
+      },
+      {
+       "t": "Ce changement est important : si Oracle est payé en résultats, pas en heures, le vendeur doit prouver que l'IA génère des revenus, pas seulement de la vitesse."
+      },
+      {
+       "t": "La tarification résultats place le risque sur le vendeur. Si l'IA sous-performe, le remboursement du client et l'incertitude du fournisseur sont deux faces de la même pièce. La publication ne chiffre pas le taux de conversion et ne fixe pas une limite de responsabilité."
+      }
+     ]
+    },
+    {
+     "section": "Économie de l'IA",
+     "headline": "Anthropic demande une IPO révélant une croissance explosive et de lourd coût",
+     "deck": "Le dossier de reconnaissance révèle des revenus en hausne, mais des dépenses toujours plus lourdes pour construire des modèles.",
+     "summary": "Le 26 octobre, le dossier de reconnaissance d'Anthropic montre une croissance des revenus impressionnante, mais révèle aussi des dépenses massives pour le développement de modèles et l'infrastructure.",
+     "why": "Pour les dirigeants, le dossier Anthropic confirme que même les leaders investissent plus que ce qu'ils perçoivent. L'écart croissance/coût est la devise du bâtiment IA.",
+     "body": [
+      {
+       "t": "Le dossier de reconnaissance montre que les revenus d'Anthropic augmentent à un rythme à deux chiffres, tandis que l'entreprise continue de signaler de lourds dépenses en développement de modèles, en calcul et en talents."
+      },
+      {
+       "t": "Pour les dirigeants, le dossier confirme que même les grands joueurs investissent devant le revenu. L'écart entre la croissance et le coût est la métrique qui définit l'enchainage de l'IA."
+      },
+      {
+       "t": "Le dossier est un document réglementaire déposé par une société privée : les chiffres peuvent être présentés dans le meilleur des cas. La vérification indépendante du rapport coût/revenu n'est possible qu'après avoir publié complètement."
+      }
+     ]
+    },
+    {
+     "section": "Gouvernance de l'IA",
+     "headline": "Les règles européennes de l'IA subissent leur première vraie épreuve",
+     "deck": "Les régulateurs testent les règles sur des incidents d'IA dans des laboratoires.",
+     "summary": "Le 14 octobre, les régulateurs européens ont testé pour la première fois l'application du règlement sur l'IA, utilisant un incident de laboratoire comme déclencheur. Le résultat fixera la norme pour leur application.",
+     "why": "Pour les dirigeants opérant en Europe, c'est le moment où l'AI Act cesse d'être de la théorie pour devenir de la pratique. L'épreuve montrera quelles catégories de systèmes sont considérées comme à haut risque.",
+     "body": [
+      {
+       "t": "Les régulateurs européens ont lancé leur première épreuve d'application de l'AI Act, utilisant un incident dans un laboratoire comme déclencheur."
+      },
+      {
+       "t": "Cela est important pour les dirigeants : l'épreuve montrera quelles catégories de systèmes IA sont considérées comme à haut risque et comment la déclaration d'incidents fonctionne."
+      },
+      {
+       "t": "Les actions d'application sont rares et la première épreuve n'est qu'un cas. Il est impossible de savoir si le résultat représente une tendance générale ou une instance unique."
+      }
+     ]
+    }
+   ],
+   "news": [
+    {
+     "section": "IA Entreprise",
+     "headline": "NetSuite lance SuiteExpress pour accélérer l'implémentation",
+     "summary": "NetSuite a annoncé une nouvelle suite pour accélérer le déploiement de ses workflowsIA, un chemin type vers un déploiement plus rapide."
+    },
+    {
+     "section": "IA Agentique",
+     "headline": "Actualité agentique : TorchTPU, Character.AI et plus encore",
+     "summary": "Un tour d'horizon des actualités de l'IA agentique de la journée, incluant de nouvelles puces et plateformes d'agents."
+    },
+    {
+     "section": "Infrastructure IA",
+     "headline": "Microsoft quitte un deal de centre de données au Royaume-Uni",
+     "summary": "Microsoft retire un arrangement de centre de données au Royaume-Uni, signal d'un déploiement des chaînes d'approvisionnement."
+    }
+   ],
+   "analysis": {
+    "signalOfDay": {
+     "title": "Les coûts de calcul IA augmentent 2,4x la référence de marché",
+     "text": "La tarification de Databricks à 7 $ par heure H100, 2,4x la référence de marché, est un signal de prix qui résonnera dans chaque produit IA."
+    },
+    "weakSignal": {
+     "title": "La facturation orientée résultats devient la norme pour l'IA",
+     "text": "Une hypothèse prospectif basée sur les tendances actuelles : à mesure que le calcul devient plus rare et cher, les vendeurs d'IA passeront de la facturation usage à la facturation résultats, mesurant le succès en dollars, pas en tokens."
+    },
+    "take": "L'économie de l'IA est reconstruite sur trois piliers : les coûts de calcul augmentent, les contrats orientés résultats, et la surveillance réglementaire. Les organisations qui prospèrent traiteront le calcul comme un actif maîtrisé, aligneront les contrats IA sur des résultats mesurables, et traiteront la conformité comme un produit à ingénieriser.",
+    "question": "Si votre dépense IA triplait soudainement, quels de vos produits seraient toujours rentables ?"
+   },
+   "takeaway": "Le calcul IA devient plus cher, l'IA d'entreprise passe à la facturation résultats, et les régulateurs testent les règles."
+  },
+  "it": {
+   "title": "Quando l'IA diventa più cara: il calcolo sale del 2,4x",
+   "lead": {
+    "section": "Economia dell'IA",
+    "headline": "Databricks fissa il calcolo GPU a 7 $ all'ora per H100",
+    "deck": "I costi di calcolo aumentano molto più velocemente di quanto atteso, ribaltando l'economia dell'IA.",
+    "summary": "Il 26 ottobre, Databricks ha pubblicato una tarifica a 7 $ all'ora per H100, circa 2.4 volte il riferimento di mercato.",
+    "date": "26 Ottobre 2026",
+    "why": "Per i dirigenti, l'obiettivo è auditare la fatturazione IA per uso, separare quello riservato da quello on-demand e richiedere un ritorno sull'investimento prima di firmare.",
+    "body": [
+     {
+      "t": "Databricks ha pubblicato una lista prezzi a 7 $ all'ora per H100 per l'inferenza e un premio 2,4x rispetto al tasso di riferimento di mercato."
+     },
+     {
+      "t": "La tarifica è parte di un modello più ampio: i provider cloud e IA aumentano i prezzi, anche se la domanda cresce, perché l'offerta di GPU non è riuscita a tenere il passo con la speculazione sui carichi di tipo agentico."
+     },
+     {
+      "t": "Per un dirigente, 7 $ all'ora per H100 non è un elenco prezzi, ma un segnale di allocazione di capitali. Se il costo di un singolo inferralzo sale di 2.4x, i prodotti di IA che si affidano a un alto volume e basso valore devono essere ri-prezzati o ri-architetturati."
+     },
+     {
+      "t": "I commentatori di Databricks osservano che il riferimento si basa sul prezzo a richiesta di un unico fornitore e esclude sconti riservati o spot. Il fattore 2,4x è un ritratto di una fetta di mercato, non una tariffa settoriale."
+     }
+    ]
+   },
+   "leadPanel": {
+    "label": "LA DOMANDA EXECUTIVE",
+    "title": "Quanto costa davvero la vostra IA?",
+    "text": "Tieni traccia del costo GPU per attività completata, non per ora. Stabilite un limite per qualsiasi carico che superi il benchmark di mercato."
+   },
+   "articles": [
+    {
+     "section": "IA Aziendale",
+     "headline": "Oracle passa a un'IA orientata ai risultati in Fusion",
+     "deck": "Le suite per le aziende fatturano ora i risultati aziendali, non i posti di lavoro.",
+     "summary": "Il 26 ottobre, Oracle ha annunciato di spostare la sua suite di applicazioni Fusion verso un modello di tarifica orientato ai risultati per l'IA. I clienti verranno addebitati su valori di impresa misurabili invece che su accesso grezzo.",
+     "why": "Per i dirigenti: chiedete quali dei vostri use case di IA possono essere facturati sui risultati e quali richiedono una tariffa basata sull'utilizzo fino a quando il valore non è dimostrato.",
+     "body": [
+      {
+       "t": "Oracle ha annunciato la tarifica orientata ai risultati per le sue applicazioni Fusion, dove i clienti vengono addebitati per i risultati misurabili, non per l'accesso."
+      },
+      {
+       "t": "Questo passo è importante: se Oracle viene pagato per i risultati, non per le ore, il fornitore deve dimostrare che l'IA produce ricavi, non solo velocità."
+      },
+      {
+       "t": "La tarifica risultati colloca il rischio sul fornitore. Se l'IA sottoperforma, il rimborso del cliente e l'incertezza del venditore sono due facce della stessa monetina."
+      }
+     ]
+    },
+    {
+     "section": "Economia dell'IA",
+     "headline": "Anthropic presenta per un IPO, rivelando crescita esplosiva e costi alti",
+     "deck": "Il regolamento mostra una crescita reddituale impressionante, ma continua a documentare milioni di spese per lo sviluppo dei modelli.",
+     "summary": "Il 26 ottobre, il regolamento di Anthropic mostra una crescita dei ricavi impressionante, ma rivela anche spese ingenti per lo sviluppo dei modelli e l'infrastruttura.",
+     "why": "Per i dirigenti, il dossier Anthropic è un promemoria che la scala non è la stessa che l'efficienza. Crescita che supera i costi è un allarme, non un trionfo.",
+     "body": [
+      {
+       "t": "Il regolamento mostra che i ricavi di Anthropic aumentano a un tasso doppio cifra, mentre l'azienda continua a riferire spese massicce per lo sviluppo dei modelli, il calcolo e i talenti."
+      },
+      {
+       "t": "Per i dirigenti, il dossier conferma che anche i grandi giocatori investono oltre il ricavo. L'incertezza tra crescita e costo è la metrica che definisce la costruzione di IA."
+      },
+      {
+       "t": "Il regolamento è un documento regolamentare depositato da un privato: i numeri possono essere presentati nel migliore modo possibile. La verifica indipendente del rapporto tra costo e ricavo non è possibile fino a quando l'azienda non dichiara pienamente."
+      }
+     ]
+    },
+    {
+     "section": "Governanza dell'IA",
+     "headline": "Le regole europee per l'IA subiscono il loro primo vero test di applicazione",
+     "deck": "I regolatori stanno testando le regole sugli incidenti di IA nei laboratori.",
+     "summary": "Il 14 ottobre, i regolatori europei hanno testato per la prima volta l'applicazione del Regolamento sull'IA, usando un incidente di laboratorio come scatenante.",
+     "why": "Per i dirigenti che operano in Europa, questo è il momento in cui il Regolamento sull'IA smette di essere teoria per diventare pratica.",
+     "body": [
+      {
+       "t": "I regolatori europei hanno avviato il primo test di applicazione del Regolamento sull'IA, usando un incidente in un laboratorio come scatenante."
+      },
+      {
+       "t": "Per i dirigenti, questo è il momento in cui il Regolamento smette di essere teoria e diventa pratica. Il test mostrerà quali categorie di sistemi IA sono considerate a alto rischio."
+      },
+      {
+       "t": "Le azioni di applicazione sono rare e il primo test è un singolo caso. È impossibile sapere se il risultato rappresenta una tendenza generale o un caso isolato."
+      }
+     ]
+    }
+   ],
+   "news": [
+    {
+     "section": "IA Aziendale",
+     "headline": "NetSuite lancia SuiteExpress per accelerare l'implementazione",
+     "summary": "NetSuite ha annunciato una nuova suite per accelerare il deploy dei propri flussi di lavoro IA, un percorso guidato da template verso un deploy più rapido."
+    },
+    {
+     "section": "IA Agentica",
+     "headline": "Notizie agentiche: TorchTPU, Character.AI e altro altro",
+     "summary": "Un riepilogo delle notizie di IA agentica della giornata, inclusi nuovi chip e piattaforme di agenti."
+    },
+    {
+     "section": "Infrastruttura IA",
+     "headline": "Microsoft esce da un accordo di data centre nel Regno Unido",
+     "summary": "Microsoft abbandona un accordo di data centre nel Regno Unito, un segnale di rimesse delle catene di approvvigionamento."
+    }
+   ],
+   "analysis": {
+    "signalOfDay": {
+     "title": "I costi di calcolo IA salgono 2,4x il riferimento di mercato",
+     "text": "La tarifica di Databricks a 7 $ all'ora H100, un premio 2,4x rispetto al riferimento di mercato, è un segnale di prezzo che ripercuoterà ogni prodotto di IA."
+    },
+    "weakSignal": {
+     "title": "La fatturazione basata sui risultati diventa la norma per l'IA",
+     "text": "Una ipotesi prognostica basata sulle tendenze attuali: man mano che il calcolo diventa più raro e costoso, i venditori di IA passeranno dalla fatturazione utiliz ai risultati, misurando il successo in dollari, non in token."
+    },
+    "take": "L'economia dell'IA viene ricostruita su tre pilastri: i costi di calcolo aumentano, i contratti basati sui risultati e la sorveglianza regolatoria. Le organizzazioni che prosperano tratteranno il calcolo come un bene gestito, non come un'aria infinita.",
+    "question": "Se la vostra spesa IA triplicasse improvvisamente, quali dei tuoi prodotti sarebbe ancora redditizio?"
+   },
+   "takeaway": "Il calcolo IA diventa più costoso, l'IA d'impresa passa alla fatturazione basata sui risultati, e i regolatori stanno testando le regole."
+  }
+ },
+ "linkedin": {
+  "short": "Quand l'IA devient plus chère : le calcul GPU monte de 2,4x le marché. Databricks fixe à 7 $/h l'H100, et les entreprises commencent à se demander : « Quelle est la durabilité de nos investissements IA ? » {LINK}",
+  "long": "Quand l'IA devient plus chère : le calcul GPU monte de 2,4x le marché.\n\nQUI S'INTÉRESSES ?\nLes dirigeants et les décideurs qui doivent justifier leurs dépenses IA.\n\n6 signaux de la journée\n1. Databricks publie une tarification à 7 $/h H100, soit 2,4x le marché. \n2. Oracle passe à une facturation orientée résultats pour ses applications Fusion.\n3. Antropic dépose pour sa IPO avec une croissance impressionnante et des coûts écrasants.\n4. Les régulateurs européens lancent leur première épreuve d'application du règlement sur l'IA.\n5. NetSuite lance SuiteExpress pour accélérer l'implémentation.\n6. Microsoft quitte un deal de centre de données au Royaume-Uni.\n\nSignal du jour\nLes coûts de calcul augmentent rapidement, bouleversant l'économie de l'IA.\n\nWeak Signal\nLa facturation orientée résultats devient la norme pour l'IA : les vendeurs mesurent le succès en dollars, pas en tokens.\n\nTakeaway\nL'IA devient plus chère : les dirigeants doivent traiter le calcul comme un actif maîtrisé, aligner les contrats sur des résultats mesurables, et faire de la conformité un produit à ingénieriser.\n\nMy Take\nSi votre IA triplait soudainement, laquelle de vos productions serait toujours rentable ? Les dirigeants qui répondent en chiffres vont plus loin que ceux qui répondent en ambition.\n\nQuestion\nQuel serait l'impact immédiat sur votre P&L si le coût de l'inférence augmentait de 2,4x ?\n\nLisez l'édition complète sur\n{LINK}\n\nLet's connect to discuss more.\n#IA #Innovation #Business #Economie #Strategie\n",
+  "firstComment": "https://theinference.org/article/databricks-charges-7-per-h100-gpu-hour https://www.oracle.com/news/announcement/ai-world-oracle-adv https://www.detroitnews.com/story/business/2026/10/26/anthropic-ipo-filing-shows-explosive-growth-risks-and-huge-costs/92442927007 https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+ }
+}
