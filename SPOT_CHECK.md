@@ -2,9 +2,9 @@
 
 Tick when the figure matches the page. If one is wrong, do not publish: ask for a rebuild.
 
-- [ ] **lead.body.0**: Databricks published a pricing list showing $7 per H100 GPU-hour for inference and a 2.4x premium over the widely quoted market rate.
-  - Databricks pricing release via The Inference: https://theinference.org/article/databricks-charges-7-per-h100-gpu-hour
-- [ ] **lead.body.2**: For an executive, $7 per H100-hour is not a price list item, it is a capital allocation signal.
-  - Databricks pricing release via The Inference: https://theinference.org/article/databricks-charges-7-per-h100-gpu-hour
-- [ ] **lead.summary**: On 26 October, Databricks said it charges $7 per H100 GPU-hour, roughly 2.4 times the market benchmark.
-  - Databricks pricing release via The Inference: https://theinference.org/article/databricks-charges-7-per-h100-gpu-hour
+- [ ] **lead.summary**: DeepSeek's $15 billion funding, EU AI Act enforcement, and Nebius compute pricing transparency mark a pivotal week in AI.
+  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
+- [ ] **lead.body.0**: DeepSeek secured $15 billion in funding, challenging US AI lab dominance in computational power.
+  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
+- [ ] **lead.body.3**: AI compute costs are rising 2.4x market, with enterprise spending hitting $5 trillion.
+  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
