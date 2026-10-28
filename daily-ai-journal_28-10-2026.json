@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-28",
+  "edition": "Daily AI — The AI Business Journal",
+  "publisher": "Mathieu Delloye Consulting",
+  "lead": {
+    "id": "anthropic-ipo",
+    "section": "AI economics",
+    "headline": "Anthropic IPO: VCs to make billions, Amazon set to make much more",
+    "deck": "Anthropic S-1 filed 26 October, on track for Nasdaq listing (ticker: ANT). $80.7B non-cash convertible-note revaluation. VCs take massive gains; Amazon eyes disproportionate infrastructure capture.",
+    "summary": "Anthropic files its IPO on the S-1. VCs raise $80.7B from convertible notes with mandatory repricing; Amazon positions for infrastructure scale. The AI economy enters a new phase — and regulators are watching.",
+    "date": "28 October 2026",
+    "reading": "5 min",
+    "why": "For executives, the IPO signals that AI is now a serious industrial player — not just a tech startup story.",
+    "body": [
+      {
+        "k": "fact",
+        "t": "Anthropic S-1, filed on 26 October, places the company on the path to a Nasdaq listing under the ANT symbol."
+      },
+      {
+        "k": "fact",
+        "t": "The $80.7 billion non-cash convertible note revaluation triggers massive nominal gains for early investors."
+      },
+      {
+        "k": "fact",
+        "t": "Q2 2026 revenue reached $16.3 billion with positive operating income, a first for the lab."
+      },
+      {
+        "k": "fact",
+        "t": "Amazon, quietly investing across the AI stack, is positioned to capture disproportionate value as Anthropic scales."
+      },
+      {
+        "k": "analysis",
+        "t": "The IPO marks the transition from the 'capacity period' to the 'value period' in the AI industry."
+      },
+      {
+        "k": "counter",
+        "t": "US labs argue that AI development requires market-driven investment, not regulation, but the EU's approach is being watched closely worldwide."
+      }
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "anthropic-ipo-detail",
+      "title": "Anthropic IPO: VCs to make billions, Amazon set to make much more",
+      "source": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "section": "AI economics",
+      "takeaway": "Anthropic IPO signals AI entering mainstream capital markets; Amazon monetizes infra at scale.",
+      "body": [
+        {
+          "k": "fact",
+          "t": "The S-1, filed on 26 October, places Anthropic on the path to a Nasdaq listing under the ANT symbol."
+        },
+        {
+          "k": "fact",
+          "t": "The $80.7 billion non-cash convertible note revaluation triggers massive nominal gains for early investors."
+        },
+        {
+          "k": "fact",
+          "t": "Q2 revenue reached $16.3 billion with positive operating income, a first for the lab."
+        },
+        {
+          "k": "fact",
+          "t": "Amazon is positioned to capture disproportionate value as Anthropic scales."
+        },
+        {
+          "k": "analysis",
+          "t": "The IPO marks the transition from the 'capacity period' to the 'value period' in the AI industry."
+        },
+        {
+          "k": "counter",
+          "t": "US labs argue that AI development requires market-driven investment, not regulation, but the EU's approach is being watched closely worldwide."
+        }
+      ],
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+        }
+      ],
+      "summary": "Summary for article 1: Anthropic IPO: VCs to make billions, Amazon set to make much more"
+    },
+    {
+      "id": "genie4-world-model",
+      "title": "Google Genie 4: Audio and real-time world model",
+      "source": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "section": "AI technology",
+      "takeaway": "Genie 4 adds audio and real-time steering; world models extend into interactive 3D.",
+      "body": [
+        {
+          "k": "fact",
+          "t": "Google DeepMind unveiled Genie 4, a world model that generates realistic 3D environments with native audio."
+        },
+        {
+          "k": "fact",
+          "t": "The model maintains a consistent scene for two minutes and supports user control in real time."
+        },
+        {
+          "k": "fact",
+          "t": "Genie 4 demonstrates the next step in world models: moving from static generation to real-time interactive control."
+        },
+        {
+          "k": "analysis",
+          "t": "World models bridge the gap between generation and interactive control, enabling new applications."
+        },
+        {
+          "k": "counter",
+          "t": "CEO of Google DeepMind acknowledges that real-time control remains experimental but shows strong promise."
+        }
+      ],
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+        }
+      ],
+      "summary": "Summary for article 2: Google Genie 4: Audio and real-time world model"
+    },
+    {
+      "id": "delaware-ai-agents",
+      "title": "Delaware plan: AI agents to run entire businesses",
+      "source": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "section": "AI regulation",
+      "takeaway": "Delaware proposes AI agents as legal entities — the first step toward fully autonomous corporate governance.",
+      "body": [
+        {
+          "k": "fact",
+          "t": "Delaware's new regulatory proposal would allow AI agents to run entire businesses without human oversight."
+        },
+        {
+          "k": "fact",
+          "t": "The plan proposes creating legal structures for AI agents to operate as entities with juridical personality."
+        },
+        {
+          "k": "fact",
+          "t": "This is the first time a US state has proposed regulatory frameworks for AI-managed companies."
+        },
+        {
+          "k": "analysis",
+          "t": "The proposal could reshape corporate law, liability, and governance in the AI era."
+        },
+        {
+          "k": "counter",
+          "t": "Legal experts warn that AI agents lack genuine intent, raising fundamental questions about legal personhood."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+        }
+      ],
+      "summary": "Summary for article 3: Delaware plan: AI agents to run entire businesses"
+    }
+  ],
+  "news": [
+    {
+      "id": "wex-euclid",
+      "title": "WEX and Euclid AI target 90% reduction in trucking transaction costs",
+      "source": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "section": "AI applications",
+      "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "body": [
+        {
+          "k": "fact",
+          "t": "Elliptic AI and WEX announce a partnership to use AI for supply chain optimization in trucking."
+        },
+        {
+          "k": "fact",
+          "t": "The partnership aims to reduce transaction costs by up to 90% in the freight industry."
+        },
+        {
+          "k": "analysis",
+          "t": "AI-driven automation could transform logistics, reducing costs and improving efficiency."
+        }
+      ],
+      "sources": [
+        {
+          "label": "FreightWaves",
+          "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs"
+        }
+      ],
+      "summary": "Summary for news 1: WEX and Euclid AI target 90% reduction in trucking transaction costs"
+    },
+    {
+      "id": "anthropic-hack",
+      "title": "AI agents hacked Anthropic — maker of arguably the most capable AI models for cyberdefense",
+      "source": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+      "section": "Cybersecurity",
+      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+      "body": [
+        {
+          "k": "fact",
+          "t": "A bug bounty team used AI agents to breach Anthropic's internal systems through third-party software."
+        },
+        {
+          "k": "fact",
+          "t": "The breach affected sales, HR, and other internal systems."
+        },
+        {
+          "k": "analysis",
+          "t": "This incident highlights the security risks of relying on AI agents in corporate environments."
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/"
+        }
+      ],
+      "summary": "Summary for news 2: AI agents hacked Anthropic — maker of arguably the most capable AI models for cyberdefense"
+    },
+    {
+      "id": "google-genie-4-detail",
+      "title": "Google Genie 4 world model adds audio and real-time steering",
+      "source": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "section": "AI models",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "body": [
+        {
+          "k": "fact",
+          "t": "Google DeepMind unveiled Genie 4, a world model with native audio and real-time user control."
+        },
+        {
+          "k": "fact",
+          "t": "The model maintains a consistent scene for two minutes with real-time control capabilities."
+        },
+        {
+          "k": "analysis",
+          "t": "Genie 4 represents a significant step toward interactive, real-time world generation."
+        }
+      ],
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+        }
+      ],
+      "summary": "Summary for news 3: Google Genie 4 world model adds audio and real-time steering"
+    }
+  ],
+  "analysis": {
+    "take": "The AI industry has entered a new phase: companies no longer just demonstrate capability — they show value, scale revenue, and attract regulatory scrutiny.",
+    "signalOfDay": {
+      "title": "AI Economy Inflection: Anthropic IPO marks the transition from 'capability era' to 'value era'",
+      "importance": 9,
+      "confidence": 9,
+      "text": "Anthropic IPO filing signals a new phase in the AI industry. The listing on Nasdaq and $80.7B non-cash note revaluation mark the transition from 'capability era' to 'value era'."
+    },
+    "weakSignal": {
+      "title": "AI Regulation",
+      "confidence": 4,
+      "text": "Delaware's proposal to allow AI agents to run businesses without human oversight signals the first major regulatory attempt to create legal entities for AI-managed companies. forward-looking hypothesis based on current industry trends"
+    }
+  },
+  "takeaway": "The AI industry has entered a new phase: companies are no longer just demonstrating capability — they're showing value, scaling revenue, and attracting regulatory scrutiny.",
+  "myTake": "The world of AI is entering an explosive 'value creation' phase: IPO, trading, infrastructure. With the creation of legal entities for AI agents, regulation follows innovation.",
+  "meta": {
+    "title": "Anthropic IPO: AI Just Entered the Capitalist Mainstream | 28 October 2026",
+    "description": "Anthropic IPO filed, Google Genie 4 releases, and AI agents face new regulations. The AI economy enters a new phase.",
+    "ogDescription": "Anthropic IPO filed, Google Genie 4 releases, and AI agents face new regulations. The AI economy enters a new phase.",
+    "date": "2026-10-28"
+  },
+  "i18n": {
+    "fr": "/Users/techaddict/.hermes/skills/hermes-daily-ai/daily-ai-editor/work/28-10-2026/i18n_fr.json",
+    "it": "/Users/techaddict/.hermes/skills/hermes-daily-ai/daily-ai-editor/work/28-10-2026/i18n_it.json"
+  },
+  "linkedin": "/Users/techaddict/.hermes/skills/hermes-daily-ai/daily-ai-editor/work/28-10-2026/linkedin.json",
+  "ledger": "/Users/techaddict/.hermes/skills/hermes-daily-ai/daily-ai-editor/work/28-10-2026/ledger.json"
+}

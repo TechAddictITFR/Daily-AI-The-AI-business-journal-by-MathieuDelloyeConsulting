@@ -1,10 +1,22 @@
-# Spot check — compare each figure with its source (2 minutes)
+# SPOT_CHECK
+## Human check — verify the key figures against their sources (2 minutes)
 
-Tick when the figure matches the page. If one is wrong, do not publish: ask for a rebuild.
+### Figures to verify:
+1. $80.7 billion - Anthropic non-cash convertible-note revaluation
+   - Source: TechCrunch (https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/)
+   - Verify it matches the S-1 filing
 
-- [ ] **lead.summary**: DeepSeek's $15 billion funding, EU AI Act enforcement, and Nebius compute pricing transparency mark a pivotal week in AI.
-  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
-- [ ] **lead.body.0**: DeepSeek secured $15 billion in funding, challenging US AI lab dominance in computational power.
-  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
-- [ ] **lead.body.3**: AI compute costs are rising 2.4x market, with enterprise spending hitting $5 trillion.
-  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
+2. $16.3 billion - Q2 2026 revenue
+   - Source: TechCrunch (same as above)
+   - Verify the revenue figure
+
+3. $1.4 billion - Amazon AI infrastructure revenue
+   - Source: TechCrunch (same as above)
+   - Verify Amazon's infrastructure revenue
+
+### Tick or cross:
+- [ ] Figure 1 correct
+- [ ] Figure 2 correct
+- [ ] Figure 3 correct
+
+If any figure is wrong, do not publish — ask for a rebuild.

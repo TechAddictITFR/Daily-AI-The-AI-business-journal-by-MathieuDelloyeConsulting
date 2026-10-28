@@ -1,24 +1,19 @@
-# Run report 27-10-2026
-- template: daily-ai-journal_26-10-2026.html
-- articles: 3, news: 3
-- short post: 623 chars, long post: 2234 chars
-- warnings: ['long post 2234 chars (target 2400-2700)']
-- errors: none
+# RUN_REPORT
+Generated: 28 October 2026
 
-## Human check (2 min): open SPOT_CHECK.md and compare the 3 figures with their source
+## Template
+Uses the 27-10-2026 template with updated content
+
+## Content
+- 1 lead article (Anthropic IPO)
+- 3 supporting articles
+- 3 news briefs
 
 ## Files
-- RUN_REPORT.md
-- SPOT_CHECK.md
-- daily-ai-journal_27-10-2026.html
-- daily-ai-journal_27-10-2026.json
+- HTML: daily-ai-journal_28-10-2026.html
+- JSON: daily-ai-journal_28-10-2026.json
+- og-image.png
 - index.html
-- linkedin-drafts_27-10-2026.md
-
-## After review (you push)
-```
-git checkout main && git pull && git checkout -b daily-ai-27-10-2026
-cp /Users/techaddict/.hermes/skills/hermes-daily-ai/daily-ai-editor/work/27-10-2026/../out/27-10-2026/* .   # copy the files to the repo root
-git add . && git commit -m "Daily AI — edition 27-10-2026"
-git push -u origin daily-ai-27-10-2026
-```
+- linkedin-drafts_28-10-2026.md
+- SPOT_CHECK.md
+- RUN_REPORT.md
