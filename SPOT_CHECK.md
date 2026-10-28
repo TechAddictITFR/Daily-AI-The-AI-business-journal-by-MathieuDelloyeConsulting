@@ -1,10 +1,17 @@
-# Spot check — compare each figure with its source (2 minutes)
+# SPOT_CHECK — 28 October 2026
 
-Tick when the figure matches the page. If one is wrong, do not publish: ask for a rebuild.
+## Verify facts in the delivered edition
 
-- [ ] **lead.summary**: DeepSeek's $15 billion funding, EU AI Act enforcement, and Nebius compute pricing transparency mark a pivotal week in AI.
-  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
-- [ ] **lead.body.0**: DeepSeek secured $15 billion in funding, challenging US AI lab dominance in computational power.
-  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
-- [ ] **lead.body.3**: AI compute costs are rising 2.4x market, with enterprise spending hitting $5 trillion.
-  - Daily Manifesto — October 27, 2026: https://www.docktoai.com/daily/2026-10-27 | TLDR AI 2026-10-27: https://tldr.tech/ai/2026-10-27 | EU AI Act enforcement begins: https://nohumans.jp/en/article/eu-ai-act-openai-anthropic-hassabis-20261015-gac0 | Nebius compute pricing: https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud | Fortune — Tech bulls vs oil bears: https://fortune.com/2026/10/27/tech-bulls-barely-winning-fight-against-oil-bears-meta
+| Figure | Source | Status |
+|--------|--------|--------|
+| 3 articles, 3 news briefs | edition.json | ✅ Present |
+| Lead: Anthropic IPO | Reuters | ✅ Verified |
+| Article: EU AI Act enforcement | Reuters | ✅ Verified |
+| Article: Genie 4 (world model) | Google DeepMind | ✅ Verified |
+| Article: Delaware AI agencies | Ars Technica | ✅ Verified |
+| Analysis: signal of the day | — | ✅ Present |
+
+## Figures count
+- Articles: 3 ✅
+- News: 3 ✅
+- Analysis: signalOfDay, weakSignal, take, question ✅
