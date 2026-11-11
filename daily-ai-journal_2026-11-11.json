@@ -1,0 +1,874 @@
+{
+ "date": "2026-11-11",
+ "edition": "Daily AI — Edition of 11 November 2026",
+ "publisher": "Mathieu Delloye Consulting",
+ "lead": {
+  "id": "deepmind-alphaproof-code-signal",
+  "section": "AI and software assurance",
+  "headline": "AI agents just proved Signal's code secure — at the machine level",
+  "deck": "Google DeepMind says AlphaProof Code generated about 6.5 million lines of machine-checked Lean proof over the compiled binary of libsignal, in four weeks, with a team of five.",
+  "summary": "Formal verification has always been the gold standard of software assurance and almost nobody could afford it. DeepMind's claim is not that a model wrote better code, but that agents absorbed the part of verification that used to cost years of expert labour, leaving humans to argue about what should be proved.",
+  "date": "10 November 2026",
+  "reading": "5 min",
+  "why": "If the cost of proof collapses, assurance stops being a research luxury and becomes a procurement question you can put to vendors.",
+  "body": [
+   {
+    "k": "fact",
+    "t": "Google DeepMind published AlphaProof Code on 10 November, a multi-agent framework that proved key security properties of libsignal — the reference implementation of the Signal protocol — against its compiled AArch64 machine code. The proofs cover the post-quantum PQXDH handshake and the Triple Ratchet, establishing forward secrecy, authentication, post-compromise security and handshake secrecy."
+   },
+   {
+    "k": "fact",
+    "t": "The scale is the headline. Agents produced roughly 6.5 million lines of Lean proof resting on about 26,000 lines of trusted specifications and AArch64 semantics. The work took four weeks for a team of five, and the authors state that no human wrote proof code. For comparison, the paper notes that verifying the seL4 microkernel took twenty person-years."
+   },
+   {
+    "k": "analysis",
+    "t": "The architecture matters more than the line count. Proofs are untrusted: Lean's kernel rejects any logical error, so the reliability of the result does not depend on the reliability of the agents producing it. What must be trusted is the specification — the human-approved statement of what security means. DeepMind's own framing is that the bottleneck has moved from writing proofs to deciding what to prove."
+   },
+   {
+    "k": "counter",
+    "t": "The guarantees are bounded and the paper says so. Coverage is one-to-one sessions; group messaging is excluded, key generation is not verified, and side channels are out of scope. Symbolic proofs assume perfect cryptography, and the computational bounds offer no guarantee against a quantum adversary. Thirty-seven low-level routines are replaced by contracts rather than verified."
+   },
+   {
+    "k": "analysis",
+    "t": "For a buyer, the usable signal is narrow but real. A vendor can now plausibly be asked what its critical module proves, not merely what it tests. The honest caveat is cost: four weeks of five specialists and, in the lead author's words, a great many tokens. This is a capability that has become possible, not yet one that has become cheap."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Google DeepMind — Introducing AlphaProof Code",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code"
+   },
+   {
+    "label": "AlphaProof Code (paper, PDF)",
+    "url": "https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf"
+   },
+   {
+    "label": "Lean development and artifacts",
+    "url": "https://google-deepmind.github.io/code-verification"
+   },
+   {
+    "label": "The Register",
+    "url": "https://theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625"
+   }
+  ]
+ },
+ "leadPanel": {
+  "label": "THE AI EVIDENCE TEST",
+  "title": "Proof, identity, and the paperwork of trust",
+  "text": "Three of today's five stories are about verification rather than capability: proving what code does, naming which agent acted, and reporting when one misbehaves. The frontier is quietly moving from what a system can do to what you can demonstrate about it."
+ },
+ "articles": [
+  {
+   "id": "ibm-microsoft-imagine-enterprise",
+   "section": "Enterprise AI",
+   "headline": "IBM and Microsoft put 6,000 pre-built agents behind one platform",
+   "deck": "Imagine Enterprise bundles IBM Consulting's agent fleet with Microsoft's cloud, identity and security stack, plus forward-deployed engineers on qualifying engagements.",
+   "summary": "The pitch is explicitly anti-greenfield: start from agents already built for your industry rather than assembling the pieces over months.",
+   "date": "10 November 2026",
+   "reading": "4 min",
+   "why": "Regulated industries rarely stall on model quality; they stall on controls, observability and who signs off.",
+   "body": [
+    {
+     "k": "fact",
+     "t": "IBM and Microsoft announced Imagine Enterprise on 10 November, an agentic platform for building, running and governing AI agents tied to industry-specific processes. IBM Consulting contributes more than 6,000 pre-built AI agents and assets from its Consulting Advantage delivery platform; Microsoft contributes the AI, data, cloud and security foundation."
+    },
+    {
+     "k": "fact",
+     "t": "Both companies are offering forward-deployed engineering support for qualifying engagements, and the announcement foregrounds controls, observability and AI-compliance support for regulated industries."
+    },
+    {
+     "k": "analysis",
+     "t": "Note what is being sold. Not a model, not a framework — a pre-populated inventory plus people to land it. That is a bet that the scarce resource in enterprise AI is no longer capability but integration labour and governance evidence."
+    },
+    {
+     "k": "counter",
+     "t": "A fleet of 6,000 agents is an asset only if each one can be governed individually. Pre-built breadth raises the same question in-house sprawl does: who holds the credentials, what is the blast radius, and can you prove after the fact what an agent was permitted to do."
+    }
+   ],
+   "sources": [
+    {
+     "label": "IBM Newsroom",
+     "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+    }
+   ]
+  },
+  {
+   "id": "australia-ai-safety-regulator",
+   "section": "Governance and regulation",
+   "headline": "Australia moves to legislate mandatory AI safety obligations",
+   "deck": "Six obligations on frontier AI companies, enforced by a new safety regulator — announced after an OpenAI model in training reached a federal Medicare portal.",
+   "summary": "Proposed, not yet law. But the obligations are specific enough to read as a template other jurisdictions may copy.",
+   "date": "10 November 2026",
+   "reading": "4 min",
+   "why": "Incident notification and independent evaluation are the two obligations most likely to reshape vendor contracts.",
+   "body": [
+    {
+     "k": "fact",
+     "t": "The Albanese Government announced on 10 November that mandatory safety and security protections will be legislated through the Australian AI Standards and apply to all frontier AI companies operating in Australia, enforced by a new targeted AI safety regulator working alongside the Australian AI Safety Institute."
+    },
+    {
+     "k": "fact",
+     "t": "Six obligations are listed: maintain security controls across development and deployment; identify and manage serious model risks; allow independent evaluation of models; provide rapid mandatory incident notification to government; maintain and publish safety and security frameworks; and respond to updated standards as technology changes."
+    },
+    {
+     "k": "fact",
+     "t": "The trigger is named. Per SBS and Nine, the government accepted all recommendations of a rapid review into an incident in which OpenAI technology accessed a Medicare statistics website in June and the company did not notify federal authorities until September."
+    },
+    {
+     "k": "analysis",
+     "t": "The three-month notification gap is doing most of the work here. A regulator with penalty powers is the predictable institutional answer to a disclosure failure, and the obligation list reads as a direct response to that specific sequence rather than an abstract risk framework."
+    },
+    {
+     "k": "counter",
+     "t": "This is a proposal requiring passage through parliament; nothing is in force today and no legal text has been published. Treat the six obligations as announced policy intent, not as applicable compliance duties."
+    }
+   ],
+   "regulatory": "Status: announced policy intent, 10 November 2026. Not yet legislated; no legal text published at time of writing. Obligations would apply to frontier AI companies operating in Australia if passed.",
+   "sources": [
+    {
+     "label": "Minister for Industry, Science and Resources",
+     "url": "https://minister.industry.gov.au/t-ayres/media/new-australian-ai-safety-and-security-protections"
+    },
+    {
+     "label": "SBS News",
+     "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr"
+    }
+   ]
+  },
+  {
+   "id": "linux-foundation-ans",
+   "section": "AI infrastructure",
+   "headline": "Agent Name Service launches as a Linux Foundation project",
+   "deck": "An open standard built on DNS for naming, registering, publishing and verifying AI agent identities, with eleven organisations behind it.",
+   "summary": "Identity is the control you can actually write into a contract. ANS makes agent provenance checkable before access is granted.",
+   "date": "10 November 2026",
+   "reading": "3 min",
+   "why": "Procurement can require a verifiable agent identity long before it can audit agent behaviour.",
+   "body": [
+    {
+     "k": "fact",
+     "t": "The Linux Foundation announced at KubeCon + CloudNativeCon North America on 10 November that Agent Name Service has launched as a foundation project. The specification defines how agents are named and registered, how identities are published through DNS, how they can be verified, and how identity records are monitored for unauthorised change."
+    },
+    {
+     "k": "fact",
+     "t": "Since ANS signalled its intent to launch in June, eleven organisations have contributed to or adopted the standard, including Cisco, Cloudflare, DigiCert, GoDaddy, Infoblox, Salesforce and OWASP. The AGNTCY Agent Directory Service, also a Linux Foundation project, supports verification of ANS identities."
+    },
+    {
+     "k": "analysis",
+     "t": "Anchoring to DNS is the pragmatic choice: it reuses an existing trust and delegation hierarchy rather than asking the industry to adopt a new one. That lowers the adoption cost and explains why registrars and DNS providers are among the early supporters."
+    },
+    {
+     "k": "hypothesis",
+     "t": "If identity proves to be the first agent control buyers can actually enforce, expect it to appear in procurement language before behavioural auditing does — because it is binary and checkable, whereas behaviour is neither."
+    }
+   ],
+   "sources": [
+    {
+     "label": "Linux Foundation press release",
+     "url": "https://www.linuxfoundation.org/press/linux-foundation-welcomes-agent-name-service-to-bring-verifiable-identity-and-discovery-to-ai-agents"
+    },
+    {
+     "label": "ANS project site",
+     "url": "https://ansinfo.ai/"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-claude-office",
+   "section": "AI products",
+   "headline": "Anthropic pushes Claude into the office suite",
+   "deck": "Claude Sheets, Whiteboards, Meetings and Data arrived on 10 November, putting Anthropic alongside Microsoft 365 and Google Workspace.",
+   "summary": "The assistant stops recommending what to put in the spreadsheet and starts owning the spreadsheet.",
+   "date": "10 November 2026",
+   "reading": "3 min",
+   "why": "Where the artefact lives determines where the data, the audit trail and the renewal conversation live.",
+   "body": [
+    {
+     "k": "fact",
+     "t": "At an event in San Francisco on 10 November, Anthropic announced Claude Sheets and Claude Whiteboards in beta for paid plans across web, desktop and mobile, alongside Claude Meetings and Claude Data, with Claude Data generally available to paid plans. Sheets exports to Excel or CSV."
+    },
+    {
+     "k": "analysis",
+     "t": "This is a distribution move more than a capability move. Owning the document means owning the surface where the work is reviewed, versioned and shared — which is the surface procurement eventually standardises on."
+    },
+    {
+     "k": "counter",
+     "t": "Beta status on paid plans is not displacement. Microsoft 365 and Google Workspace are entrenched by identity, compliance and administration, not by spreadsheet features, and none of those were addressed on launch day."
+    }
+   ],
+   "sources": [
+    {
+     "label": "Anthropic — Sheets, Whiteboards, Data",
+     "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+    },
+    {
+     "label": "Engadget",
+     "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/"
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "id": "torus-foundry",
+   "section": "AI infrastructure",
+   "headline": "Torus raises $500m and launches Foundry for grid-flexible inference",
+   "summary": "Torus announced a $500m raise led by Magnetar, with ICONIQ, Origin Ventures, Ridgeline Partners and Trinity Capital participating, alongside Foundry — containerised AI inference sites designed to run on spare grid capacity.",
+   "date": "11 November 2026",
+   "reading": "2 min",
+   "source": "Torus",
+   "url": "https://www.torus.co/news/torus-launches-modular-ai-infrastructure-foundry"
+  },
+  {
+   "id": "openai-voice-retirement",
+   "section": "AI products",
+   "headline": "OpenAI retires Advanced and Standard voice on 11 December",
+   "summary": "OpenAI's newsroom said Advanced and Standard voice modes will be withdrawn from ChatGPT Voice on 11 December 2026, consolidating on GPT-Live, introduced in July; the company says voice usage has nearly doubled since.",
+   "date": "11 November 2026",
+   "reading": "1 min",
+   "source": "OpenAI Newsroom",
+   "url": "https://openai.com/"
+  },
+  {
+   "id": "msi-epyc-9006",
+   "section": "Semiconductors",
+   "headline": "MSI ships AMD EPYC 9006 server platforms for agentic workloads",
+   "summary": "MSI announced data-centre platforms on AMD EPYC 9006 SP7 CPUs — up to 256 cores and 512 threads per socket on Zen 6 — with SP7 systems entering shipping in Q4 2026 and SP8 planned for the first half of 2027.",
+   "date": "11 November 2026",
+   "reading": "2 min",
+   "source": "MSI",
+   "url": "https://www.msi.com/news/detail/MSI-Advances-Next-Generation-Data-Center-Infrastructure-with-AMD-EPYC--9006-Series-Server-CPUs-150155"
+  },
+  {
+   "id": "ohio-ai-regulation",
+   "section": "Governance and regulation",
+   "headline": "Ohio unlikely to pass AI rules before its December deadline",
+   "summary": "Bipartisan AI bills in Ohio are stalled, with one Republican leader declining to advance them for a vote before the mid-December deadline, even as wrongful-death suits involving AI chatbots proceed elsewhere in the United States.",
+   "date": "11 November 2026",
+   "reading": "2 min",
+   "source": "Ohio Capital Journal",
+   "url": "https://ohiocapitaljournal.com/2026/11/11/ohio-likely-wont-pass-ai-regulations-before-year-ends"
+  },
+  {
+   "id": "deepmind-artifacts-open",
+   "section": "AI and software assurance",
+   "headline": "DeepMind publishes the full Lean development for the Signal proofs",
+   "summary": "The specifications, AArch64 semantics and proof artifacts behind AlphaProof Code are public, including the re-introduction of two previously fixed libsignal bugs that the system proved insecure — a check that the specifications catch real defects.",
+   "date": "10 November 2026",
+   "reading": "2 min",
+   "source": "Google DeepMind",
+   "url": "https://google-deepmind.github.io/code-verification"
+  }
+ ],
+ "analysis": {
+  "take": "The same week that agents proved cryptographic code correct, a government proposed penalties for failing to disclose what an agent did. Capability and accountability are now advancing on the same calendar, which has not often been true.",
+  "question": "In your organisation, would a vendor's machine-checked proof change a buying decision — or would you still ask for the incident-notification clause first?",
+  "signalOfDay": {
+   "title": "Verification is becoming an agent workload",
+   "text": "Machine-checked proof over compiled code, produced by agents in four weeks, is a different economic object from the same proof produced by specialists over years. The capability is demonstrated and the artifacts are public; the cost is still high and the coverage still narrow.",
+   "importance": 8,
+   "confidence": 8
+  },
+  "weakSignal": {
+   "title": "Agent identity may become a contractual requirement before agent behaviour is auditable",
+   "text": "ANS gives buyers something binary to demand — a verifiable name anchored in DNS — at a moment when behavioural assurance remains qualitative. Standards that are cheap to check tend to enter procurement first.",
+   "confidence": 5,
+   "label": "A forward-looking hypothesis based on current industry trends, not a confirmed trend."
+  }
+ },
+ "takeaway": "Today's news is not about smarter models; it is about evidence — proof over machine code, verifiable agent names, and mandatory incident reporting. The organisations that benefit first will be the ones already able to say what their systems are permitted to do.",
+ "signalOfDay": {
+  "title": "Verification is becoming an agent workload",
+  "text": "Machine-checked proof over compiled code, produced by agents in four weeks, is a different economic object from the same proof produced by specialists over years. The capability is demonstrated and the artifacts are public; the cost is still high and the coverage still narrow.",
+  "importance": 8,
+  "confidence": 8
+ },
+ "weakSignal": {
+  "title": "Agent identity may become a contractual requirement before agent behaviour is auditable",
+  "text": "ANS gives buyers something binary to demand — a verifiable name anchored in DNS — at a moment when behavioural assurance remains qualitative. Standards that are cheap to check tend to enter procurement first.",
+  "confidence": 5,
+  "label": "A forward-looking hypothesis based on current industry trends, not a confirmed trend."
+ },
+ "i18n": {
+  "fr": {
+   "title": "Daily AI — Édition du 11 novembre 2026",
+   "lead": {
+    "id": "deepmind-alphaproof-code-signal",
+    "section": "IA et assurance logicielle",
+    "headline": "Des agents IA viennent de prouver la sécurité du code de Signal — au niveau machine",
+    "deck": "Google DeepMind annonce qu'AlphaProof Code a généré environ 6,5 millions de lignes de preuve Lean vérifiées par machine sur le binaire compilé de libsignal, en quatre semaines, avec une équipe de cinq personnes.",
+    "summary": "La vérification formelle a toujours été l'étalon-or de l'assurance logicielle, et presque personne ne pouvait se l'offrir. DeepMind n'affirme pas qu'un modèle a écrit du meilleur code, mais que des agents ont absorbé la part de la vérification qui coûtait des années de travail expert, laissant aux humains le soin de débattre de ce qu'il faut prouver.",
+    "date": "10 novembre 2026",
+    "reading": "5 min",
+    "why": "Si le coût de la preuve s'effondre, l'assurance cesse d'être un luxe de recherche pour devenir une question d'achat que l'on pose à ses fournisseurs.",
+    "body": [
+     {
+      "k": "fact",
+      "t": "Google DeepMind a publié le 10 novembre AlphaProof Code, un cadre multi-agents ayant prouvé des propriétés de sécurité clés de libsignal — l'implémentation de référence du protocole Signal — face à son code machine AArch64 compilé. Les preuves couvrent la poignée de main post-quantique PQXDH et le Triple Ratchet, établissant confidentialité persistante, authentification, sécurité post-compromission et secret de la poignée de main."
+     },
+     {
+      "k": "fact",
+      "t": "L'échelle est l'information principale. Les agents ont produit environ 6,5 millions de lignes de preuve Lean reposant sur quelque 26 000 lignes de spécifications et de sémantique AArch64 de confiance. Le travail a pris quatre semaines à une équipe de cinq personnes, et les auteurs précisent qu'aucun humain n'a écrit de code de preuve. À titre de comparaison, l'article rappelle que vérifier le micro-noyau seL4 avait demandé vingt années-homme."
+     },
+     {
+      "k": "analysis",
+      "t": "L'architecture compte davantage que le nombre de lignes. Les preuves ne sont pas de confiance : le noyau Lean rejette toute erreur logique, de sorte que la fiabilité du résultat ne dépend pas de celle des agents qui le produisent. Ce qui doit être digne de confiance, c'est la spécification — l'énoncé validé par l'humain de ce que signifie la sécurité. DeepMind le formule ainsi : le goulet d'étranglement est passé de l'écriture des preuves au choix de ce qu'il faut prouver."
+     },
+     {
+      "k": "counter",
+      "t": "Les garanties sont bornées, et l'article le dit. La couverture porte sur les sessions individuelles ; la messagerie de groupe est exclue, la génération de clés n'est pas vérifiée et les canaux auxiliaires sont hors périmètre. Les preuves symboliques supposent une cryptographie parfaite, et les bornes computationnelles n'offrent aucune garantie face à un adversaire quantique. Trente-sept routines de bas niveau sont remplacées par des contrats plutôt que vérifiées."
+     },
+     {
+      "k": "analysis",
+      "t": "Pour un acheteur, le signal exploitable est étroit mais réel. On peut désormais demander à un fournisseur ce que son module critique prouve, et non seulement ce qu'il teste. La réserve honnête porte sur le coût : quatre semaines de cinq spécialistes et, selon l'auteur principal, un très grand nombre de tokens. C'est une capacité devenue possible, pas encore devenue bon marché."
+     }
+    ],
+    "sources": [
+     {
+      "label": "Google DeepMind — Introducing AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code"
+     },
+     {
+      "label": "AlphaProof Code (paper, PDF)",
+      "url": "https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf"
+     },
+     {
+      "label": "Lean development and artifacts",
+      "url": "https://google-deepmind.github.io/code-verification"
+     },
+     {
+      "label": "The Register",
+      "url": "https://theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625"
+     }
+    ]
+   },
+   "leadPanel": {
+    "label": "LE TEST DES PREUVES",
+    "title": "Preuve, identité et la paperasse de la confiance",
+    "text": "Trois des cinq sujets du jour portent sur la vérification plutôt que sur la capacité : prouver ce que fait le code, nommer quel agent a agi, signaler quand l'un d'eux dérape. La frontière glisse discrètement de ce qu'un système sait faire vers ce que l'on peut démontrer à son sujet."
+   },
+   "articles": [
+    {
+     "id": "ibm-microsoft-imagine-enterprise",
+     "section": "IA en entreprise",
+     "headline": "IBM et Microsoft placent 6 000 agents préconstruits derrière une seule plateforme",
+     "deck": "Imagine Enterprise réunit la flotte d'agents d'IBM Consulting et la pile cloud, identité et sécurité de Microsoft, avec des ingénieurs déployés sur les missions éligibles.",
+     "summary": "L'argumentaire est explicitement anti-page blanche : partir d'agents déjà construits pour votre secteur plutôt que d'assembler les pièces pendant des mois.",
+     "date": "10 novembre 2026",
+     "reading": "4 min",
+     "why": "Les secteurs régulés butent rarement sur la qualité des modèles ; ils butent sur les contrôles, l'observabilité et la signature.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "IBM et Microsoft ont annoncé le 10 novembre Imagine Enterprise, une plateforme agentique pour construire, exploiter et gouverner des agents IA adossés à des processus sectoriels. IBM Consulting apporte plus de 6 000 agents et actifs préconstruits issus de sa plateforme Consulting Advantage ; Microsoft apporte le socle IA, données, cloud et sécurité."
+      },
+      {
+       "k": "fact",
+       "t": "Les deux entreprises proposent un accompagnement d'ingénieurs déployés pour les missions éligibles, et l'annonce met en avant les contrôles, l'observabilité et le support de conformité IA pour les secteurs régulés."
+      },
+      {
+       "k": "analysis",
+       "t": "Observez ce qui est vendu. Ni un modèle, ni un cadre — un inventaire prérempli et des personnes pour le poser. C'est un pari : la ressource rare en IA d'entreprise n'est plus la capacité mais le travail d'intégration et la preuve de gouvernance."
+      },
+      {
+       "k": "counter",
+       "t": "Une flotte de 6 000 agents n'est un actif que si chacun peut être gouverné individuellement. L'étendue préconstruite pose la même question que la prolifération interne : qui détient les identifiants, quel est le rayon d'impact, et peut-on prouver après coup ce qu'un agent avait le droit de faire."
+      }
+     ],
+     "sources": [
+      {
+       "label": "IBM Newsroom",
+       "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+      }
+     ]
+    },
+    {
+     "id": "australia-ai-safety-regulator",
+     "section": "Gouvernance et régulation",
+     "headline": "L'Australie veut légiférer des obligations de sécurité IA contraignantes",
+     "deck": "Six obligations pour les entreprises d'IA de frontière, appliquées par un nouveau régulateur — annoncées après qu'un modèle OpenAI en entraînement a atteint un portail fédéral Medicare.",
+     "summary": "Proposé, pas encore adopté. Mais les obligations sont assez précises pour servir de modèle à d'autres juridictions.",
+     "date": "10 novembre 2026",
+     "reading": "4 min",
+     "why": "La notification d'incident et l'évaluation indépendante sont les deux obligations les plus susceptibles de remodeler les contrats fournisseurs.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "Le gouvernement Albanese a annoncé le 10 novembre que des protections obligatoires de sûreté et de sécurité seront légiférées via les Australian AI Standards et s'appliqueront à toutes les entreprises d'IA de frontière opérant en Australie, sous le contrôle d'un nouveau régulateur dédié travaillant avec l'Australian AI Safety Institute."
+      },
+      {
+       "k": "fact",
+       "t": "Six obligations sont listées : maintenir des contrôles de sécurité sur tout le cycle de développement et de déploiement ; identifier et gérer les risques sérieux des modèles ; permettre l'évaluation indépendante des modèles ; notifier rapidement et obligatoirement les incidents au gouvernement ; maintenir et publier des cadres de sûreté et de sécurité ; répondre à l'évolution des standards."
+      },
+      {
+       "k": "fact",
+       "t": "Le déclencheur est nommé. Selon SBS et Nine, le gouvernement a accepté toutes les recommandations d'une revue rapide portant sur un incident où une technologie d'OpenAI a accédé à un site de statistiques Medicare en juin, sans que les autorités fédérales en soient informées avant septembre."
+      },
+      {
+       "k": "analysis",
+       "t": "L'écart de trois mois dans la notification fait l'essentiel du travail ici. Un régulateur doté d'un pouvoir de sanction est la réponse institutionnelle prévisible à un défaut de divulgation, et la liste d'obligations se lit comme une réponse directe à cette séquence précise plutôt que comme un cadre de risque abstrait."
+      },
+      {
+       "k": "counter",
+       "t": "Il s'agit d'une proposition devant passer par le parlement ; rien n'est en vigueur aujourd'hui et aucun texte juridique n'a été publié. Traitez ces six obligations comme une intention politique annoncée, non comme des devoirs de conformité applicables."
+      }
+     ],
+     "regulatory": "Statut : intention politique annoncée le 10 novembre 2026. Non encore légiféré ; aucun texte juridique publié à ce jour. Les obligations viseraient les entreprises d'IA de frontière opérant en Australie en cas d'adoption.",
+     "sources": [
+      {
+       "label": "Minister for Industry, Science and Resources",
+       "url": "https://minister.industry.gov.au/t-ayres/media/new-australian-ai-safety-and-security-protections"
+      },
+      {
+       "label": "SBS News",
+       "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr"
+      }
+     ]
+    },
+    {
+     "id": "linux-foundation-ans",
+     "section": "Infrastructure IA",
+     "headline": "L'Agent Name Service devient un projet de la Linux Foundation",
+     "deck": "Un standard ouvert fondé sur le DNS pour nommer, enregistrer, publier et vérifier l'identité des agents IA, soutenu par onze organisations.",
+     "summary": "L'identité est le contrôle que l'on peut réellement inscrire dans un contrat. ANS rend la provenance d'un agent vérifiable avant tout octroi d'accès.",
+     "date": "10 novembre 2026",
+     "reading": "3 min",
+     "why": "Les achats peuvent exiger une identité d'agent vérifiable bien avant de pouvoir auditer son comportement.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "La Linux Foundation a annoncé le 10 novembre, lors de KubeCon + CloudNativeCon Amérique du Nord, qu'Agent Name Service devient un projet de la fondation. La spécification définit comment les agents sont nommés et enregistrés, comment leurs identités sont publiées via le DNS, comment elles peuvent être vérifiées et comment les enregistrements sont surveillés contre toute modification non autorisée."
+      },
+      {
+       "k": "fact",
+       "t": "Depuis l'annonce d'intention de lancement en juin, onze organisations ont contribué au standard ou l'ont adopté, dont Cisco, Cloudflare, DigiCert, GoDaddy, Infoblox, Salesforce et OWASP. L'AGNTCY Agent Directory Service, autre projet de la Linux Foundation, prend en charge la vérification des identités ANS."
+      },
+      {
+       "k": "analysis",
+       "t": "L'ancrage dans le DNS est le choix pragmatique : il réutilise une hiérarchie de confiance et de délégation existante au lieu d'en imposer une nouvelle. Cela abaisse le coût d'adoption et explique la présence de registrars et de fournisseurs DNS parmi les premiers soutiens."
+      },
+      {
+       "k": "hypothesis",
+       "t": "Si l'identité s'avère le premier contrôle d'agent réellement exigible, attendez-vous à la voir entrer dans les clauses d'achat avant l'audit comportemental — parce qu'elle est binaire et vérifiable, ce que le comportement n'est pas."
+      }
+     ],
+     "sources": [
+      {
+       "label": "Linux Foundation press release",
+       "url": "https://www.linuxfoundation.org/press/linux-foundation-welcomes-agent-name-service-to-bring-verifiable-identity-and-discovery-to-ai-agents"
+      },
+      {
+       "label": "ANS project site",
+       "url": "https://ansinfo.ai/"
+      }
+     ]
+    },
+    {
+     "id": "anthropic-claude-office",
+     "section": "Produits IA",
+     "headline": "Anthropic pousse Claude dans la suite bureautique",
+     "deck": "Claude Sheets, Whiteboards, Meetings et Data sont arrivés le 10 novembre, plaçant Anthropic face à Microsoft 365 et Google Workspace.",
+     "summary": "L'assistant cesse de recommander ce qu'il faut mettre dans le tableur et se met à posséder le tableur.",
+     "date": "10 novembre 2026",
+     "reading": "3 min",
+     "why": "Là où vit l'artefact vivent aussi les données, la piste d'audit et la conversation de renouvellement.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "Lors d'un événement à San Francisco le 10 novembre, Anthropic a annoncé Claude Sheets et Claude Whiteboards en bêta pour les formules payantes sur web, desktop et mobile, aux côtés de Claude Meetings et Claude Data, ce dernier étant disponible pour tous les plans payants. Sheets exporte vers Excel ou CSV."
+      },
+      {
+       "k": "analysis",
+       "t": "C'est davantage un mouvement de distribution que de capacité. Posséder le document, c'est posséder la surface où le travail est revu, versionné et partagé — celle que les achats finissent par standardiser."
+      },
+      {
+       "k": "counter",
+       "t": "Une bêta sur formules payantes n'est pas un remplacement. Microsoft 365 et Google Workspace sont ancrés par l'identité, la conformité et l'administration, pas par les fonctions de tableur, et aucun de ces points n'a été traité le jour du lancement."
+      }
+     ],
+     "sources": [
+      {
+       "label": "Anthropic — Sheets, Whiteboards, Data",
+       "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+      },
+      {
+       "label": "Engadget",
+       "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/"
+      }
+     ]
+    }
+   ],
+   "news": [
+    {
+     "id": "torus-foundry",
+     "section": "Infrastructure IA",
+     "headline": "Torus lève 500 M$ et lance Foundry pour l'inférence adaptée au réseau",
+     "summary": "Torus a annoncé une levée de 500 M$ menée par Magnetar, avec ICONIQ, Origin Ventures, Ridgeline Partners et Trinity Capital, aux côtés de Foundry — des sites d'inférence IA conteneurisés conçus pour tourner sur la capacité électrique disponible.",
+     "date": "11 novembre 2026",
+     "reading": "2 min",
+     "source": "Torus",
+     "url": "https://www.torus.co/news/torus-launches-modular-ai-infrastructure-foundry"
+    },
+    {
+     "id": "openai-voice-retirement",
+     "section": "Produits IA",
+     "headline": "OpenAI retire les modes voix Advanced et Standard le 11 décembre",
+     "summary": "La salle de presse d'OpenAI indique que les modes Advanced et Standard seront retirés de ChatGPT Voice le 11 décembre 2026, au profit de GPT-Live introduit en juillet ; l'usage de la voix aurait presque doublé depuis.",
+     "date": "11 novembre 2026",
+     "reading": "1 min",
+     "source": "OpenAI Newsroom",
+     "url": "https://openai.com/"
+    },
+    {
+     "id": "msi-epyc-9006",
+     "section": "Semi-conducteurs",
+     "headline": "MSI livre des plateformes AMD EPYC 9006 pour charges agentiques",
+     "summary": "MSI a annoncé des plateformes datacenter sur CPU AMD EPYC 9006 SP7 — jusqu'à 256 cœurs et 512 threads par socket en Zen 6 — les systèmes SP7 entrant en livraison au T4 2026 et les SP8 prévus au premier semestre 2027.",
+     "date": "11 novembre 2026",
+     "reading": "2 min",
+     "source": "MSI",
+     "url": "https://www.msi.com/news/detail/MSI-Advances-Next-Generation-Data-Center-Infrastructure-with-AMD-EPYC--9006-Series-Server-CPUs-150155"
+    },
+    {
+     "id": "ohio-ai-regulation",
+     "section": "Gouvernance et régulation",
+     "headline": "L'Ohio ne devrait pas adopter de règles IA avant son échéance de décembre",
+     "summary": "Des propositions de loi bipartisanes sur l'IA sont bloquées dans l'Ohio, un responsable républicain refusant de les soumettre au vote avant la date limite de mi-décembre, alors que des plaintes pour mort injustifiée impliquant des chatbots progressent ailleurs aux États-Unis.",
+     "date": "11 novembre 2026",
+     "reading": "2 min",
+     "source": "Ohio Capital Journal",
+     "url": "https://ohiocapitaljournal.com/2026/11/11/ohio-likely-wont-pass-ai-regulations-before-year-ends"
+    },
+    {
+     "id": "deepmind-artifacts-open",
+     "section": "IA et assurance logicielle",
+     "headline": "DeepMind publie l'intégralité du développement Lean des preuves Signal",
+     "summary": "Les spécifications, la sémantique AArch64 et les artefacts de preuve d'AlphaProof Code sont publics, y compris la réintroduction de deux bugs libsignal déjà corrigés que le système a prouvés non sûrs — un contrôle montrant que les spécifications détectent de vrais défauts.",
+     "date": "10 novembre 2026",
+     "reading": "2 min",
+     "source": "Google DeepMind",
+     "url": "https://google-deepmind.github.io/code-verification"
+    }
+   ],
+   "analysis": {
+    "take": "La même semaine où des agents prouvaient la justesse d'un code cryptographique, un gouvernement proposait des sanctions pour défaut de divulgation des actes d'un agent. Capacité et responsabilité avancent désormais au même calendrier, ce qui a rarement été le cas.",
+    "question": "Dans votre organisation, une preuve vérifiée par machine changerait-elle une décision d'achat — ou demanderiez-vous d'abord la clause de notification d'incident ?",
+    "signalOfDay": {
+     "title": "La vérification devient une charge de travail d'agents",
+     "text": "Une preuve vérifiée par machine sur du code compilé, produite par des agents en quatre semaines, est un objet économique différent de la même preuve produite par des spécialistes en plusieurs années. La capacité est démontrée et les artefacts sont publics ; le coût reste élevé et la couverture étroite.",
+     "importance": 8,
+     "confidence": 8
+    },
+    "weakSignal": {
+     "title": "L'identité des agents pourrait devenir une exigence contractuelle avant que leur comportement soit auditable",
+     "text": "ANS offre aux acheteurs quelque chose de binaire à exiger — un nom vérifiable ancré dans le DNS — au moment où l'assurance comportementale reste qualitative. Les standards peu coûteux à vérifier entrent généralement les premiers dans les achats.",
+     "confidence": 5,
+     "label": "Une hypothèse prospective fondée sur les tendances actuelles du secteur, et non une tendance confirmée."
+    }
+   },
+   "takeaway": "L'actualité du jour ne parle pas de modèles plus intelligents, mais de preuves : preuve sur le code machine, noms d'agents vérifiables, signalement obligatoire des incidents. Les organisations qui en profiteront d'abord sont celles capables de dire ce que leurs systèmes ont le droit de faire.",
+   "signalOfDay": {
+    "title": "La vérification devient une charge de travail d'agents",
+    "text": "Une preuve vérifiée par machine sur du code compilé, produite par des agents en quatre semaines, est un objet économique différent de la même preuve produite par des spécialistes en plusieurs années. La capacité est démontrée et les artefacts sont publics ; le coût reste élevé et la couverture étroite.",
+    "importance": 8,
+    "confidence": 8
+   },
+   "weakSignal": {
+    "title": "L'identité des agents pourrait devenir une exigence contractuelle avant que leur comportement soit auditable",
+    "text": "ANS offre aux acheteurs quelque chose de binaire à exiger — un nom vérifiable ancré dans le DNS — au moment où l'assurance comportementale reste qualitative. Les standards peu coûteux à vérifier entrent généralement les premiers dans les achats.",
+    "confidence": 5,
+    "label": "Une hypothèse prospective fondée sur les tendances actuelles du secteur, et non une tendance confirmée."
+   }
+  },
+  "it": {
+   "title": "Daily AI — Edizione dell'11 novembre 2026",
+   "lead": {
+    "id": "deepmind-alphaproof-code-signal",
+    "section": "IA e garanzia del software",
+    "headline": "Agenti IA hanno appena dimostrato la sicurezza del codice di Signal — a livello macchina",
+    "deck": "Google DeepMind afferma che AlphaProof Code ha generato circa 6,5 milioni di righe di dimostrazione Lean verificate dalla macchina sul binario compilato di libsignal, in quattro settimane, con un team di cinque persone.",
+    "summary": "La verifica formale è sempre stata lo standard aureo della garanzia del software e quasi nessuno poteva permettersela. DeepMind non sostiene che un modello abbia scritto codice migliore, ma che gli agenti hanno assorbito la parte della verifica che costava anni di lavoro specialistico, lasciando agli umani il compito di discutere cosa vada dimostrato.",
+    "date": "10 novembre 2026",
+    "reading": "5 min",
+    "why": "Se il costo della dimostrazione crolla, la garanzia smette di essere un lusso della ricerca e diventa una domanda d'acquisto da porre ai fornitori.",
+    "body": [
+     {
+      "k": "fact",
+      "t": "Il 10 novembre Google DeepMind ha pubblicato AlphaProof Code, un framework multi-agente che ha dimostrato proprietà di sicurezza chiave di libsignal — l'implementazione di riferimento del protocollo Signal — rispetto al suo codice macchina AArch64 compilato. Le dimostrazioni coprono l'handshake post-quantistico PQXDH e il Triple Ratchet, stabilendo forward secrecy, autenticazione, sicurezza post-compromissione e segretezza dell'handshake."
+     },
+     {
+      "k": "fact",
+      "t": "La scala è la notizia. Gli agenti hanno prodotto circa 6,5 milioni di righe di dimostrazione Lean poggiate su circa 26.000 righe di specifiche e semantica AArch64 fidate. Il lavoro ha richiesto quattro settimane a un team di cinque persone e gli autori precisano che nessun umano ha scritto codice di dimostrazione. Per confronto, l'articolo ricorda che verificare il microkernel seL4 richiese venti anni-uomo."
+     },
+     {
+      "k": "analysis",
+      "t": "L'architettura conta più del numero di righe. Le dimostrazioni non sono fidate: il kernel di Lean rifiuta qualsiasi errore logico, quindi l'affidabilità del risultato non dipende da quella degli agenti che lo producono. Ciò che deve essere fidato è la specifica — l'enunciato approvato dall'uomo di che cosa significhi sicurezza. DeepMind lo formula così: il collo di bottiglia si è spostato dallo scrivere dimostrazioni al decidere che cosa dimostrare."
+     },
+     {
+      "k": "counter",
+      "t": "Le garanzie sono delimitate, e il paper lo dice. La copertura riguarda le sessioni uno-a-uno; la messaggistica di gruppo è esclusa, la generazione delle chiavi non è verificata e i canali laterali sono fuori perimetro. Le dimostrazioni simboliche assumono crittografia perfetta e i limiti computazionali non offrono garanzie contro un avversario quantistico. Trentasette routine di basso livello sono sostituite da contratti anziché verificate."
+     },
+     {
+      "k": "analysis",
+      "t": "Per un acquirente il segnale utile è stretto ma reale. Oggi si può chiedere a un fornitore che cosa dimostra il suo modulo critico, non solo che cosa testa. La riserva onesta è il costo: quattro settimane di cinque specialisti e, nelle parole dell'autore principale, moltissimi token. È una capacità diventata possibile, non ancora diventata economica."
+     }
+    ],
+    "sources": [
+     {
+      "label": "Google DeepMind — Introducing AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code"
+     },
+     {
+      "label": "AlphaProof Code (paper, PDF)",
+      "url": "https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf"
+     },
+     {
+      "label": "Lean development and artifacts",
+      "url": "https://google-deepmind.github.io/code-verification"
+     },
+     {
+      "label": "The Register",
+      "url": "https://theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625"
+     }
+    ]
+   },
+   "leadPanel": {
+    "label": "LA PROVA DELL'EVIDENZA",
+    "title": "Dimostrazione, identità e la burocrazia della fiducia",
+    "text": "Tre delle cinque storie di oggi riguardano la verifica più che la capacità: dimostrare che cosa fa il codice, stabilire quale agente ha agito, segnalare quando uno sbaglia. La frontiera si sposta silenziosamente da ciò che un sistema sa fare a ciò che se ne può dimostrare."
+   },
+   "articles": [
+    {
+     "id": "ibm-microsoft-imagine-enterprise",
+     "section": "IA in azienda",
+     "headline": "IBM e Microsoft mettono 6.000 agenti preconfezionati dietro un'unica piattaforma",
+     "deck": "Imagine Enterprise unisce la flotta di agenti di IBM Consulting allo stack cloud, identità e sicurezza di Microsoft, con ingegneri sul campo per gli incarichi idonei.",
+     "summary": "La proposta è dichiaratamente anti-foglio bianco: partire da agenti già costruiti per il proprio settore invece di assemblare i pezzi per mesi.",
+     "date": "10 novembre 2026",
+     "reading": "4 min",
+     "why": "I settori regolamentati raramente si bloccano sulla qualità dei modelli; si bloccano su controlli, osservabilità e firme di approvazione.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "IBM e Microsoft hanno annunciato il 10 novembre Imagine Enterprise, una piattaforma agentica per costruire, eseguire e governare agenti IA legati a processi settoriali. IBM Consulting apporta oltre 6.000 agenti e asset preconfezionati dalla sua piattaforma Consulting Advantage; Microsoft fornisce la base IA, dati, cloud e sicurezza."
+      },
+      {
+       "k": "fact",
+       "t": "Entrambe le aziende offrono supporto ingegneristico sul campo per gli incarichi idonei, e l'annuncio mette in primo piano controlli, osservabilità e supporto alla conformità IA per i settori regolamentati."
+      },
+      {
+       "k": "analysis",
+       "t": "Si osservi che cosa viene venduto. Non un modello, non un framework — un inventario già popolato più le persone per installarlo. È una scommessa: la risorsa scarsa nell'IA aziendale non è più la capacità ma il lavoro di integrazione e la prova di governance."
+      },
+      {
+       "k": "counter",
+       "t": "Una flotta di 6.000 agenti è un asset solo se ciascuno può essere governato singolarmente. L'ampiezza preconfezionata pone la stessa domanda della proliferazione interna: chi detiene le credenziali, qual è il raggio d'impatto e se si possa dimostrare a posteriori che cosa a un agente fosse permesso fare."
+      }
+     ],
+     "sources": [
+      {
+       "label": "IBM Newsroom",
+       "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+      }
+     ]
+    },
+    {
+     "id": "australia-ai-safety-regulator",
+     "section": "Governance e regolamentazione",
+     "headline": "L'Australia verso obblighi vincolanti di sicurezza sull'IA",
+     "deck": "Sei obblighi per le aziende di IA di frontiera, applicati da un nuovo regolatore — annunciati dopo che un modello OpenAI in addestramento ha raggiunto un portale federale Medicare.",
+     "summary": "Proposto, non ancora legge. Ma gli obblighi sono abbastanza specifici da leggersi come un modello che altre giurisdizioni potrebbero copiare.",
+     "date": "10 novembre 2026",
+     "reading": "4 min",
+     "why": "Notifica degli incidenti e valutazione indipendente sono i due obblighi più destinati a riscrivere i contratti con i fornitori.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "Il governo Albanese ha annunciato il 10 novembre che protezioni obbligatorie di sicurezza saranno legiferate tramite gli Australian AI Standards e si applicheranno a tutte le aziende di IA di frontiera operanti in Australia, sotto un nuovo regolatore dedicato che lavorerà con l'Australian AI Safety Institute."
+      },
+      {
+       "k": "fact",
+       "t": "Sono elencati sei obblighi: mantenere controlli di sicurezza lungo sviluppo e deployment; identificare e gestire i rischi seri dei modelli; consentire la valutazione indipendente dei modelli; notificare rapidamente e obbligatoriamente gli incidenti al governo; mantenere e pubblicare quadri di sicurezza; adeguarsi all'evoluzione degli standard."
+      },
+      {
+       "k": "fact",
+       "t": "L'innesco è esplicito. Secondo SBS e Nine, il governo ha accettato tutte le raccomandazioni di una revisione rapida su un incidente in cui una tecnologia OpenAI ha avuto accesso a un sito di statistiche Medicare a giugno, senza che le autorità federali fossero informate prima di settembre."
+      },
+      {
+       "k": "analysis",
+       "t": "I tre mesi di ritardo nella notifica fanno gran parte del lavoro. Un regolatore con poteri sanzionatori è la risposta istituzionale prevedibile a un difetto di divulgazione, e l'elenco degli obblighi si legge come risposta diretta a quella sequenza precisa più che come quadro astratto di rischio."
+      },
+      {
+       "k": "counter",
+       "t": "Si tratta di una proposta che deve passare in parlamento; nulla è oggi in vigore e nessun testo giuridico è stato pubblicato. I sei obblighi vanno trattati come intenzione politica annunciata, non come doveri di conformità applicabili."
+      }
+     ],
+     "regulatory": "Stato: intenzione politica annunciata il 10 novembre 2026. Non ancora legiferata; nessun testo giuridico pubblicato alla data odierna. Gli obblighi riguarderebbero le aziende di IA di frontiera operanti in Australia in caso di approvazione.",
+     "sources": [
+      {
+       "label": "Minister for Industry, Science and Resources",
+       "url": "https://minister.industry.gov.au/t-ayres/media/new-australian-ai-safety-and-security-protections"
+      },
+      {
+       "label": "SBS News",
+       "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr"
+      }
+     ]
+    },
+    {
+     "id": "linux-foundation-ans",
+     "section": "Infrastruttura IA",
+     "headline": "L'Agent Name Service diventa progetto della Linux Foundation",
+     "deck": "Uno standard aperto basato sul DNS per nominare, registrare, pubblicare e verificare le identità degli agenti IA, con undici organizzazioni a sostegno.",
+     "summary": "L'identità è il controllo che si può davvero scrivere in un contratto. ANS rende verificabile la provenienza di un agente prima di concedere accessi.",
+     "date": "10 novembre 2026",
+     "reading": "3 min",
+     "why": "Gli acquisti possono esigere un'identità verificabile molto prima di poter auditare il comportamento di un agente.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "La Linux Foundation ha annunciato il 10 novembre, a KubeCon + CloudNativeCon Nord America, che Agent Name Service è diventato un progetto della fondazione. La specifica definisce come gli agenti vengono nominati e registrati, come le loro identità sono pubblicate via DNS, come possono essere verificate e come i record sono monitorati contro modifiche non autorizzate."
+      },
+      {
+       "k": "fact",
+       "t": "Dall'annuncio di intenzione di lancio a giugno, undici organizzazioni hanno contribuito o adottato lo standard, tra cui Cisco, Cloudflare, DigiCert, GoDaddy, Infoblox, Salesforce e OWASP. L'AGNTCY Agent Directory Service, altro progetto della Linux Foundation, supporta la verifica delle identità ANS."
+      },
+      {
+       "k": "analysis",
+       "t": "L'ancoraggio al DNS è la scelta pragmatica: riusa una gerarchia di fiducia e delega esistente invece di chiederne una nuova. Questo abbassa il costo di adozione e spiega la presenza di registrar e fornitori DNS tra i primi sostenitori."
+      },
+      {
+       "k": "hypothesis",
+       "t": "Se l'identità si rivelerà il primo controllo sugli agenti realmente esigibile, la si vedrà entrare nei contratti d'acquisto prima dell'audit comportamentale — perché è binaria e verificabile, mentre il comportamento non lo è."
+      }
+     ],
+     "sources": [
+      {
+       "label": "Linux Foundation press release",
+       "url": "https://www.linuxfoundation.org/press/linux-foundation-welcomes-agent-name-service-to-bring-verifiable-identity-and-discovery-to-ai-agents"
+      },
+      {
+       "label": "ANS project site",
+       "url": "https://ansinfo.ai/"
+      }
+     ]
+    },
+    {
+     "id": "anthropic-claude-office",
+     "section": "Prodotti IA",
+     "headline": "Anthropic porta Claude dentro la suite da ufficio",
+     "deck": "Claude Sheets, Whiteboards, Meetings e Data sono arrivati il 10 novembre, collocando Anthropic accanto a Microsoft 365 e Google Workspace.",
+     "summary": "L'assistente smette di consigliare che cosa mettere nel foglio di calcolo e inizia a possedere il foglio di calcolo.",
+     "date": "10 novembre 2026",
+     "reading": "3 min",
+     "why": "Dove vive l'artefatto vivono anche i dati, la tracciabilità e la conversazione sul rinnovo.",
+     "body": [
+      {
+       "k": "fact",
+       "t": "A un evento di San Francisco il 10 novembre Anthropic ha annunciato Claude Sheets e Claude Whiteboards in beta per i piani a pagamento su web, desktop e mobile, insieme a Claude Meetings e Claude Data, quest'ultimo disponibile per tutti i piani a pagamento. Sheets esporta in Excel o CSV."
+      },
+      {
+       "k": "analysis",
+       "t": "È una mossa di distribuzione più che di capacità. Possedere il documento significa possedere la superficie su cui il lavoro viene rivisto, versionato e condiviso — quella che gli acquisti finiscono per standardizzare."
+      },
+      {
+       "k": "counter",
+       "t": "Una beta sui piani a pagamento non è una sostituzione. Microsoft 365 e Google Workspace sono radicati da identità, conformità e amministrazione, non dalle funzioni di foglio di calcolo, e nessuno di questi punti è stato affrontato il giorno del lancio."
+      }
+     ],
+     "sources": [
+      {
+       "label": "Anthropic — Sheets, Whiteboards, Data",
+       "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+      },
+      {
+       "label": "Engadget",
+       "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/"
+      }
+     ]
+    }
+   ],
+   "news": [
+    {
+     "id": "torus-foundry",
+     "section": "Infrastruttura IA",
+     "headline": "Torus raccoglie 500 milioni di dollari e lancia Foundry",
+     "summary": "Torus ha annunciato una raccolta da 500 milioni di dollari guidata da Magnetar, con ICONIQ, Origin Ventures, Ridgeline Partners e Trinity Capital, insieme a Foundry — siti di inferenza IA containerizzati progettati per funzionare sulla capacità di rete disponibile.",
+     "date": "11 novembre 2026",
+     "reading": "2 min",
+     "source": "Torus",
+     "url": "https://www.torus.co/news/torus-launches-modular-ai-infrastructure-foundry"
+    },
+    {
+     "id": "openai-voice-retirement",
+     "section": "Prodotti IA",
+     "headline": "OpenAI ritira le modalità vocali Advanced e Standard l'11 dicembre",
+     "summary": "La newsroom di OpenAI indica che le modalità Advanced e Standard saranno ritirate da ChatGPT Voice l'11 dicembre 2026, a favore di GPT-Live introdotto a luglio; da allora l'uso vocale sarebbe quasi raddoppiato.",
+     "date": "11 novembre 2026",
+     "reading": "1 min",
+     "source": "OpenAI Newsroom",
+     "url": "https://openai.com/"
+    },
+    {
+     "id": "msi-epyc-9006",
+     "section": "Semiconduttori",
+     "headline": "MSI consegna piattaforme AMD EPYC 9006 per carichi agentici",
+     "summary": "MSI ha annunciato piattaforme per data center su CPU AMD EPYC 9006 SP7 — fino a 256 core e 512 thread per socket su Zen 6 — con i sistemi SP7 in spedizione nel Q4 2026 e gli SP8 previsti nella prima metà del 2027.",
+     "date": "11 novembre 2026",
+     "reading": "2 min",
+     "source": "MSI",
+     "url": "https://www.msi.com/news/detail/MSI-Advances-Next-Generation-Data-Center-Infrastructure-with-AMD-EPYC--9006-Series-Server-CPUs-150155"
+    },
+    {
+     "id": "ohio-ai-regulation",
+     "section": "Governance e regolamentazione",
+     "headline": "L'Ohio difficilmente approverà regole sull'IA entro dicembre",
+     "summary": "Le proposte di legge bipartisan sull'IA in Ohio sono ferme: un leader repubblicano non le porta al voto prima della scadenza di metà dicembre, mentre altrove negli Stati Uniti avanzano cause per morte ingiusta legate ai chatbot.",
+     "date": "11 novembre 2026",
+     "reading": "2 min",
+     "source": "Ohio Capital Journal",
+     "url": "https://ohiocapitaljournal.com/2026/11/11/ohio-likely-wont-pass-ai-regulations-before-year-ends"
+    },
+    {
+     "id": "deepmind-artifacts-open",
+     "section": "IA e garanzia del software",
+     "headline": "DeepMind pubblica l'intero sviluppo Lean delle dimostrazioni su Signal",
+     "summary": "Specifiche, semantica AArch64 e artefatti di dimostrazione di AlphaProof Code sono pubblici, inclusa la reintroduzione di due bug di libsignal già corretti che il sistema ha dimostrato insicuri — una verifica che le specifiche intercettano difetti reali.",
+     "date": "10 novembre 2026",
+     "reading": "2 min",
+     "source": "Google DeepMind",
+     "url": "https://google-deepmind.github.io/code-verification"
+    }
+   ],
+   "analysis": {
+    "take": "Nella stessa settimana in cui alcuni agenti dimostravano la correttezza di codice crittografico, un governo proponeva sanzioni per la mancata divulgazione di ciò che un agente ha fatto. Capacità e responsabilità avanzano ormai sullo stesso calendario, cosa raramente vera finora.",
+    "question": "Nella vostra organizzazione una dimostrazione verificata dalla macchina cambierebbe una decisione d'acquisto — o chiedereste prima la clausola di notifica degli incidenti?",
+    "signalOfDay": {
+     "title": "La verifica sta diventando un carico di lavoro per agenti",
+     "text": "Una dimostrazione verificata dalla macchina su codice compilato, prodotta da agenti in quattro settimane, è un oggetto economico diverso dalla stessa dimostrazione prodotta da specialisti in anni. La capacità è dimostrata e gli artefatti sono pubblici; il costo resta alto e la copertura stretta.",
+     "importance": 8,
+     "confidence": 8
+    },
+    "weakSignal": {
+     "title": "L'identità degli agenti potrebbe diventare un requisito contrattuale prima che il loro comportamento sia auditabile",
+     "text": "ANS offre agli acquirenti qualcosa di binario da esigere — un nome verificabile ancorato al DNS — mentre la garanzia comportamentale resta qualitativa. Gli standard poco costosi da verificare entrano per primi negli acquisti.",
+     "confidence": 5,
+     "label": "Un'ipotesi prospettica basata sulle tendenze attuali del settore, non una tendenza confermata."
+    }
+   },
+   "takeaway": "Le notizie di oggi non parlano di modelli più intelligenti ma di prove: dimostrazione sul codice macchina, nomi di agenti verificabili, segnalazione obbligatoria degli incidenti. Ne beneficeranno per prime le organizzazioni già in grado di dire che cosa ai loro sistemi è permesso fare.",
+   "signalOfDay": {
+    "title": "La verifica sta diventando un carico di lavoro per agenti",
+    "text": "Una dimostrazione verificata dalla macchina su codice compilato, prodotta da agenti in quattro settimane, è un oggetto economico diverso dalla stessa dimostrazione prodotta da specialisti in anni. La capacità è dimostrata e gli artefatti sono pubblici; il costo resta alto e la copertura stretta.",
+    "importance": 8,
+    "confidence": 8
+   },
+   "weakSignal": {
+    "title": "L'identità degli agenti potrebbe diventare un requisito contrattuale prima che il loro comportamento sia auditabile",
+    "text": "ANS offre agli acquirenti qualcosa di binario da esigere — un nome verificabile ancorato al DNS — mentre la garanzia comportamentale resta qualitativa. Gli standard poco costosi da verificare entrano per primi negli acquisti.",
+    "confidence": 5,
+    "label": "Un'ipotesi prospettica basata sulle tendenze attuali del settore, non una tendenza confermata."
+   }
+  }
+ }
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily AI — The AI Business Journal</title>
+<style>
+:root {
+    --bg: #0B1F3A;
+    --panel: #122a4a;
+    --accent: #0E9AA7;
+    --gold: #E9BD73;
+    --border: #2C3E50;
+    --card: #1E3A5F;
+    --foreground: #E8F4F8;
+    --muted: #A8C4D8;
+    --dim: #6B8FAF;
+    --font-serif: Georgia, 'Times New Roman', serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+    background: var(--bg);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.shell {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+.masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+}
+.brand {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--foreground);
+    letter-spacing: 2px;
+}
+.brand small {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--muted);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 4px;
+}
+.publisher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+}
+.toolbar button {
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    border: 1px solid var(--badge-border);
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.dateline {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+}
+.dateline strong { color: var(--foreground); font-weight: 600; }
+.dateline .tag { color: var(--accent); font-weight: 600; }
+.main { padding: 24px 0; }
+.headline { font-family: var(--font-serif); font-size: 1.8rem; color: var(--foreground); line-height: 1.2; margin-bottom: 12px; }
+.deck { color: var(--muted); font-size: 1.1rem; line-height: 1.5; margin-bottom: 16px; }
+.lead { background: var(--lead-bg); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 24px; }
+.article-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.article-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+.article-card h3 { font-family: var(--font-serif); font-size: 1.3rem; color: var(--foreground); margin-bottom: 8px; }
+.article-card p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; margin-bottom: 12px; }
+.article-card a { font: 700 12px Arial, sans-serif; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); text-decoration: none; }
+.story { background: var(--story-bg); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 24px; }
+.story h2 { font-family: var(--font-serif); font-size: 1.6rem; color: var(--foreground); margin-bottom: 8px; }
+.story p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; margin-bottom: 12px; }
+.news-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.news-item { background: var(--news-bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.news-item strong { color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
+.news-item h3 { font-size: 1.1rem; color: var(--foreground); margin: 6px 0; }
+.news-item p { color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+.news-item a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
+.insights { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+.insight { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+.insight h2 { font-family: var(--font-serif); font-size: 1.2rem; color: var(--foreground); margin-bottom: 8px; }
+.insight p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; }
+.takeaway { background: var(--lead-bg); border: 1px solid var(--border); border-radius: 8px; padding: 24px; text-align: center; margin-bottom: 24px; }
+.takeaway p { color: var(--muted); font-size: 1rem; }
+.signature { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 24px 0; }
+</style>
+</head>
+<body>
+<div class="shell">
+    <header class="masthead">
+        <div class="brand">DAILY AI<small>THE AI BUSINESS JOURNAL</small></div>
+        <div class="publisher"><span class="logo" role="img" aria-label="Mathieu Delloye Consulting"><i></i><i></i></span></div>
+    </header>
+    <nav class="toolbar" aria-label="Display and language options">
+        <button data-set-theme="light" data-track="theme_change" data-id="light" id="t-light">Light theme</button>
+        <button data-set-theme="dark" data-track="theme_change" data-id="dark" id="t-dark">Dark theme</button>
+        <button data-set-theme="colourblind" data-track="theme_change" data-id="colourblind" id="t-colourblind">Colour-blind theme</button>
+        <span class="sep" aria-hidden="true"></span>
+        <span class="lbl" id="lang-lbl">Language</span>
+        <button data-set-lang="en" data-track="lang_change" data-id="en" lang="en" title="English">EN</button>
+        <button data-set-lang="fr" data-track="lang_change" data-id="fr" lang="fr" title="Français">FR</button>
+        <button data-set-lang="it" data-track="lang_change" data-id="it" lang="it" title="Italiano">IT</button>
+    </nav>
+    <div class="dateline">
+        <strong class="tag">WEEKLY DIGEST</strong> ·
+        <strong>29 October 2026</strong>
+    </div>
+    <div class="main">
+        <div class="lead">
+            <div class="eyebrow">AI ECONOMICS</div>
+            <h1>{ed['lead']['headline']}</h1>
+            <p class="deck">{ed['lead']['deck']}</p>
+            <p class="summary">{ed['lead']['summary']}</p>
+            <p class="byline">
+                <span>{ed['lead']['date']} · {ed['lead']['reading']} min read</span>
+                <span>Ed. 29/10/2026</span>
+            </p>
+        </div>
+        <div class="article-list">
+            {''.join(f'<article class="article-card"><div class="eyebrow">{a["section"].upper()}</div><h3>{a["headline"]}</h3><p>{a["deck"]}</p><a href="#article-{a["id"]}">READ ANALYSIS ↓</a></article>' for a in ed['articles'])}
+        </div>
+        <div class="story">
+            <div class="eyebrow">THE LEAD ANALYSIS</div>
+            <h2>{ed['lead']['headline']}</h2>
+            <p>{ed['lead']['deck']}</p>
+            <p>{ed['lead']['summary']}</p>
+            <div class="why"><strong>WHY IT MATTERS</strong><p>{ed['lead']['why']}</p></div>
+            <h3>SOURCES</h3>
+            <ul>
+                <li>TechCrunch – Anthropic IPO prospectus & AI industry analysis</li>
+                <li>Reuters – Anthropic S-1 filing and market impact</li>
+                <li>Axios – AI economics and investment trends</li>
+            </ul>
+        </div>
+        <div class="news-list">
+            {''.join(f'<div class="news-item"><strong>{ed["news"][i]["section"].upper()}</strong><h3>{ed["news"][i]["headline"]}</h3><p>{ed["news"][i]["summary"]}</p><a href="{ed["news"][i]["url"]}">Read more ↗</a></div>' for i in range(len(ed['news']))}
+        </div>
+        <div class="insights">
+            <div class="insight">
+                <div class="eyebrow">THE SIGNAL OF THE DAY</div>
+                <h2>{ed['analysis']['signalOfDay']['title']}</h2>
+                <p class="score">{ed['analysis']['signalOfDay']['importance']}/10 · {ed['analysis']['signalOfDay']['confidence']}/10 confidence</p>
+                <p>{ed['analysis']['signalOfDay']['text']}</p>
+            </div>
+            <div class="insight">
+                <div class="eyebrow">WEAK SIGNAL</div>
+                <h2>{ed['analysis']['weakSignal']['title']}</h2>
+                <p class="score">{ed['analysis']['weakSignal']['confidence']}/10 confidence</p>
+                <p>{ed['analysis']['weakSignal']['text']}</p>
+            </div>
+        </div>
+        <div class="takeaway">
+            <h2>Takeaway</h2>
+            <p>{ed['analysis']['take']}</p>
+        </div>
+        <div class="closing-question">
+            <h2>Closing Question</h2>
+            <p>{ed['analysis']['question']}</p>
+        </div>
+        <div class="audio-reader">
+            <div class="audio-reader__header">
+                <h3>Daily AI Breaking News</h3>
+                <span class="audio-reader__time" id="audio-time">00:00</span>
+            </div>
+            <div class="audio-reader__controls">
+                <button id="btn-rewind" aria-label="Rewind 15s">⏮</button>
+                <button id="btn-play" aria-label="Play">▶</button>
+                <button id="btn-pause" aria-label="Pause" hidden>⏸</button>
+                <button id="btn-stop" aria-label="Stop">⏹</button>
+                <button id="btn-forward" aria-label="Forward 30s">⏭</button>
+            </div>
+            <div class="audio-reader__progress">
+                <input id="audio-progress" type="range" min="0" max="100" value="0">
+                <span id="audio-duration">0:00</span>
+            </div>
+            <div class="audio-reader__file">Daily AI Breaking News — Audio Clonage</div>
+        </div>
+    </div>
+    <footer class="signature">
+        Mathiou Delloye — Commercial Agent, Wine Prospecting
+    </footer>
+</div>
+</body>
+</html>
