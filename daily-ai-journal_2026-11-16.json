@@ -1,0 +1,199 @@
+{
+ "date": "2026-11-16",
+ "edition": "Daily AI — Edition of 16 November 2026",
+ "title": "Daily AI — Edition of 16 November 2026",
+ "publisher": "Mathieu Delloye Consulting",
+ "coverage": "11–15 November 2026",
+ "reading": "4 min",
+ "lead": {
+  "id": "nvidia-huang-resigns",
+  "section": "Chips & drama",
+  "headline": "Nvidia loses its leather jacket",
+  "deck": "Jensen Huang resigned on 12 November after 33 years running the company he co-founded. CFO Colette Kress is interim CEO.",
+  "body": [
+   "What happened: Huang left as CEO, president and board member with immediate effect. Nvidia gave no reason. It came four days after he admitted an extramarital affair and the board opened an independent investigation into reports that he had been targeted by a foreign intelligence effort. The board says it has no reason to believe national security was compromised.",
+   "Why it stings: Nvidia sells the picks and shovels of the AI gold rush, and for most investors Huang was the brand. Shares fell more than 14% at one point on Thursday before recovering some ground. A company worth trillions just found out that its biggest single point of failure isn't a chip.",
+   "What to watch: the board is weighing insiders and outsiders, and Arm's Rene Haas, a Nvidia alumnus, is on Reuters' list of possible names. Your GPU order won't change tomorrow, but Nvidia's roadmap and pricing were very much one man's show."
+  ],
+  "sowhat": "Your AI stack depends on a handful of companies, and some of those companies depend on a handful of people.",
+  "sources": [
+   {"label": "NVIDIA Newsroom — CEO transition (12 Nov)", "url": "https://nvidianews.nvidia.com/"},
+   {"label": "Al Jazeera — Why did Jensen Huang resign? (12 Nov)", "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"}
+  ]
+ },
+ "number": {
+  "value": "×2",
+  "label": "Gemini 4 Carbon's API price on 30 November",
+  "text": "Google's launch rate of $2 in / $10 out per million tokens ends on 30 November, when it rises to $4 / $20. Enjoy the discount while it lasts.",
+  "source": {"label": "Technobezz", "url": "https://www.technobezz.com/news/google-gemini-carbon-input-output-token-rates"}
+ },
+ "topics": [
+  {
+   "id": "anthropic-ipo",
+   "section": "Markets",
+   "headline": "Anthropic's IPO: $64 billion, please form an orderly queue",
+   "body": "Anthropic set a range of $70–$78 a share for 825 million shares on Nasdaq, under the ticker ANT. At the top of the range it would raise up to $64.35bn and be worth up to $1.4 trillion fully diluted. Sources told CNBC the book is already covered, with pricing planned for 18 November and trading on the 19th. On the side, seven tech heavyweights, including Google, Nvidia and Microsoft, are buying $26bn of shares.",
+   "sowhat": "The companies that sell you models are about to report every quarter. Expect more pressure on prices and on growth.",
+   "sources": [{"label": "CNBC (10 Nov)", "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"}]
+  },
+  {
+   "id": "chatgpt-wallet",
+   "section": "Agents & money",
+   "headline": "Your AI agent now has a credit card (sort of)",
+   "body": "OpenAI launched ChatGPT Wallet on 13 November, so its 'dots' agents can now buy things for you. It was built with Visa, Mastercard and American Express and uses network tokens, so the agent never sees your card number, and every purchase needs Face ID or a fingerprint. For now it's US Pro users only, and not every site accepts agent shoppers.",
+   "sowhat": "Agent shopping now has its first mainstream checkout. If you sell online, 'can an agent buy on my site?' is now a real question.",
+   "sources": [{"label": "Yahoo Tech", "url": "https://tech.yahoo.com/ai/chatgpt/articles/openai-launches-chatgpt-wallet-ai-164615852.html"}]
+  }
+ ],
+ "news": [
+  {"section": "Courts", "headline": "Four nonprofits sue to pause frontier AI", "summary": "Public Citizen, Heat Initiative and two other groups sued OpenAI, Anthropic, Google, Meta and SpaceX's AI unit in San Francisco on 12 November, asking the court to halt work on models more capable than today's.", "source": "Reuters via Claims Journal", "url": "https://www.claimsjournal.com/news/national/2026/11/13/341283.htm"},
+  {"section": "Funding", "headline": "Mirendil raises a $1bn Series A", "summary": "The ex-Anthropic team building AI that speeds up AI research closed a round led by Kleiner Perkins and Clearlake on 12 November, five months after a $200m seed.", "source": "Crunchbase News", "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/"},
+  {"section": "Funding", "headline": "Mercor doubles to $20bn", "summary": "The company that pays human experts to train and test AI models raised $750m in a Series D, with Nvidia and Salesforce among the backers.", "source": "The Next Web", "url": "https://thenextweb.com/news/mercor-750m-series-d-20bn-valuation"},
+  {"section": "Deals", "headline": "Cohere goes shopping", "summary": "Toronto's Cohere closed the purchases of code-review startup Cubic and security firm Aisle. Terms were not disclosed.", "source": "BetaKit", "url": "https://betakit.com/cohere-buys-ai-code-review-startup-cubic-as-acquisition-spree-continues"},
+  {"section": "Trust", "headline": "Meta's Muse chatbot under fire", "summary": "A 404 Media investigation reports that Meta's new Muse chatbot produced explicit role-play while impersonating real women.", "source": "IBTimes", "url": "https://www.ibtimes.co.uk/meta-muse-ai-chatbot-real-women-explicit-roleplay-1832055"}
+ ],
+ "wtf": {
+  "headline": "“A Legend replaces a Legend”",
+  "text": "Hours after Huang left, President Trump suggested on Truth Social that Apple's Tim Cook should run Nvidia. Nothing suggests Cook is interested. Then on Sunday the FT reported, via Reuters, that Huang has discussed a comeback with allies. Season two, already?",
+  "sources": [
+   {"label": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"},
+   {"label": "US News / Reuters (15 Nov)", "url": "https://www.usnews.com/news/top-news/articles/2026-11-15/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports"}
+  ]
+ },
+ "weather": [
+  {"icon": "☀️", "title": "Agent shopping", "level": 8, "text": "Sunny: the card networks are on board and the checkout exists. Clouds expected the day an agent orders the wrong sofa."},
+  {"icon": "⛅", "title": "AI on the stock market", "level": 6, "text": "Sunny spells: Anthropic's book is covered. Showers possible if pricing on 18 November disappoints."},
+  {"icon": "⛈️", "title": "Key-person risk", "level": 2, "text": "Stormy: one resignation sent the world's most important AI chipmaker down more than 14% in a single session."}
+ ],
+ "monday": [
+  "Using Gemini 4 Carbon through the API? Check your budget before 30 November.",
+  "List your three critical AI vendors and ask: who is their Jensen, and what's plan B?",
+  "Before any agent pays for anything, decide who approves it, and up to what amount."
+ ],
+ "quiz": {
+  "q": "At the top of its range, how much would Anthropic's IPO raise?",
+  "options": ["$26 billion", "$64 billion", "$85.7 billion"],
+  "answer": 1,
+  "explain": "About $64.35bn. $26bn is the side deal with seven tech giants, and $85.7bn is what SpaceX raised in its own IPO about five months earlier."
+ },
+ "i18n": {
+  "fr": {
+   "title": "Daily AI — Édition du 16 novembre 2026",
+   "coverage": "11–15 novembre 2026",
+   "lead": {
+    "section": "Puces & drame",
+    "headline": "Nvidia perd son blouson de cuir",
+    "deck": "Jensen Huang a démissionné le 12 novembre, après 33 ans à la tête de l’entreprise qu’il a cofondée. La directrice financière Colette Kress assure l’intérim.",
+    "body": [
+     "Ce qui s’est passé : Huang quitte avec effet immédiat ses fonctions de CEO, de président et d’administrateur. Nvidia n’a donné aucune raison. Quatre jours plus tôt, il avait reconnu une liaison extraconjugale, et le conseil avait lancé une enquête indépendante après des informations selon lesquelles il aurait été la cible d’un service de renseignement étranger. Le conseil dit n’avoir aucune raison de croire que la sécurité nationale ait été compromise.",
+     "Pourquoi ça pique : Nvidia vend les pioches et les pelles de la ruée vers l’or de l’IA, et pour la plupart des investisseurs, la marque, c’était Huang. L’action a perdu plus de 14 % en séance jeudi avant de se reprendre en partie. Une entreprise qui pèse des milliers de milliards vient de découvrir que son plus gros point de fragilité n’est pas une puce.",
+     "À surveiller : le conseil examine des candidats internes et externes, et Rene Haas, patron d’Arm et ancien de Nvidia, figure sur la liste de Reuters. Votre commande de GPU ne change pas demain, mais la feuille de route et les prix de Nvidia, c’était le show d’un seul homme."
+    ],
+    "sowhat": "Votre stack IA dépend d’une poignée d’entreprises, et certaines d’entre elles dépendent d’une poignée de personnes."
+   },
+   "number": {
+    "label": "Le prix de l’API Gemini 4 Carbon au 30 novembre",
+    "text": "Le tarif de lancement de Google (2 $ en entrée / 10 $ en sortie par million de tokens) prend fin le 30 novembre et passe alors à 4 $ / 20 $. Profitez des soldes tant qu’elles durent."
+   },
+   "topics": [
+    {
+     "section": "Marchés",
+     "headline": "IPO d’Anthropic : 64 milliards, merci de faire la queue",
+     "body": "Anthropic a fixé une fourchette de 70 à 78 $ par action pour 825 millions d’actions sur le Nasdaq, sous le ticker ANT. En haut de fourchette, l’opération lèverait jusqu’à 64,35 Md$ et valoriserait la société jusqu’à 1 400 Md$ (base entièrement diluée). Selon des sources de CNBC, le livre d’ordres est déjà couvert, avec une fixation du prix prévue le 18 novembre et une première cotation le 19. En parallèle, sept poids lourds de la tech, dont Google, Nvidia et Microsoft, achètent pour 26 Md$ d’actions.",
+     "sowhat": "Ceux qui vous vendent des modèles vont bientôt publier des résultats chaque trimestre. Attendez-vous à plus de pression sur les prix et sur la croissance."
+    },
+    {
+     "section": "Agents & argent",
+     "headline": "Votre agent IA a désormais une carte bancaire (ou presque)",
+     "body": "OpenAI a lancé ChatGPT Wallet le 13 novembre : ses agents « dots » peuvent désormais acheter pour vous. Le service est conçu avec Visa, Mastercard et American Express et utilise des jetons réseau, si bien que l’agent ne voit jamais votre numéro de carte, et chaque achat exige Face ID ou une empreinte digitale. Pour l’instant, seuls les abonnés Pro aux États-Unis y ont accès, et tous les sites n’acceptent pas les acheteurs-robots.",
+     "sowhat": "Les achats par agent ont leur premier passage en caisse grand public. Si vous vendez en ligne, « un agent peut-il acheter sur mon site ? » devient une vraie question."
+    }
+   ],
+   "news": [
+    {"section": "Justice", "headline": "Quatre ONG veulent mettre l’IA de pointe sur pause", "summary": "Public Citizen, Heat Initiative et deux autres associations ont attaqué OpenAI, Anthropic, Google, Meta et la branche IA de SpaceX à San Francisco le 12 novembre. Elles demandent au tribunal de bloquer le développement de modèles plus puissants que ceux d’aujourd’hui."},
+    {"section": "Levée de fonds", "headline": "Mirendil lève 1 Md$ en série A", "summary": "L’équipe d’anciens d’Anthropic qui construit une IA capable d’accélérer la recherche en IA a bouclé, le 12 novembre, un tour mené par Kleiner Perkins et Clearlake, cinq mois après un seed de 200 M$."},
+    {"section": "Levée de fonds", "headline": "Mercor double sa valeur, à 20 Md$", "summary": "La société qui rémunère des experts humains pour entraîner et tester des modèles d’IA a levé 750 M$ en série D, avec notamment Nvidia et Salesforce."},
+    {"section": "Rachats", "headline": "Cohere fait ses courses", "summary": "Le canadien Cohere a finalisé le rachat de Cubic (revue de code) et d’Aisle (cybersécurité). Montants non communiqués."},
+    {"section": "Confiance", "headline": "Le chatbot Muse de Meta dans la tourmente", "summary": "Selon une enquête de 404 Media, Muse, le nouveau chatbot de Meta, a produit des jeux de rôle explicites en se faisant passer pour de vraies femmes."}
+   ],
+   "wtf": {
+    "headline": "« Une légende remplace une légende »",
+    "text": "Quelques heures après le départ de Huang, Donald Trump a suggéré sur Truth Social que Tim Cook, le patron d’Apple, prenne la tête de Nvidia. Rien n’indique que Cook soit intéressé. Puis dimanche, selon le FT relayé par Reuters, Huang aurait évoqué un retour avec des proches. Déjà la saison 2 ?"
+   },
+   "weather": [
+    {"title": "Achats par agents", "text": "Ensoleillé : les réseaux de cartes sont à bord et la caisse existe. Nuages attendus le jour où un agent commandera le mauvais canapé."},
+    {"title": "L’IA en Bourse", "text": "Éclaircies : le livre d’ordres d’Anthropic est couvert. Averses possibles si le prix du 18 novembre déçoit."},
+    {"title": "Risque « homme-clé »", "text": "Orageux : une seule démission a fait plonger de plus de 14 % en une séance le fabricant de puces IA le plus important au monde."}
+   ],
+   "monday": [
+    "Vous utilisez Gemini 4 Carbon via l’API ? Revérifiez votre budget avant le 30 novembre.",
+    "Listez vos trois fournisseurs IA critiques et demandez-vous : qui est leur Jensen, et quel est le plan B ?",
+    "Avant qu’un agent ne paie quoi que ce soit, décidez qui valide, et jusqu’à quel montant."
+   ],
+   "quiz": {
+    "q": "En haut de fourchette, combien l’IPO d’Anthropic lèverait-elle ?",
+    "options": ["26 milliards $", "64 milliards $", "85,7 milliards $"],
+    "explain": "Environ 64,35 Md$. Les 26 Md$ correspondent à l’accord parallèle avec sept géants de la tech, et 85,7 Md$, c’est ce qu’a levé SpaceX lors de sa propre IPO, environ cinq mois plus tôt."
+   }
+  },
+  "it": {
+   "title": "Daily AI — Edizione del 16 novembre 2026",
+   "coverage": "11–15 novembre 2026",
+   "lead": {
+    "section": "Chip & drammi",
+    "headline": "Nvidia perde il suo giubbotto di pelle",
+    "deck": "Jensen Huang si è dimesso il 12 novembre, dopo 33 anni alla guida dell’azienda che ha cofondato. La direttrice finanziaria Colette Kress è CEO ad interim.",
+    "body": [
+     "Cos’è successo: Huang lascia con effetto immediato i ruoli di CEO, presidente e consigliere. Nvidia non ha fornito motivazioni. Quattro giorni prima aveva ammesso una relazione extraconiugale, e il consiglio aveva avviato un’indagine indipendente su notizie secondo cui sarebbe stato bersaglio di un servizio di intelligence straniero. Il consiglio afferma di non avere motivo di ritenere compromessa la sicurezza nazionale.",
+     "Perché brucia: Nvidia vende picconi e pale della corsa all’oro dell’IA, e per la maggior parte degli investitori il marchio era Huang. Giovedì il titolo è arrivato a perdere oltre il 14% prima di recuperare in parte. Un’azienda da migliaia di miliardi ha appena scoperto che il suo punto più fragile non è un chip.",
+     "Da seguire: il consiglio valuta candidati interni ed esterni, e Rene Haas, CEO di Arm ed ex Nvidia, è nella lista di Reuters. Il vostro ordine di GPU non cambia domani, ma roadmap e prezzi di Nvidia erano lo show di un solo uomo."
+    ],
+    "sowhat": "Il vostro stack IA dipende da una manciata di aziende, e alcune di queste dipendono da una manciata di persone."
+   },
+   "number": {
+    "label": "Il prezzo dell’API Gemini 4 Carbon dal 30 novembre",
+    "text": "La tariffa di lancio di Google (2 $ in input / 10 $ in output per milione di token) scade il 30 novembre e sale a 4 $ / 20 $. Approfittate dei saldi finché durano."
+   },
+   "topics": [
+    {
+     "section": "Mercati",
+     "headline": "IPO di Anthropic: 64 miliardi, mettersi in fila prego",
+     "body": "Anthropic ha fissato una forchetta di 70–78 $ per azione per 825 milioni di azioni sul Nasdaq, con ticker ANT. Al massimo della forchetta raccoglierebbe fino a 64,35 mld $ e varrebbe fino a 1.400 mld $ (su base interamente diluita). Secondo fonti di CNBC il libro ordini è già coperto, con prezzo previsto il 18 novembre e debutto in Borsa il 19. In parallelo, sette big della tecnologia, tra cui Google, Nvidia e Microsoft, comprano azioni per 26 mld $.",
+     "sowhat": "Chi vi vende i modelli sta per pubblicare i conti ogni trimestre. Aspettatevi più pressione su prezzi e crescita."
+    },
+    {
+     "section": "Agenti & soldi",
+     "headline": "Il vostro agente IA ha una carta di credito (più o meno)",
+     "body": "OpenAI ha lanciato ChatGPT Wallet il 13 novembre: i suoi agenti «dots» ora possono fare acquisti per voi. È stato realizzato con Visa, Mastercard e American Express e usa token di rete, così l’agente non vede mai il numero della carta, e ogni acquisto richiede Face ID o impronta digitale. Per ora è riservato agli abbonati Pro negli Stati Uniti, e non tutti i siti accettano clienti-robot.",
+     "sowhat": "Gli acquisti fatti dagli agenti hanno la loro prima cassa per il grande pubblico. Se vendete online, «un agente può comprare sul mio sito?» diventa una domanda vera."
+    }
+   ],
+   "news": [
+    {"section": "Tribunali", "headline": "Quattro ONG vogliono mettere in pausa l’IA di frontiera", "summary": "Public Citizen, Heat Initiative e altri due gruppi hanno fatto causa a OpenAI, Anthropic, Google, Meta e alla divisione IA di SpaceX a San Francisco il 12 novembre. Chiedono al tribunale di bloccare lo sviluppo di modelli più potenti di quelli attuali."},
+    {"section": "Finanziamenti", "headline": "Mirendil raccoglie 1 mld $ in Serie A", "summary": "Il team di ex Anthropic che costruisce un’IA capace di accelerare la ricerca sull’IA ha chiuso il 12 novembre un round guidato da Kleiner Perkins e Clearlake, cinque mesi dopo un seed da 200 mln $."},
+    {"section": "Finanziamenti", "headline": "Mercor raddoppia a 20 mld $", "summary": "L’azienda che paga esperti umani per addestrare e testare modelli di IA ha raccolto 750 mln $ in Serie D, con Nvidia e Salesforce tra gli investitori."},
+    {"section": "Acquisizioni", "headline": "Cohere fa shopping", "summary": "La canadese Cohere ha completato l’acquisto di Cubic (revisione del codice) e Aisle (cybersicurezza). Importi non divulgati."},
+    {"section": "Fiducia", "headline": "Il chatbot Muse di Meta nella bufera", "summary": "Secondo un’inchiesta di 404 Media, Muse, il nuovo chatbot di Meta, ha prodotto giochi di ruolo espliciti impersonando donne reali."}
+   ],
+   "wtf": {
+    "headline": "«Una leggenda sostituisce una leggenda»",
+    "text": "Poche ore dopo l’uscita di Huang, Donald Trump ha suggerito su Truth Social che Tim Cook, il CEO di Apple, guidi Nvidia. Nulla indica che Cook sia interessato. Poi domenica, secondo il FT ripreso da Reuters, Huang avrebbe parlato di un ritorno con persone a lui vicine. Già la seconda stagione?"
+   },
+   "weather": [
+    {"title": "Acquisti fatti dagli agenti", "text": "Sereno: i circuiti delle carte sono della partita e la cassa esiste. Nuvole in arrivo il giorno in cui un agente ordinerà il divano sbagliato."},
+    {"title": "L’IA in Borsa", "text": "Schiarite: il libro ordini di Anthropic è coperto. Possibili rovesci se il prezzo del 18 novembre delude."},
+    {"title": "Rischio «uomo chiave»", "text": "Temporale: una sola dimissione ha fatto perdere oltre il 14% in una seduta al produttore di chip IA più importante al mondo."}
+   ],
+   "monday": [
+    "Usate Gemini 4 Carbon via API? Ricontrollate il budget prima del 30 novembre.",
+    "Elencate i vostri tre fornitori IA critici e chiedetevi: chi è il loro Jensen, e qual è il piano B?",
+    "Prima che un agente paghi qualsiasi cosa, decidete chi approva, e fino a quale importo."
+   ],
+   "quiz": {
+    "q": "Al massimo della forchetta, quanto raccoglierebbe l’IPO di Anthropic?",
+    "options": ["26 miliardi $", "64 miliardi $", "85,7 miliardi $"],
+    "explain": "Circa 64,35 mld $. I 26 mld $ sono l’accordo parallelo con sette big della tecnologia, mentre 85,7 mld $ è quanto ha raccolto SpaceX con la propria IPO circa cinque mesi prima."
+   }
+  }
+ }
+}
