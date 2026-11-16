@@ -1,0 +1,347 @@
+{
+ "date": "2026-11-17",
+ "edition": "Daily AI — Edition of 17 November 2026",
+ "title": "Daily AI — Edition of 17 November 2026",
+ "publisher": "Mathieu Delloye Consulting",
+ "coverage": "15–16 November 2026",
+ "reading": "4 min",
+ "lead": {
+  "id": "us-chip-remote-access-rule",
+  "section": "Chips & geopolitics",
+  "headline": "Washington closes the back door to AI chips",
+  "deck": "A new US rule says data centers anywhere in the world need a licence before renting serious AI computing power to Chinese companies.",
+  "body": [
+   "What happened: on 16 November the Commerce Department issued a two-part interim rule. Data centers anywhere now need a US licence to rent large amounts of advanced chip power to companies based in or controlled by China, Macau or other restricted countries. And shipping top AI chips to Singapore, Malaysia, Thailand, Indonesia and Brazil now needs a licence too, because of a “higher-than-normal risk of diversion”.",
+   "Why now: Megaspeed, the Singapore company accused of funnelling Nvidia chips to China, is at the centre of the scandal that cost Jensen Huang his job. Remote access was the obvious loophole: no box crosses a border, but the computing power does. The rule also scraps the Biden-era “AI Diffusion Rule”.",
+   "Still fuzzy: reports disagree on whether it applies immediately or in 90 days. Check the official text before acting on the details."
+  ],
+  "sowhat": "If your AI runs in a cloud region in South-East Asia or Brazil, or you sell computing power to Chinese-owned clients, expect new paperwork from your provider.",
+  "sources": [
+   {
+    "label": "Bloomberg (16 Nov)",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips"
+   },
+   {
+    "label": "Fortune (16 Nov)",
+    "url": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+   },
+   {
+    "label": "CBS News (16 Nov)",
+    "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/"
+   }
+  ]
+ },
+ "number": {
+  "value": "457 MW",
+  "label": "of AMD-powered capacity that OpenAI just booked from TensorWave",
+  "text": "A six-year deal on AMD's MI455X chips across several US sites, with deliveries from the first half of 2027. Not every AI dollar goes to Nvidia.",
+  "source": {
+   "label": "TensorWave via Business Wire (16 Nov)",
+   "url": "https://www.financialcontent.com/article/bizwire-2026-11-16-tensorwave-announces-agreement-with-openai-to-deliver-more-than-450mw-of-amd-powered-ai-infrastructure"
+  }
+ },
+ "topics": [
+  {
+   "id": "bessent-nvidia-shakeup",
+   "section": "Chips & drama",
+   "headline": "The US Treasury wants a new boss at Nvidia. Within 10 days, please.",
+   "body": "On Fox News on Sunday, Treasury Secretary Scott Bessent called for a “dramatic shakeup” at Nvidia and an outside CEO. He wants answers from the board within 10 days on export controls, and asked whether Nvidia ignored warning signs about shell companies funnelling chips to China. Meanwhile, the FT says Huang has discussed a comeback.",
+   "sowhat": "When a government starts weighing in on who runs your key supplier, expect delays, extra paperwork and plenty of headlines. Keep plan B warm.",
+   "sources": [
+    {
+     "label": "CNBC (15 Nov)",
+     "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html"
+    },
+    {
+     "label": "Bloomberg (15 Nov)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-15/bessent-says-nvidia-needs-dramatic-shakeup-after-huang-ouster"
+    }
+   ]
+  },
+  {
+   "id": "ai-national-champions",
+   "section": "Politics",
+   "headline": "Team USA picks its AI “national champions”",
+   "body": "The Wall Street Journal reports that the administration plans to name more than two dozen AI companies, including Nvidia, OpenAI, Anthropic, Microsoft and Amazon, as US “national champions”, with faster export licences and federal backing abroad. An announcement could come within a week. Nothing is confirmed yet.",
+   "sowhat": "Outside the US, your AI suppliers may soon arrive with an official government stamp. Handy for their export papers, possibly awkward for your own sovereignty debates.",
+   "sources": [
+    {
+     "label": "Forbes, citing the WSJ (16 Nov)",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/11/16/scandal-hit-nvidia-among-trumps-planned-ai-national-champions-report-says/"
+    },
+    {
+     "label": "Yahoo Finance / Reuters",
+     "url": "https://finance.yahoo.com/news/trump-administration-name-nvidia-other-041705933.html"
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "section": "Banks",
+   "headline": "The Fed's warning: bank runs at agent speed",
+   "summary": "In Milan on 16 November, Fed Governor Michael Barr warned that AI agents could turn a bank run into a matter of minutes. Big banks have already seen agents try to act in customer accounts without verifiable consent.",
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm"
+  },
+  {
+   "section": "Markets",
+   "headline": "Anthropic's IPO: about seven times oversubscribed",
+   "summary": "Orders reportedly reached close to seven times the shares on offer, more demand than SpaceX drew. Pricing is due on Wednesday 18 November, with Nasdaq trading under the ticker ANT from Thursday.",
+   "source": "The Next Web",
+   "url": "https://thenextweb.com/news/anthropic-ipo-orders-seven-times-spacex-pricing-week"
+  },
+  {
+   "section": "Chips",
+   "headline": "Nvidia's first results without Huang: tonight",
+   "summary": "Nvidia reports after the US close on 17 November, with interim CEO Colette Kress at the mic. Analysts expect about $109bn in revenue.",
+   "source": "Saxo",
+   "url": "https://www.home.saxo/content/articles/equities/nvidia-earnings-preview-the-first-big-test-after-jensen-huangs-exit-16112026"
+  },
+  {
+   "section": "Funding",
+   "headline": "Noeri raises $110m for cheaper AI",
+   "summary": "Menlo Ventures led the round in the startup, which works on more cost-efficient AI, with Nvidia, Snowflake and Cisco also investing. The valuation was not disclosed.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-backs-genius-grant-winner-s-push-for-cost-efficient-ai"
+  },
+  {
+   "section": "Europe",
+   "headline": "Daisytuner raises €6m",
+   "summary": "The German startup makes software that tunes AI models to run on different chips. Backers include Elaia and Seedcamp.",
+   "source": "Tech.eu",
+   "url": "https://tech.eu/2026/11/16/ai-inference-startup-daisyturner-raises-eur6m-seed"
+  }
+ ],
+ "wtf": {
+  "headline": "180,000 signatures to bring back a CEO",
+  "text": "Most petitions are about potholes or puppies. This one asks Nvidia to reinstate Jensen Huang and is close to 180,000 signatures, backed by Elon Musk, Garry Tan and Tim Sweeney. The US Treasury wants an outsider. The board now has two very loud inboxes.",
+  "sources": [
+   {
+    "label": "CNBC (16 Nov)",
+    "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+   }
+  ]
+ },
+ "weather": [
+  {
+   "icon": "⛈️",
+   "title": "Selling AI chips into Asia",
+   "level": 2,
+   "text": "Stormy: five more countries need licences, and renting chips remotely is no longer a loophole. Pack an umbrella and a lawyer."
+  },
+  {
+   "icon": "☀️",
+   "title": "AI computing capacity",
+   "level": 8,
+   "text": "Sunny: OpenAI keeps signing (457 MW on AMD chips this time), and Nvidia's rivals finally get some sunshine."
+  },
+  {
+   "icon": "⛅",
+   "title": "AI agents at the bank",
+   "level": 5,
+   "text": "Mixed: agents are already knocking on bank accounts, and the Fed wants ID checks before anyone lets them in."
+  }
+ ],
+ "monday": [
+  "Running AI in Singapore, Malaysia, Thailand, Indonesia or Brazil? Ask your cloud provider today what the new US rule changes for you.",
+  "Nvidia reports tonight after the US close. If your 2027 GPU budget depends on its prices, read the guidance, not the headlines.",
+  "Ask your bank, or your finance team, how they tell a real customer from an AI agent acting on that customer's behalf."
+ ],
+ "quiz": {
+  "q": "How many countries did the new US rule add to the AI chip licence list?",
+  "options": [
+   "2",
+   "5",
+   "12"
+  ],
+  "answer": 1,
+  "explain": "Five: Singapore, Malaysia, Thailand, Indonesia and Brazil. 12 is a trap: it's the remote-access threshold, in millions of units of computing performance."
+ },
+ "i18n": {
+  "fr": {
+   "title": "Daily AI — Édition du 17 novembre 2026",
+   "coverage": "15–16 novembre 2026",
+   "lead": {
+    "section": "Puces & géopolitique",
+    "headline": "Washington ferme la porte de derrière des puces IA",
+    "deck": "Une nouvelle règle américaine impose aux data centers du monde entier une licence avant de louer une grosse puissance de calcul IA à des entreprises chinoises.",
+    "body": [
+     "Ce qui s’est passé : le 16 novembre, le département du Commerce a publié une règle provisoire en deux volets. Tout data center, où qu’il soit, doit désormais obtenir une licence américaine pour louer une grande puissance de puces avancées à des entreprises basées en Chine, à Macao ou dans d’autres pays sous restrictions, ou contrôlées depuis ces pays. Et livrer des puces IA haut de gamme à Singapour, en Malaisie, en Thaïlande, en Indonésie et au Brésil exige aussi une licence, en raison d’un « risque de détournement supérieur à la normale ».",
+     "Pourquoi maintenant : Megaspeed, la société singapourienne accusée d’avoir fait passer des puces Nvidia en Chine, est au cœur du scandale qui a coûté son poste à Jensen Huang. L’accès à distance était la faille évidente : aucun carton ne franchit de frontière, mais la puissance de calcul, si. La règle enterre aussi l’« AI Diffusion Rule » de l’ère Biden.",
+     "Encore flou : les sources divergent sur l’entrée en vigueur, immédiate ou dans 90 jours. Vérifiez le texte officiel avant d’agir sur les détails."
+    ],
+    "sowhat": "Si votre IA tourne dans une région cloud d’Asie du Sud-Est ou au Brésil, ou si vous vendez de la puissance de calcul à des clients à capitaux chinois, attendez-vous à de la paperasse de la part de votre fournisseur."
+   },
+   "number": {
+    "label": "de capacité sur puces AMD qu’OpenAI vient de réserver chez TensorWave",
+    "text": "Un contrat de six ans sur les puces MI455X d’AMD, sur plusieurs sites américains, avec des livraisons dès le premier semestre 2027. Tout l’argent de l’IA ne va pas à Nvidia."
+   },
+   "topics": [
+    {
+     "section": "Puces & drame",
+     "headline": "Le Trésor américain veut un nouveau patron chez Nvidia. Sous 10 jours, s’il vous plaît.",
+     "body": "Dimanche sur Fox News, le secrétaire au Trésor Scott Bessent a réclamé un « grand ménage » chez Nvidia et un CEO venu de l’extérieur. Il attend des réponses du conseil sous 10 jours sur les contrôles à l’export, et demande si Nvidia a ignoré les signaux d’alerte sur des sociétés écrans qui faisaient passer des puces en Chine. Pendant ce temps, selon le FT, Huang a évoqué un retour.",
+     "sowhat": "Quand un gouvernement se mêle de choisir le patron de votre fournisseur clé, attendez-vous à des retards, à de la paperasse et à beaucoup de gros titres. Gardez le plan B au chaud."
+    },
+    {
+     "section": "Politique",
+     "headline": "L’équipe USA désigne ses « champions nationaux » de l’IA",
+     "body": "Selon le Wall Street Journal, l’administration prévoit de désigner plus d’une vingtaine d’entreprises d’IA, dont Nvidia, OpenAI, Anthropic, Microsoft et Amazon, comme « champions nationaux » américains, avec à la clé des licences d’export plus rapides et un soutien fédéral à l’étranger. Une annonce pourrait tomber d’ici une semaine. Rien n’est encore confirmé.",
+     "sowhat": "Hors des États-Unis, vos fournisseurs d’IA pourraient bientôt arriver avec un tampon officiel de Washington. Pratique pour leurs exportations, peut-être gênant pour vos propres débats sur la souveraineté."
+    }
+   ],
+   "news": [
+    {
+     "section": "Banques",
+     "headline": "L’alerte de la Fed : des paniques bancaires à la vitesse des agents",
+     "summary": "À Milan le 16 novembre, Michael Barr, gouverneur de la Fed, a averti que des agents IA pourraient transformer une panique bancaire en affaire de minutes. De grandes banques ont déjà vu des agents tenter d’agir sur des comptes clients sans consentement vérifiable."
+    },
+    {
+     "section": "Marchés",
+     "headline": "IPO d’Anthropic : demande environ sept fois supérieure à l’offre",
+     "summary": "Les ordres atteindraient près de sept fois le nombre d’actions proposées, plus que pour SpaceX. Le prix doit être fixé mercredi 18 novembre, avec une cotation au Nasdaq sous le ticker ANT à partir de jeudi."
+    },
+    {
+     "section": "Puces",
+     "headline": "Les premiers résultats de Nvidia sans Huang : ce soir",
+     "summary": "Nvidia publie après la clôture américaine le 17 novembre, avec la CEO par intérim Colette Kress au micro. Les analystes attendent environ 109 Md$ de chiffre d’affaires."
+    },
+    {
+     "section": "Levée de fonds",
+     "headline": "Noeri lève 110 M$ pour une IA moins chère",
+     "summary": "Menlo Ventures mène le tour de cette start-up qui travaille sur une IA plus économe, avec Nvidia, Snowflake et Cisco au capital. Valorisation non communiquée."
+    },
+    {
+     "section": "Europe",
+     "headline": "Daisytuner lève 6 M€",
+     "summary": "La start-up allemande édite un logiciel qui adapte les modèles d’IA pour qu’ils tournent sur différentes puces. Parmi les investisseurs : Elaia et Seedcamp."
+    }
+   ],
+   "wtf": {
+    "headline": "180 000 signatures pour faire revenir un PDG",
+    "text": "D’habitude, les pétitions parlent de nids-de-poule ou de chatons. Celle-ci demande à Nvidia de réintégrer Jensen Huang et approche les 180 000 signatures, soutenue par Elon Musk, Garry Tan et Tim Sweeney. Le Trésor américain, lui, veut un candidat extérieur. Le conseil a désormais deux boîtes mail très bruyantes."
+   },
+   "weather": [
+    {
+     "title": "Vendre des puces IA en Asie",
+     "text": "Orageux : cinq pays de plus exigent une licence, et louer des puces à distance n’est plus une faille. Prévoir un parapluie et un juriste."
+    },
+    {
+     "title": "Capacité de calcul IA",
+     "text": "Ensoleillé : OpenAI continue de signer (457 MW sur puces AMD cette fois), et les rivaux de Nvidia voient enfin le soleil."
+    },
+    {
+     "title": "Les agents IA à la banque",
+     "text": "Variable : les agents frappent déjà à la porte des comptes bancaires, et la Fed veut un contrôle d’identité avant de les laisser entrer."
+    }
+   ],
+   "monday": [
+    "Votre IA tourne à Singapour, en Malaisie, en Thaïlande, en Indonésie ou au Brésil ? Demandez dès aujourd’hui à votre fournisseur cloud ce que la nouvelle règle américaine change pour vous.",
+    "Nvidia publie ce soir après la clôture américaine. Si votre budget GPU 2027 dépend de ses prix, lisez les prévisions, pas les gros titres.",
+    "Demandez à votre banque, ou à votre direction financière, comment elle distingue un vrai client d’un agent IA qui agit en son nom."
+   ],
+   "quiz": {
+    "q": "Combien de pays la nouvelle règle américaine ajoute-t-elle à la liste des licences pour les puces IA ?",
+    "options": [
+     "2",
+     "5",
+     "12"
+    ],
+    "explain": "Cinq : Singapour, la Malaisie, la Thaïlande, l’Indonésie et le Brésil. Le 12 est un piège : c’est le seuil d’accès à distance, en millions d’unités de puissance de calcul."
+   }
+  },
+  "it": {
+   "title": "Daily AI — Edizione del 17 novembre 2026",
+   "coverage": "15–16 novembre 2026",
+   "lead": {
+    "section": "Chip & geopolitica",
+    "headline": "Washington chiude la porta sul retro dei chip IA",
+    "deck": "Una nuova regola americana impone ai data center di tutto il mondo una licenza prima di affittare grande potenza di calcolo IA ad aziende cinesi.",
+    "body": [
+     "Cosa è successo: il 16 novembre il Dipartimento del Commercio ha emanato una regola provvisoria in due parti. Qualsiasi data center, ovunque si trovi, ora deve ottenere una licenza americana per affittare grande potenza di chip avanzati ad aziende con sede in Cina, a Macao o in altri paesi soggetti a restrizioni, o controllate da lì. E spedire chip IA di fascia alta a Singapore, Malesia, Thailandia, Indonesia e Brasile richiede anch’esso una licenza, per un «rischio di deviazione superiore alla norma».",
+     "Perché ora: Megaspeed, la società di Singapore accusata di aver fatto arrivare chip Nvidia in Cina, è al centro dello scandalo che è costato il posto a Jensen Huang. L’accesso remoto era la scappatoia ovvia: nessuna scatola attraversa un confine, ma la potenza di calcolo sì. La regola cancella anche l’«AI Diffusion Rule» dell’era Biden.",
+     "Ancora poco chiaro: le fonti non concordano sull’entrata in vigore, immediata o tra 90 giorni. Controllate il testo ufficiale prima di agire sui dettagli."
+    ],
+    "sowhat": "Se la vostra IA gira in una regione cloud del Sud-est asiatico o in Brasile, o se vendete potenza di calcolo a clienti a capitale cinese, aspettatevi nuove pratiche dal vostro fornitore."
+   },
+   "number": {
+    "label": "di capacità su chip AMD che OpenAI ha appena prenotato da TensorWave",
+    "text": "Un contratto di sei anni sui chip MI455X di AMD, in diversi siti negli Stati Uniti, con consegne dal primo semestre 2027. Non tutti i soldi dell’IA finiscono a Nvidia."
+   },
+   "topics": [
+    {
+     "section": "Chip & drammi",
+     "headline": "Il Tesoro USA vuole un nuovo capo per Nvidia. Entro 10 giorni, grazie.",
+     "body": "Domenica su Fox News il segretario al Tesoro Scott Bessent ha chiesto uno «scossone drastico» in Nvidia e un CEO esterno. Vuole risposte dal consiglio entro 10 giorni sui controlli all’export, e chiede se Nvidia abbia ignorato i segnali d’allarme su società di comodo che facevano arrivare chip in Cina. Intanto, secondo il FT, Huang avrebbe discusso un ritorno.",
+     "sowhat": "Quando un governo vuole dire la sua su chi guida il vostro fornitore chiave, aspettatevi ritardi, burocrazia e tanti titoli. Tenete pronto il piano B."
+    },
+    {
+     "section": "Politica",
+     "headline": "Il Team USA sceglie i suoi «campioni nazionali» dell’IA",
+     "body": "Secondo il Wall Street Journal, l’amministrazione intende nominare più di venti aziende dell’IA, tra cui Nvidia, OpenAI, Anthropic, Microsoft e Amazon, «campioni nazionali» americani, con licenze di export più rapide e sostegno federale all’estero. L’annuncio potrebbe arrivare entro una settimana. Nulla è ancora confermato.",
+     "sowhat": "Fuori dagli Stati Uniti, i vostri fornitori di IA potrebbero presto presentarsi con un timbro ufficiale di Washington. Comodo per le loro esportazioni, forse scomodo per i vostri dibattiti sulla sovranità."
+    }
+   ],
+   "news": [
+    {
+     "section": "Banche",
+     "headline": "L’allarme della Fed: corse agli sportelli alla velocità degli agenti",
+     "summary": "A Milano il 16 novembre, il governatore della Fed Michael Barr ha avvertito che gli agenti IA potrebbero trasformare una corsa agli sportelli in una questione di minuti. Grandi banche hanno già visto agenti tentare di operare su conti dei clienti senza un consenso verificabile."
+    },
+    {
+     "section": "Mercati",
+     "headline": "IPO di Anthropic: domanda circa sette volte l’offerta",
+     "summary": "Gli ordini avrebbero raggiunto quasi sette volte le azioni offerte, più di quanto avesse raccolto SpaceX. Il prezzo sarà fissato mercoledì 18 novembre, con quotazione al Nasdaq con il ticker ANT da giovedì."
+    },
+    {
+     "section": "Chip",
+     "headline": "I primi risultati di Nvidia senza Huang: stasera",
+     "summary": "Nvidia pubblica i conti dopo la chiusura USA del 17 novembre, con la CEO ad interim Colette Kress al microfono. Gli analisti si aspettano circa 109 miliardi di dollari di ricavi."
+    },
+    {
+     "section": "Finanziamenti",
+     "headline": "Noeri raccoglie 110 milioni di dollari per un’IA più economica",
+     "summary": "Menlo Ventures guida il round della startup, che lavora a un’IA più efficiente nei costi, con anche Nvidia, Snowflake e Cisco tra gli investitori. Valutazione non comunicata."
+    },
+    {
+     "section": "Europa",
+     "headline": "Daisytuner raccoglie 6 milioni di euro",
+     "summary": "La startup tedesca sviluppa un software che adatta i modelli di IA per farli girare su chip diversi. Tra gli investitori: Elaia e Seedcamp."
+    }
+   ],
+   "wtf": {
+    "headline": "180.000 firme per riavere un CEO",
+    "text": "Di solito le petizioni parlano di buche nelle strade o di gattini. Questa chiede a Nvidia di reintegrare Jensen Huang e si avvicina alle 180.000 firme, sostenuta da Elon Musk, Garry Tan e Tim Sweeney. Il Tesoro USA invece vuole un esterno. Il consiglio ora ha due caselle di posta molto rumorose."
+   },
+   "weather": [
+    {
+     "title": "Vendere chip IA in Asia",
+     "text": "Temporale: altri cinque paesi richiedono una licenza, e affittare chip da remoto non è più una scappatoia. Portate ombrello e avvocato."
+    },
+    {
+     "title": "Capacità di calcolo IA",
+     "text": "Sereno: OpenAI continua a firmare (457 MW su chip AMD questa volta), e i rivali di Nvidia vedono finalmente il sole."
+    },
+    {
+     "title": "Agenti IA in banca",
+     "text": "Variabile: gli agenti bussano già ai conti bancari, e la Fed vuole un controllo dei documenti prima di farli entrare."
+    }
+   ],
+   "monday": [
+    "La vostra IA gira a Singapore, in Malesia, Thailandia, Indonesia o Brasile? Chiedete oggi stesso al vostro fornitore cloud cosa cambia per voi con la nuova regola americana.",
+    "Nvidia pubblica i conti stasera dopo la chiusura USA. Se il vostro budget GPU 2027 dipende dai suoi prezzi, leggete le previsioni, non i titoli.",
+    "Chiedete alla vostra banca, o al vostro ufficio finanza, come distingue un vero cliente da un agente IA che agisce per suo conto."
+   ],
+   "quiz": {
+    "q": "Quanti paesi aggiunge la nuova regola americana alla lista delle licenze per i chip IA?",
+    "options": [
+     "2",
+     "5",
+     "12"
+    ],
+    "explain": "Cinque: Singapore, Malesia, Thailandia, Indonesia e Brasile. Il 12 è una trappola: è la soglia per l’accesso remoto, in milioni di unità di potenza di calcolo."
+   }
+  }
+ }
+}
