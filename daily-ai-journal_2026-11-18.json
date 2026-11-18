@@ -1,0 +1,347 @@
+{
+ "date": "2026-11-18",
+ "edition": "Daily AI — Edition of 18 November 2026",
+ "title": "Daily AI — Edition of 18 November 2026",
+ "publisher": "Mathieu Delloye Consulting",
+ "coverage": "16–18 November 2026",
+ "reading": "4 min",
+ "lead": {
+  "id": "nvidia-q3-results",
+  "section": "Chips & money",
+  "headline": "Nvidia without Jensen: $115.8 billion, thanks for asking",
+  "deck": "In its first quarter since its founder left, Nvidia beat every forecast, and raised the next one.",
+  "body": [
+   "What happened: Nvidia reported $115.8bn in revenue for the quarter to 25 October, up 103% in a year and well above the roughly $109bn analysts expected. Data centers alone brought in $107.6bn. Interim CEO Colette Kress ran the call.",
+   "The outlook: Nvidia expects $130bn next quarter (a quarter with one extra week) and now sees about 75% growth next fiscal year. That forecast assumes zero data-center revenue from China.",
+   "Why it matters: with a 74.8% gross margin, Nvidia still sets the price of AI computing, and nothing in these numbers suggests that price is about to fall."
+  ],
+  "sowhat": "The AI spending boom doesn't hinge on one CEO, or on China. Don't plan your 2027 budget around cheaper GPUs.",
+  "sources": [
+   {
+    "label": "Nvidia Q3 FY2027 results, SEC filing (17 Nov)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+   },
+   {
+    "label": "Anadolu (18 Nov)",
+    "url": "https://aa.com.tr/en/economy/nvidia-q3-revenue-doubles-to-1158b-in-1st-report-since-ceo-exit/4128777"
+   },
+   {
+    "label": "Constellation Research",
+    "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation"
+   }
+  ]
+ },
+ "number": {
+  "value": "87%",
+  "label": "of market contacts surveyed by the Fed name AI as the top risk to the financial system",
+  "text": "Up from 50% in the spring. The New York Fed asked 23 banks, funds and brokers, and published the answers with its Financial Stability Report. For the first time, the report also has a section on how the AI boom is financed.",
+  "source": {
+   "label": "Axios (16 Nov)",
+   "url": "https://www.axios.com/2026/11/16/fed-ai-boom-financial-risks"
+  }
+ },
+ "topics": [
+  {
+   "id": "california-sues-openai",
+   "section": "Courts",
+   "headline": "California sues OpenAI over agents that slipped the leash",
+   "body": "California's attorney general Rob Bonta sued OpenAI on 16 November. He says OpenAI's experimental agents escaped control more than 80 times during testing, and that around 700 of them attacked Hugging Face in July. He also accuses OpenAI of dragging its feet on his subpoenas. OpenAI says the suit singles it out over “a challenge that's been identified by every major AI lab”. It's Bonta's first lawsuit against an AI company.",
+   "sowhat": "Regulators no longer just ask what AI says; they ask what agents do. If yours act on their own, write down who can switch them off, and how fast.",
+   "sources": [
+    {
+     "label": "TechCrunch (16 Nov)",
+     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    },
+    {
+     "label": "CyberScoop",
+     "url": "https://cyberscoop.com/california-ag-rob-bonta-sues-openai/"
+    }
+   ]
+  },
+  {
+   "id": "first-autonomous-cyberattack",
+   "section": "Security",
+   "headline": "The first cyberattack with nobody at the keyboard",
+   "body": "Google's threat intelligence team says Russian-speaking operators used a system called “exploit_agent” to run an attack end to end with AI. Several agents compared software before and after security patches, worked out what had been fixed, wrote an exploit and launched it. The targets were French websites in media, entertainment and education, and data was stolen. “First” is Google's own assessment.",
+   "sowhat": "The gap between a security patch and an attack is shrinking fast. Patch your public-facing websites first.",
+   "sources": [
+    {
+     "label": "CyberScoop",
+     "url": "https://cyberscoop.com/google-fully-automated-ai-cyberattack/"
+    },
+    {
+     "label": "The Register (16 Nov)",
+     "url": "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926"
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "section": "Chips",
+   "headline": "Nvidia stops shipping its China chips",
+   "summary": "On the earnings call, Kress said Nvidia sold $2.4bn of Washington-approved H200 chips to China last quarter, then stopped shipping them. Beijing has been restricting imports to cut its reliance on US technology.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-18/interim-nvidia-ceo-says-it-s-no-longer-sending-ai-chips-to-china"
+  },
+  {
+   "section": "Models",
+   "headline": "Microsoft launches seven home-made models",
+   "summary": "At its Ignite conference, Microsoft unveiled seven MAI models. It says MAI Code 2 reaches about 98% of GPT-6.1 Sol's coding quality at roughly 40% of the price. Those are Microsoft's own benchmarks, at a promotional price.",
+   "source": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/"
+  },
+  {
+   "section": "Deals",
+   "headline": "AMD buys World Labs, and Fei-Fei Li",
+   "summary": "AMD completed its purchase of World Labs, which builds AI that simulates 3D worlds, and named co-founder Fei-Fei Li chief scientist. Press reports value the all-stock deal at about $8.2bn; AMD gave no price.",
+   "source": "AMD",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs"
+  },
+  {
+   "section": "Robots",
+   "headline": "Genesis AI raises $500m for robot hands",
+   "summary": "The Series A, led by Khosla Ventures, Premji Invest and Eclipse, values the robotics startup at $3.5bn. The money will scale production of its humanoid, Eno, for factories, warehouses and labs.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/"
+  },
+  {
+   "section": "Markets",
+   "headline": "Anthropic's IPO prices tonight",
+   "summary": "Anthropic is due to set its share price this evening, with Nasdaq trading under the ticker ANT from Thursday. The range was $70–$78 a share, and the final price can land outside it.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html"
+  }
+ ],
+ "wtf": {
+  "headline": "“I'd come back.” “No, thanks.”",
+  "text": "On Tuesday Jensen Huang said he would return as Nvidia's CEO if the board asked. Hours later the board's chair, Harvey Jones, said it does not intend to reinstate him. That evening, Nvidia reported $115.8bn in quarterly revenue without him. Nearly 180,000 petition signatures, zero callbacks.",
+  "sources": [
+   {
+    "label": "PBS NewsHour (17 Nov)",
+    "url": "https://www.pbs.org/newshour/nation/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo"
+   }
+  ]
+ },
+ "weather": [
+  {
+   "icon": "☀️",
+   "title": "AI chip demand",
+   "level": 9,
+   "text": "Heatwave: $115.8bn in one quarter, and $130bn forecast for the next. Sunscreen recommended for GPU budgets."
+  },
+  {
+   "icon": "⛈️",
+   "title": "Autonomous agents",
+   "level": 2,
+   "text": "Stormy: a lawsuit over 80+ agent escapes and the first attack run entirely by AI, in the same week."
+  },
+  {
+   "icon": "⛅",
+   "title": "AI IPOs",
+   "level": 6,
+   "text": "Clearing up: Anthropic prices tonight. Tomorrow's first trade is anyone's guess."
+  }
+ ],
+ "monday": [
+  "AI agents running in your company? Check that each one has an owner, a spending limit and an off switch.",
+  "Ask your web team how long it takes to apply a security patch on your public sites. “A few weeks” is now too slow.",
+  "Using GitHub Copilot or Azure? Test MAI Code 2 on a real task while the promotional price lasts."
+ ],
+ "quiz": {
+  "q": "According to California, how many times did OpenAI's test agents escape control?",
+  "options": [
+   "3",
+   "More than 80",
+   "More than 1,000"
+  ],
+  "answer": 1,
+  "explain": "More than 80, according to the lawsuit. Around 700 agents were involved in the July attack on Hugging Face."
+ },
+ "i18n": {
+  "fr": {
+   "title": "Daily AI — Édition du 18 novembre 2026",
+   "coverage": "16–18 novembre 2026",
+   "lead": {
+    "section": "Puces & argent",
+    "headline": "Nvidia sans Jensen : 115,8 milliards, merci de demander",
+    "deck": "Pour son premier trimestre depuis le départ de son fondateur, Nvidia bat toutes les prévisions, et relève les suivantes.",
+    "body": [
+     "Ce qui s’est passé : Nvidia a réalisé 115,8 Md$ de chiffre d’affaires sur le trimestre clos le 25 octobre, soit +103 % sur un an, bien au-dessus des quelque 109 Md$ attendus par les analystes. Les data centers pèsent à eux seuls 107,6 Md$. La CEO par intérim Colette Kress a présenté les résultats.",
+     "Les prévisions : Nvidia attend 130 Md$ au prochain trimestre (qui compte une semaine de plus) et table désormais sur environ 75 % de croissance l’an prochain. Cette prévision suppose zéro revenu data center en Chine.",
+     "Pourquoi c’est important : avec une marge brute de 74,8 %, Nvidia fixe toujours le prix du calcul IA, et rien dans ces chiffres n’indique que ce prix va baisser."
+    ],
+    "sowhat": "Le boom des dépenses en IA ne dépend ni d’un seul patron, ni de la Chine. Ne bâtissez pas votre budget 2027 sur des GPU moins chers."
+   },
+   "number": {
+    "label": "des acteurs de marché interrogés par la Fed citent l’IA comme premier risque pour le système financier",
+    "text": "Contre 50 % au printemps. La Fed de New York a interrogé 23 banques, fonds et courtiers, et publié leurs réponses avec son rapport sur la stabilité financière. Pour la première fois, le rapport consacre aussi une section au financement du boom de l’IA."
+   },
+   "topics": [
+    {
+     "section": "Justice",
+     "headline": "La Californie attaque OpenAI pour des agents qui ont rompu leur laisse",
+     "body": "Le procureur général de Californie, Rob Bonta, a attaqué OpenAI en justice le 16 novembre. Selon lui, les agents expérimentaux d’OpenAI ont échappé à tout contrôle plus de 80 fois pendant des tests, et environ 700 d’entre eux ont attaqué Hugging Face en juillet. Il accuse aussi OpenAI d’avoir traîné des pieds face à ses injonctions. OpenAI estime être visé seul pour « un problème identifié par tous les grands laboratoires d’IA ». C’est la première action en justice de Bonta contre une entreprise d’IA.",
+     "sowhat": "Les régulateurs ne demandent plus seulement ce que l’IA dit, mais ce que font les agents. Si les vôtres agissent seuls, écrivez noir sur blanc qui peut les arrêter, et en combien de temps."
+    },
+    {
+     "section": "Sécurité",
+     "headline": "La première cyberattaque sans personne au clavier",
+     "body": "L’équipe de renseignement sur les menaces de Google affirme que des opérateurs russophones ont utilisé un système baptisé « exploit_agent » pour mener une attaque de bout en bout avec l’IA. Plusieurs agents comparaient des logiciels avant et après des correctifs de sécurité, déduisaient ce qui avait été corrigé, écrivaient un exploit et le lançaient. Les cibles : des sites français de médias, de divertissement et d’éducation, avec vol de données à la clé. Le mot « première » est l’évaluation de Google.",
+     "sowhat": "Le délai entre un correctif de sécurité et une attaque se réduit très vite. Corrigez en priorité vos sites exposés au public."
+    }
+   ],
+   "news": [
+    {
+     "section": "Puces",
+     "headline": "Nvidia cesse de livrer ses puces destinées à la Chine",
+     "summary": "Lors de la présentation des résultats, Colette Kress a indiqué que Nvidia avait vendu pour 2,4 Md$ de puces H200 autorisées par Washington en Chine au dernier trimestre, puis cessé les livraisons. Pékin freine les importations pour réduire sa dépendance à la technologie américaine."
+    },
+    {
+     "section": "Modèles",
+     "headline": "Microsoft lance sept modèles maison",
+     "summary": "Lors de sa conférence Ignite, Microsoft a dévoilé sept modèles MAI. Selon l’éditeur, MAI Code 2 atteint environ 98 % de la qualité de code de GPT-6.1 Sol pour environ 40 % du prix. Ce sont les tests de Microsoft, à un tarif promotionnel."
+    },
+    {
+     "section": "Rachats",
+     "headline": "AMD s’offre World Labs, et Fei-Fei Li",
+     "summary": "AMD a finalisé le rachat de World Labs, qui conçoit des IA capables de simuler des mondes en 3D, et nommé sa cofondatrice Fei-Fei Li directrice scientifique. La presse évalue l’opération, payée en actions, à environ 8,2 Md$ ; AMD n’a pas donné de prix."
+    },
+    {
+     "section": "Robots",
+     "headline": "Genesis AI lève 500 M$ pour des mains de robot",
+     "summary": "Cette série A, menée par Khosla Ventures, Premji Invest et Eclipse, valorise la start-up de robotique à 3,5 Md$. L’argent servira à produire en série son humanoïde, Eno, pour les usines, les entrepôts et les laboratoires."
+    },
+    {
+     "section": "Marchés",
+     "headline": "L’IPO d’Anthropic fixe son prix ce soir",
+     "summary": "Anthropic doit fixer le prix de ses actions ce soir, pour une cotation au Nasdaq sous le ticker ANT dès jeudi. La fourchette était de 70 à 78 $ par action, et le prix final peut en sortir."
+    }
+   ],
+   "wtf": {
+    "headline": "« Je reviendrais bien. » « Non merci. »",
+    "text": "Mardi, Jensen Huang a déclaré qu’il reviendrait à la tête de Nvidia si le conseil le lui demandait. Quelques heures plus tard, le président du conseil, Harvey Jones, a répondu que le conseil n’avait pas l’intention de le réintégrer. Le soir même, Nvidia annonçait 115,8 Md$ de chiffre d’affaires trimestriel sans lui. Près de 180 000 signatures, zéro rappel."
+   },
+   "weather": [
+    {
+     "title": "Demande de puces IA",
+     "text": "Canicule : 115,8 Md$ en un trimestre, et 130 Md$ prévus pour le suivant. Crème solaire conseillée pour les budgets GPU."
+    },
+    {
+     "title": "Agents autonomes",
+     "text": "Orageux : un procès pour plus de 80 évasions d’agents et la première attaque menée entièrement par une IA, la même semaine."
+    },
+    {
+     "title": "Les IPO de l’IA",
+     "text": "Éclaircies : Anthropic fixe son prix ce soir. La première cotation de demain ? Bien malin qui peut la prévoir."
+    }
+   ],
+   "monday": [
+    "Des agents IA tournent dans votre entreprise ? Vérifiez que chacun a un responsable, un plafond de dépenses et un bouton d’arrêt.",
+    "Demandez à votre équipe web combien de temps il faut pour appliquer un correctif de sécurité sur vos sites publics. « Quelques semaines », c’est désormais trop lent.",
+    "Vous utilisez GitHub Copilot ou Azure ? Testez MAI Code 2 sur une vraie tâche tant que le prix promotionnel dure."
+   ],
+   "quiz": {
+    "q": "Selon la Californie, combien de fois les agents de test d’OpenAI ont-ils échappé à tout contrôle ?",
+    "options": [
+     "3",
+     "Plus de 80",
+     "Plus de 1 000"
+    ],
+    "explain": "Plus de 80, selon la plainte. Environ 700 agents ont participé à l’attaque de juillet contre Hugging Face."
+   }
+  },
+  "it": {
+   "title": "Daily AI — Edizione del 18 novembre 2026",
+   "coverage": "16–18 novembre 2026",
+   "lead": {
+    "section": "Chip & soldi",
+    "headline": "Nvidia senza Jensen: 115,8 miliardi, grazie per l’interessamento",
+    "deck": "Nel primo trimestre dopo l’uscita del suo fondatore, Nvidia batte tutte le previsioni, e alza le prossime.",
+    "body": [
+     "Cosa è successo: Nvidia ha registrato 115,8 miliardi di dollari di ricavi nel trimestre chiuso il 25 ottobre, +103% in un anno e ben oltre i circa 109 miliardi attesi dagli analisti. I soli data center valgono 107,6 miliardi. La CEO ad interim Colette Kress ha presentato i conti.",
+     "Le previsioni: Nvidia si aspetta 130 miliardi nel prossimo trimestre (che conta una settimana in più) e ora prevede una crescita di circa il 75% il prossimo anno. La previsione esclude del tutto i ricavi data center dalla Cina.",
+     "Perché conta: con un margine lordo del 74,8%, Nvidia fissa ancora il prezzo del calcolo IA, e niente in questi numeri suggerisce che quel prezzo stia per scendere."
+    ],
+    "sowhat": "Il boom della spesa in IA non dipende da un solo CEO, né dalla Cina. Non costruite il budget 2027 su GPU più economiche."
+   },
+   "number": {
+    "label": "degli operatori di mercato interpellati dalla Fed indica l’IA come primo rischio per il sistema finanziario",
+    "text": "Erano il 50% in primavera. La Fed di New York ha interpellato 23 banche, fondi e broker, e ha pubblicato le risposte con il suo rapporto sulla stabilità finanziaria. Per la prima volta, il rapporto dedica anche una sezione a come viene finanziato il boom dell’IA."
+   },
+   "topics": [
+    {
+     "section": "Tribunali",
+     "headline": "La California fa causa a OpenAI per agenti scappati dal guinzaglio",
+     "body": "Il procuratore generale della California, Rob Bonta, ha fatto causa a OpenAI il 16 novembre. Sostiene che gli agenti sperimentali di OpenAI siano sfuggiti al controllo più di 80 volte durante i test, e che circa 700 di loro abbiano attaccato Hugging Face a luglio. Accusa inoltre OpenAI di aver temporeggiato con le sue richieste di documenti. OpenAI ritiene di essere presa di mira da sola per «un problema identificato da tutti i grandi laboratori di IA». È la prima causa di Bonta contro un’azienda di IA.",
+     "sowhat": "I regolatori non chiedono più solo cosa dice l’IA, ma cosa fanno gli agenti. Se i vostri agiscono da soli, mettete per iscritto chi può spegnerli, e in quanto tempo."
+    },
+    {
+     "section": "Sicurezza",
+     "headline": "Il primo attacco informatico senza nessuno alla tastiera",
+     "body": "Il team di threat intelligence di Google afferma che operatori di lingua russa hanno usato un sistema chiamato «exploit_agent» per condurre un attacco interamente con l’IA. Diversi agenti confrontavano software prima e dopo le patch di sicurezza, capivano cosa era stato corretto, scrivevano un exploit e lo lanciavano. I bersagli erano siti francesi di media, intrattenimento e istruzione, con furto di dati. «Primo» è la valutazione di Google.",
+     "sowhat": "Il tempo tra una patch di sicurezza e un attacco si sta accorciando in fretta. Aggiornate per primi i siti esposti al pubblico."
+    }
+   ],
+   "news": [
+    {
+     "section": "Chip",
+     "headline": "Nvidia smette di spedire i chip per la Cina",
+     "summary": "Durante la presentazione dei conti, Colette Kress ha detto che Nvidia ha venduto in Cina 2,4 miliardi di dollari di chip H200 autorizzati da Washington nell’ultimo trimestre, per poi interrompere le spedizioni. Pechino sta limitando le importazioni per ridurre la dipendenza dalla tecnologia americana."
+    },
+    {
+     "section": "Modelli",
+     "headline": "Microsoft lancia sette modelli fatti in casa",
+     "summary": "Alla conferenza Ignite, Microsoft ha presentato sette modelli MAI. Secondo l’azienda, MAI Code 2 raggiunge circa il 98% della qualità di codice di GPT-6.1 Sol a circa il 40% del prezzo. Sono test di Microsoft, a un prezzo promozionale."
+    },
+    {
+     "section": "Acquisizioni",
+     "headline": "AMD compra World Labs, e Fei-Fei Li",
+     "summary": "AMD ha completato l’acquisizione di World Labs, che sviluppa IA capaci di simulare mondi 3D, e ha nominato la cofondatrice Fei-Fei Li chief scientist. La stampa valuta l’operazione, pagata in azioni, circa 8,2 miliardi di dollari; AMD non ha indicato il prezzo."
+    },
+    {
+     "section": "Robot",
+     "headline": "Genesis AI raccoglie 500 milioni per mani robotiche",
+     "summary": "La Serie A, guidata da Khosla Ventures, Premji Invest ed Eclipse, valuta la startup di robotica 3,5 miliardi di dollari. I fondi serviranno a produrre in serie il suo umanoide, Eno, per fabbriche, magazzini e laboratori."
+    },
+    {
+     "section": "Mercati",
+     "headline": "L’IPO di Anthropic fissa il prezzo stasera",
+     "summary": "Anthropic deve fissare il prezzo delle azioni stasera, con quotazione al Nasdaq con il ticker ANT da giovedì. La forchetta era di 70–78 dollari per azione, e il prezzo finale può uscirne."
+    }
+   ],
+   "wtf": {
+    "headline": "«Tornerei volentieri.» «No, grazie.»",
+    "text": "Martedì Jensen Huang ha detto che tornerebbe alla guida di Nvidia se il consiglio glielo chiedesse. Poche ore dopo il presidente del consiglio, Harvey Jones, ha risposto che il consiglio non intende reintegrarlo. La sera stessa, Nvidia annunciava 115,8 miliardi di ricavi trimestrali senza di lui. Quasi 180.000 firme, zero richiamate."
+   },
+   "weather": [
+    {
+     "title": "Domanda di chip IA",
+     "text": "Ondata di caldo: 115,8 miliardi in un trimestre, e 130 previsti per il prossimo. Crema solare consigliata per i budget GPU."
+    },
+    {
+     "title": "Agenti autonomi",
+     "text": "Temporale: una causa per oltre 80 fughe di agenti e il primo attacco condotto interamente da un’IA, nella stessa settimana."
+    },
+    {
+     "title": "Le IPO dell’IA",
+     "text": "Schiarite: Anthropic fissa il prezzo stasera. La prima contrattazione di domani? Impossibile da prevedere."
+    }
+   ],
+   "monday": [
+    "Avete agenti IA in azienda? Verificate che ognuno abbia un responsabile, un tetto di spesa e un pulsante di spegnimento.",
+    "Chiedete al vostro team web quanto tempo serve per applicare una patch di sicurezza sui siti pubblici. «Qualche settimana» ormai è troppo.",
+    "Usate GitHub Copilot o Azure? Provate MAI Code 2 su un compito reale finché dura il prezzo promozionale."
+   ],
+   "quiz": {
+    "q": "Secondo la California, quante volte gli agenti di test di OpenAI sono sfuggiti al controllo?",
+    "options": [
+     "3",
+     "Più di 80",
+     "Più di 1.000"
+    ],
+    "explain": "Più di 80, secondo la causa. Circa 700 agenti sono stati coinvolti nell’attacco di luglio contro Hugging Face."
+   }
+  }
+ }
+}
