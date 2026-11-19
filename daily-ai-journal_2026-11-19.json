@@ -1,0 +1,353 @@
+{
+ "date": "2026-11-19",
+ "edition": "Daily AI — Edition of 19 November 2026",
+ "title": "Daily AI — Edition of 19 November 2026",
+ "publisher": "Mathieu Delloye Consulting",
+ "coverage": "18–19 November 2026",
+ "reading": "4 min",
+ "lead": {
+  "id": "anthropic-ipo-debut",
+  "section": "Markets",
+  "headline": "Anthropic's IPO: biggest ever, wildest first day",
+  "deck": "Priced at $83, opened at $111.50, then a $22 rollercoaster. Welcome to the stock market, Claude.",
+  "body": [
+   "What happened: Anthropic priced its shares at $83 on Wednesday evening, above its $70–$78 range, and sold 980 million shares instead of the 825 million planned. That's $81.3bn raised at a $1.5 trillion valuation, the largest IPO on record, ahead of SpaceX's $75bn in June.",
+   "The first day: ANT opened on Nasdaq at $111.50, up 34%, briefly valuing the company near $2 trillion. It then swung between $114.99 and $92.72, and was trading about 16–18% above its IPO price in the afternoon. The same day, the Dow fell more than 800 points.",
+   "Why it matters: the company behind Claude now has to publish its numbers every quarter. More transparency for customers, and a supplier under constant pressure to grow."
+  ],
+  "sowhat": "If you use Claude, nothing changes tomorrow. But its prices and priorities will now be watched by shareholders every three months.",
+  "sources": [
+   {
+    "label": "Anthropic — IPO pricing (18 Nov)",
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+   },
+   {
+    "label": "CNBC (18 Nov)",
+    "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+   },
+   {
+    "label": "Fortune (19 Nov)",
+    "url": "https://fortune.com/2026/11/19/anthropic-ipo-first-day-trading-nasdaq-record-valuation/"
+   }
+  ]
+ },
+ "number": {
+  "value": "$22",
+  "label": "the gap between ANT's highest and lowest price on day one",
+  "text": "From a high of $114.99 to a low of $92.72 in a single session, per Nasdaq data. For a $1.5 trillion company, that's a lot of mood swings before dinner.",
+  "source": {
+   "label": "FourWeekMBA, citing Nasdaq data",
+   "url": "https://fourweekmba.com/ai-anthropic-swings-from-114-99-to-92-72-on-its-first-day/"
+  }
+ },
+ "topics": [
+  {
+   "id": "banks-ai-agent-liability",
+   "section": "Agents & money",
+   "headline": "Your agent, your problem, say the banks",
+   "body": "Citi has updated its online terms: if you let an outside AI agent into your account, you are responsible for what it does, even if it gets hacked. PNC and Citizens have taken a similar line, following JPMorgan and Bank of America. Agents run by the bank itself don't carry the extra risk. Two days after the Fed warned about agents in bank accounts, the banks have chosen who pays.",
+   "sowhat": "Before plugging an AI agent into a company bank account, read the bank's terms. Today, the bill lands on you.",
+   "sources": [
+    {
+     "label": "Yahoo Finance / TechCrunch",
+     "url": "https://finance.yahoo.com/technology/ai/articles/more-banks-says-customers-using-173210659.html"
+    },
+    {
+     "label": "Startup Fortune",
+     "url": "https://startupfortune.com/citi-pnc-and-citizens-tell-customers-they-own-any-loss-an-ai-agent-causes/"
+    }
+   ]
+  },
+  {
+   "id": "model-price-war",
+   "section": "Models",
+   "headline": "The model price war has a new round",
+   "body": "OpenAI launched GPT-6.2 Astra and Sol on 17 November. Astra, its top model, is 20% cheaper in the API at $8 in and $40 out per million tokens; Sol stays at $2 / $10. A day later Google answered with Gemini 4 Neon, at $3 / $15, its fourth Gemini 4 model in under two months. Add Microsoft's MAI Code 2 from Tuesday, and the benchmarks are all self-reported.",
+   "sowhat": "Prices for top-tier AI keep falling. Re-test your main use case on two or three models every quarter instead of staying loyal by default.",
+   "sources": [
+    {
+     "label": "The Decoder",
+     "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
+    },
+    {
+     "label": "9to5Google (18 Nov)",
+     "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "section": "Europe",
+   "headline": "The European Commission was hit by an AI-powered cyberattack",
+   "summary": "The Commission confirmed that an intrusion detected on 22 October came from an AI-generated campaign. Several internal applications were taken offline, and CERT-EU is checking whether staff data was exposed.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/economy-news/european-commission-confirms-october-cyberattack-powered-by-ai-tool-5039663"
+  },
+  {
+   "section": "Chips",
+   "headline": "OpenAI's models redesign AMD chips",
+   "summary": "OpenAI says its models found up to 14% gains in power, performance and area on AMD's flagship GPU design in under five months. The figures come from OpenAI, not AMD.",
+   "source": "Unite.AI",
+   "url": "https://www.unite.ai/openai-reports-model-driven-gains-in-amd-flagship-chip-designs/"
+  },
+  {
+   "section": "Safety",
+   "headline": "OpenAI lets outside safety testers in",
+   "summary": "Apollo Research, METR, Transluce and Goodfire will evaluate OpenAI's models during training, not just after. Critics say there's still no standard on what they can see or publish.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/"
+  },
+  {
+   "section": "Wall Street",
+   "headline": "The Dow drops 800 points on IPO day",
+   "summary": "The Dow fell about 1.7% and the S&P 500 1.4% as chip stocks erased their gains shortly after ANT started trading. Analysts point to profit-taking on AI stocks.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+  },
+  {
+   "section": "Politics",
+   "headline": "Still no list of AI “national champions”",
+   "summary": "Four days after the WSJ report, Washington has not officially named the 20-plus AI companies it reportedly plans to back abroad. The timing could still slip.",
+   "source": "Investing.com",
+   "url": "https://ca.investing.com/news/stock-market-news/us-plans-to-name-nvidia-among-ai-national-champions-wsj-reports-4959565"
+  }
+ ],
+ "wtf": {
+  "headline": "The AI safety company is worth $2 trillion",
+  "text": "The lab best known for warning about AI risks opened its first trading day worth about $2 trillion, while the rest of Wall Street sold off. One strategist quoted by CNBC compared the action to a casino. Somewhere, a risk report is being rewritten.",
+  "sources": [
+   {
+    "label": "CNBC live",
+    "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+   },
+   {
+    "label": "NPR (19 Nov)",
+    "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
+   }
+  ]
+ },
+ "weather": [
+  {
+   "icon": "☀️",
+   "title": "AI IPOs",
+   "level": 8,
+   "text": "Sunny with gusts: record demand, a 34% pop at the open, and a $22 swing by the afternoon."
+  },
+  {
+   "icon": "⛈️",
+   "title": "AI agents in bank accounts",
+   "level": 2,
+   "text": "Stormy: the banks have decided the customer pays when an outside agent goes wrong."
+  },
+  {
+   "icon": "⛅",
+   "title": "Model prices",
+   "level": 7,
+   "text": "Mostly sunny for buyers: three new price lists in three days, all heading down."
+  }
+ ],
+ "monday": [
+  "Before connecting an AI agent to a company bank account, read your bank's online terms on agent liability.",
+  "Pick your main AI use case and test it on GPT-6.2 Sol, Gemini 4 Neon and your current model. Compare cost per task, not the headline price.",
+  "If you work with EU institutions, ask your IT team when your public systems were last patched."
+ ],
+ "quiz": {
+  "q": "At what price per share did Anthropic set its IPO?",
+  "options": [
+   "$70",
+   "$78",
+   "$83"
+  ],
+  "answer": 2,
+  "explain": "$83, above the $70–$78 range it had marketed. The shares then opened at $111.50."
+ },
+ "i18n": {
+  "fr": {
+   "title": "Daily AI — Édition du 19 novembre 2026",
+   "coverage": "18–19 novembre 2026",
+   "lead": {
+    "section": "Marchés",
+    "headline": "IPO d’Anthropic : record battu, séance folle",
+    "deck": "Prix fixé à 83 $, ouverture à 111,50 $, puis 22 $ de montagnes russes. Bienvenue en Bourse, Claude.",
+    "body": [
+     "Ce qui s’est passé : Anthropic a fixé le prix de ses actions à 83 $ mercredi soir, au-dessus de sa fourchette de 70 à 78 $, et vendu 980 millions d’actions au lieu des 825 millions prévus. Soit 81,3 Md$ levés pour une valorisation de 1 500 Md$, la plus grosse introduction en Bourse jamais réalisée, devant les 75 Md$ de SpaceX en juin.",
+     "La première séance : ANT a ouvert au Nasdaq à 111,50 $, en hausse de 34 %, valorisant brièvement la société près de 2 000 Md$. Le titre a ensuite oscillé entre 114,99 $ et 92,72 $, et s’échangeait environ 16 à 18 % au-dessus du prix d’introduction dans l’après-midi. Le même jour, le Dow Jones perdait plus de 800 points.",
+     "Pourquoi c’est important : l’entreprise derrière Claude doit désormais publier ses comptes chaque trimestre. Plus de transparence pour les clients, et un fournisseur sous pression permanente pour croître."
+    ],
+    "sowhat": "Si vous utilisez Claude, rien ne change demain. Mais ses prix et ses priorités seront désormais scrutés par des actionnaires tous les trois mois."
+   },
+   "number": {
+    "value": "22 $",
+    "label": "l’écart entre le plus haut et le plus bas d’ANT lors de sa première séance",
+    "text": "De 114,99 $ à 92,72 $ en une seule séance, selon les données du Nasdaq. Pour une société à 1 500 Md$, ça fait beaucoup de sautes d’humeur avant le dîner."
+   },
+   "topics": [
+    {
+     "section": "Agents & argent",
+     "headline": "Votre agent, votre problème, disent les banques",
+     "body": "Citi a modifié ses conditions en ligne : si vous laissez un agent IA externe accéder à votre compte, vous êtes responsable de ce qu’il fait, même s’il est piraté. PNC et Citizens ont adopté la même ligne, après JPMorgan et Bank of America. Les agents gérés par la banque elle-même ne font pas peser ce risque supplémentaire. Deux jours après l’alerte de la Fed sur les agents dans les comptes bancaires, les banques ont choisi qui paie.",
+     "sowhat": "Avant de brancher un agent IA sur un compte bancaire d’entreprise, lisez les conditions de la banque. Aujourd’hui, l’addition est pour vous."
+    },
+    {
+     "section": "Modèles",
+     "headline": "La guerre des prix des modèles repart de plus belle",
+     "body": "OpenAI a lancé GPT-6.2 Astra et Sol le 17 novembre. Astra, son modèle haut de gamme, baisse de 20 % dans l’API, à 8 $ en entrée et 40 $ en sortie par million de tokens ; Sol reste à 2 $ / 10 $. Le lendemain, Google a répondu avec Gemini 4 Neon, à 3 $ / 15 $, son quatrième modèle Gemini 4 en moins de deux mois. Ajoutez MAI Code 2 de Microsoft mardi, et tous les benchmarks sont auto-déclarés.",
+     "sowhat": "Le prix de l’IA haut de gamme continue de baisser. Retestez votre usage principal sur deux ou trois modèles chaque trimestre, plutôt que de rester fidèle par défaut."
+    }
+   ],
+   "news": [
+    {
+     "section": "Europe",
+     "headline": "La Commission européenne visée par une cyberattaque menée avec l’IA",
+     "summary": "La Commission a confirmé qu’une intrusion détectée le 22 octobre venait d’une campagne générée par IA. Plusieurs applications internes ont été coupées, et le CERT-EU vérifie si des données du personnel ont été exposées."
+    },
+    {
+     "section": "Puces",
+     "headline": "Les modèles d’OpenAI redessinent les puces d’AMD",
+     "summary": "OpenAI affirme que ses modèles ont trouvé jusqu’à 14 % de gains en consommation, performance et surface sur le design du GPU phare d’AMD, en moins de cinq mois. Les chiffres viennent d’OpenAI, pas d’AMD."
+    },
+    {
+     "section": "Sécurité",
+     "headline": "OpenAI ouvre ses portes à des évaluateurs externes",
+     "summary": "Apollo Research, METR, Transluce et Goodfire évalueront les modèles d’OpenAI pendant l’entraînement, et plus seulement après. Les critiques notent qu’il n’existe toujours aucune règle sur ce qu’ils peuvent voir ou publier."
+    },
+    {
+     "section": "Wall Street",
+     "headline": "Le Dow Jones perd 800 points le jour de l’IPO",
+     "summary": "Le Dow a reculé d’environ 1,7 % et le S&P 500 de 1,4 %, les valeurs des puces effaçant leurs gains peu après les débuts d’ANT. Les analystes parlent de prises de bénéfices sur les valeurs IA."
+    },
+    {
+     "section": "Politique",
+     "headline": "Toujours pas de liste de « champions nationaux » de l’IA",
+     "summary": "Quatre jours après l’article du WSJ, Washington n’a toujours pas désigné officiellement la vingtaine d’entreprises d’IA qu’il compte soutenir à l’étranger. Le calendrier peut encore glisser."
+    }
+   ],
+   "wtf": {
+    "headline": "Le labo de la sécurité de l’IA vaut 2 000 milliards",
+    "text": "Le laboratoire connu pour alerter sur les risques de l’IA a ouvert sa première séance valorisé environ 2 000 Md$, pendant que le reste de Wall Street vendait. Un stratège cité par CNBC a comparé la séance à un casino. Quelque part, un rapport sur les risques est en cours de réécriture."
+   },
+   "weather": [
+    {
+     "title": "Les IPO de l’IA",
+     "text": "Ensoleillé avec rafales : demande record, +34 % à l’ouverture, et 22 $ d’écart dans l’après-midi."
+    },
+    {
+     "title": "Les agents IA dans les comptes bancaires",
+     "text": "Orageux : les banques ont décidé que c’est le client qui paie quand un agent externe dérape."
+    },
+    {
+     "title": "Le prix des modèles",
+     "text": "Plutôt ensoleillé pour les acheteurs : trois nouvelles grilles tarifaires en trois jours, toutes à la baisse."
+    }
+   ],
+   "monday": [
+    "Avant de connecter un agent IA à un compte bancaire d’entreprise, lisez les conditions en ligne de votre banque sur la responsabilité des agents.",
+    "Prenez votre principal usage de l’IA et testez-le sur GPT-6.2 Sol, Gemini 4 Neon et votre modèle actuel. Comparez le coût par tâche, pas le prix affiché.",
+    "Vous travaillez avec les institutions européennes ? Demandez à votre équipe IT à quand remonte le dernier correctif de vos systèmes exposés."
+   ],
+   "quiz": {
+    "q": "À quel prix par action Anthropic a-t-elle fixé son introduction en Bourse ?",
+    "options": [
+     "70 $",
+     "78 $",
+     "83 $"
+    ],
+    "explain": "83 $, au-dessus de la fourchette de 70 à 78 $ annoncée. L’action a ensuite ouvert à 111,50 $."
+   }
+  },
+  "it": {
+   "title": "Daily AI — Edizione del 19 novembre 2026",
+   "coverage": "18–19 novembre 2026",
+   "lead": {
+    "section": "Mercati",
+    "headline": "IPO di Anthropic: record e montagne russe",
+    "deck": "Prezzo fissato a 83 $, apertura a 111,50 $, poi 22 $ di saliscendi. Benvenuto in Borsa, Claude.",
+    "body": [
+     "Cosa è successo: mercoledì sera Anthropic ha fissato il prezzo delle azioni a 83 $, sopra la forchetta di 70–78 $, e ha venduto 980 milioni di azioni invece delle 825 milioni previste. Sono 81,3 miliardi di dollari raccolti con una valutazione di 1.500 miliardi, la più grande IPO mai realizzata, davanti ai 75 miliardi di SpaceX a giugno.",
+     "Il primo giorno: ANT ha aperto al Nasdaq a 111,50 $, +34%, valutando per poco la società vicino ai 2.000 miliardi. Poi ha oscillato tra 114,99 $ e 92,72 $, e nel pomeriggio scambiava circa il 16–18% sopra il prezzo dell’IPO. Lo stesso giorno il Dow Jones perdeva oltre 800 punti.",
+     "Perché conta: l’azienda dietro Claude ora deve pubblicare i conti ogni trimestre. Più trasparenza per i clienti, e un fornitore sotto pressione costante per crescere."
+    ],
+    "sowhat": "Se usate Claude, domani non cambia nulla. Ma prezzi e priorità saranno ora osservati dagli azionisti ogni tre mesi."
+   },
+   "number": {
+    "value": "22 $",
+    "label": "la differenza tra il massimo e il minimo di ANT nel primo giorno",
+    "text": "Da un massimo di 114,99 $ a un minimo di 92,72 $ in una sola seduta, secondo i dati del Nasdaq. Per una società da 1.500 miliardi, sono parecchi sbalzi d’umore prima di cena."
+   },
+   "topics": [
+    {
+     "section": "Agenti & soldi",
+     "headline": "Il vostro agente, il vostro problema, dicono le banche",
+     "body": "Citi ha aggiornato le condizioni online: se lasciate entrare nel vostro conto un agente IA esterno, siete responsabili di ciò che fa, anche se viene violato. PNC e Citizens hanno scelto la stessa linea, dopo JPMorgan e Bank of America. Gli agenti gestiti dalla banca stessa non comportano questo rischio aggiuntivo. Due giorni dopo l’allarme della Fed sugli agenti nei conti bancari, le banche hanno deciso chi paga.",
+     "sowhat": "Prima di collegare un agente IA a un conto bancario aziendale, leggete le condizioni della banca. Oggi il conto lo pagate voi."
+    },
+    {
+     "section": "Modelli",
+     "headline": "La guerra dei prezzi dei modelli riparte",
+     "body": "OpenAI ha lanciato GPT-6.2 Astra e Sol il 17 novembre. Astra, il modello di punta, costa il 20% in meno nell’API, 8 $ in input e 40 $ in output per milione di token; Sol resta a 2 $ / 10 $. Il giorno dopo Google ha risposto con Gemini 4 Neon, a 3 $ / 15 $, il suo quarto modello Gemini 4 in meno di due mesi. Aggiungete MAI Code 2 di Microsoft di martedì, e tutti i benchmark sono autodichiarati.",
+     "sowhat": "Il prezzo dell’IA di fascia alta continua a scendere. Ritestate il vostro caso d’uso principale su due o tre modelli ogni trimestre, invece di restare fedeli per abitudine."
+    }
+   ],
+   "news": [
+    {
+     "section": "Europa",
+     "headline": "La Commissione europea colpita da un attacco informatico con l’IA",
+     "summary": "La Commissione ha confermato che un’intrusione rilevata il 22 ottobre proveniva da una campagna generata con l’IA. Diverse applicazioni interne sono state spente, e il CERT-EU verifica se i dati del personale siano stati esposti."
+    },
+    {
+     "section": "Chip",
+     "headline": "I modelli di OpenAI ridisegnano i chip di AMD",
+     "summary": "OpenAI afferma che i suoi modelli hanno trovato fino al 14% di miglioramenti in consumo, prestazioni e area sul design della GPU di punta di AMD, in meno di cinque mesi. I dati vengono da OpenAI, non da AMD."
+    },
+    {
+     "section": "Sicurezza",
+     "headline": "OpenAI apre le porte a valutatori esterni",
+     "summary": "Apollo Research, METR, Transluce e Goodfire valuteranno i modelli di OpenAI durante l’addestramento, non solo dopo. I critici notano che manca ancora una regola su cosa possono vedere o pubblicare."
+    },
+    {
+     "section": "Wall Street",
+     "headline": "Il Dow perde 800 punti nel giorno dell’IPO",
+     "summary": "Il Dow ha ceduto circa l’1,7% e l’S&P 500 l’1,4%, con i titoli dei chip che hanno azzerato i guadagni poco dopo il debutto di ANT. Gli analisti parlano di prese di profitto sui titoli IA."
+    },
+    {
+     "section": "Politica",
+     "headline": "Ancora nessuna lista dei «campioni nazionali» dell’IA",
+     "summary": "Quattro giorni dopo l’articolo del WSJ, Washington non ha ancora nominato ufficialmente le oltre venti aziende di IA che intenderebbe sostenere all’estero. I tempi possono ancora slittare."
+    }
+   ],
+   "wtf": {
+    "headline": "Il laboratorio della sicurezza dell’IA vale 2.000 miliardi",
+    "text": "Il laboratorio noto per mettere in guardia dai rischi dell’IA ha aperto la sua prima seduta valutato circa 2.000 miliardi, mentre il resto di Wall Street vendeva. Uno stratega citato da CNBC ha paragonato la seduta a un casinò. Da qualche parte, un rapporto sui rischi è in fase di riscrittura."
+   },
+   "weather": [
+    {
+     "title": "Le IPO dell’IA",
+     "text": "Sereno con raffiche: domanda record, +34% all’apertura e 22 $ di oscillazione nel pomeriggio."
+    },
+    {
+     "title": "Agenti IA nei conti bancari",
+     "text": "Temporale: le banche hanno deciso che paga il cliente quando un agente esterno sbaglia."
+    },
+    {
+     "title": "Prezzi dei modelli",
+     "text": "Per lo più sereno per chi compra: tre nuovi listini in tre giorni, tutti al ribasso."
+    }
+   ],
+   "monday": [
+    "Prima di collegare un agente IA a un conto bancario aziendale, leggete le condizioni online della banca sulla responsabilità degli agenti.",
+    "Prendete il vostro principale caso d’uso dell’IA e provatelo su GPT-6.2 Sol, Gemini 4 Neon e il modello attuale. Confrontate il costo per attività, non il prezzo di listino.",
+    "Lavorate con le istituzioni europee? Chiedete al vostro team IT a quando risale l’ultima patch dei sistemi esposti."
+   ],
+   "quiz": {
+    "q": "A quale prezzo per azione Anthropic ha fissato la sua IPO?",
+    "options": [
+     "70 $",
+     "78 $",
+     "83 $"
+    ],
+    "explain": "83 $, sopra la forchetta di 70–78 $ annunciata. Le azioni hanno poi aperto a 111,50 $."
+   }
+  }
+ }
+}
