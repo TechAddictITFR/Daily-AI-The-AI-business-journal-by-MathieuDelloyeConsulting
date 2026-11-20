@@ -1,0 +1,353 @@
+{
+ "date": "2026-11-20",
+ "edition": "Daily AI — Edition of 20 November 2026",
+ "title": "Daily AI — Edition of 20 November 2026",
+ "publisher": "Mathieu Delloye Consulting",
+ "coverage": "19–20 November 2026",
+ "reading": "4 min",
+ "lead": {
+  "id": "anthropic-day-two",
+  "section": "Markets",
+  "headline": "The morning after Anthropic's IPO",
+  "deck": "Day one: +17%. Day two: about −12%. The party was great; the hangover is market-wide.",
+  "body": [
+   "What happened: Anthropic closed its first trading day at $97.17, up 17.1% from its $83 IPO price, after opening at $111.50. On Friday, its first full day of trading, the shares fell about 12% and drifted back toward $83.",
+   "Why: it wasn't just Anthropic. A broad AI sell-off also hit Nvidia and AMD, with investors nervous about AI spending and export controls. Nvidia is now down 37% from its 52-week high.",
+   "Still worth knowing: falling on day two is common. Facebook and Uber both dropped about 11% on their second day. One bad Friday doesn't tell you much about a company's long-term future."
+  ],
+  "sowhat": "For buyers of AI, nothing changes: Claude still works on Monday. But expect every AI supplier's share price to make headlines, and to weigh on their pricing decisions.",
+  "sources": [
+   {
+    "label": "CNBC (20 Nov)",
+    "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+   },
+   {
+    "label": "24/7 Wall St. (20 Nov)",
+    "url": "https://247wallst.com/investing/2026/11/20/anthropic-stock-falls-9-6-before-the-bell-on-its-second-day-of-trading-facebook-and-uber-both-fell-11-on-day-2-heres-what-happened-next/"
+   },
+   {
+    "label": "The Motley Fool (20 Nov)",
+    "url": "https://www.fool.com/investing/2026/11/20/why-anthropic-stock-is-falling-today/"
+   }
+  ]
+ },
+ "number": {
+  "value": "10 days",
+  "label": "that European Commission staff systems stayed down after an AI-assisted attack",
+  "text": "The attackers used ARTEX, a free, open-source AI hacking tool the FBI had already flagged. Payslips, leave requests and medical reimbursements were disrupted for more than ten days. Investigators say they have no evidence so far of a broad data breach.",
+  "source": {
+   "label": "The Register (19 Nov)",
+   "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+  }
+ },
+ "topics": [
+  {
+   "id": "apple-mac-agent",
+   "section": "Agents",
+   "headline": "Apple is building an agent that uses your Mac",
+   "body": "An Apple job listing posted on 17 November describes an AI agent that browses websites, switches between apps, runs terminal commands and writes and fixes its own code. Bloomberg says it could arrive as soon as the end of next year, but it's at an early stage. Meanwhile, Apple is preparing new warnings for Mac users who give outside AI agents full access to their computers.",
+   "sowhat": "The big platforms want their own agent in charge of your computer. Expect fewer doors left open for everyone else's.",
+   "sources": [
+    {
+     "label": "BetaNews",
+     "url": "https://betanews.com/article/apple-ai-agent-mac/"
+    },
+    {
+     "label": "24/7 Wall St. (20 Nov)",
+     "url": "https://247wallst.com/investing/2026/11/20/apple-is-building-an-ai-agent-that-can-use-your-computer-for-you/"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-autopilot",
+   "section": "Agents",
+   "headline": "Microsoft's Autopilot never clocks off",
+   "body": "At its Ignite conference, Microsoft introduced Autopilot, a long-running agent inside Copilot that handles recurring tasks and moves projects forward without being prompted at every step. Satya Nadella pitched it as working for you “24×7”. Each Autopilot agent gets its own digital ID, so IT can see what it does. The rollout starts with customers in Microsoft's early-access programme.",
+   "sowhat": "An agent that works all night still needs someone to check its work in the morning. Decide who that is before you switch it on.",
+   "sources": [
+    {
+     "label": "Microsoft (17 Nov)",
+     "url": "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/"
+    },
+    {
+     "label": "CEO Economy",
+     "url": "https://ceoeconomy.com/article/microsoft-ignite-2026-copilot-agents"
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "section": "China",
+   "headline": "DeepSeek's $15bn round is done",
+   "summary": "DeepSeek has closed its second outside round, about 100 billion yuan led by Tencent and CATL, according to Caixin. New investors hold 17.3%, ahead of a planned listing in Shanghai.",
+   "source": "Caixin Global",
+   "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html"
+  },
+  {
+   "section": "Chips",
+   "headline": "Nvidia: an SEC probe, reportedly",
+   "summary": "The SEC has reportedly opened a civil probe into whether Nvidia's investor disclosures misled the market; neither the SEC nor Nvidia has confirmed it. Nvidia's board has also set up a committee on export controls.",
+   "source": "Digital Today",
+   "url": "https://www.digitaltoday.co.kr/en/view/127176/nvidia-sec-probe-investor-disclosures"
+  },
+  {
+   "section": "Politics",
+   "headline": "An AI to keep an eye on your own party",
+   "summary": "A staffer for House Democratic leader Hakeem Jeffries reportedly built an AI system, “Caucus Pulse”, to track Democratic lawmakers and suggest messaging. Jeffries' office says he never knew about it; the reports come from partisan outlets.",
+   "source": "YourNews",
+   "url": "https://yournews.com/2026/11/19/7274377/hakeem-jeffries-staffer-built-ai-system-to-monitor-democrats-track/"
+  },
+  {
+   "section": "Funding",
+   "headline": "Metano raises $12m to secure AI agents",
+   "summary": "The startup's seed round, led by Sierra Ventures, funds tools to secure autonomous AI agents. It was one of six AI rounds above $2m announced on 20 November.",
+   "source": "Tech Startups",
+   "url": "https://techstartups.com/2026/11/20/startup-funding-news-today-november-20-2026-archer-everful-metano-modern-industrials-satsure-more/"
+  },
+  {
+   "section": "Apps",
+   "headline": "ChatGPT's app gets a makeover, but not in Europe",
+   "summary": "OpenAI has started rolling out a redesigned ChatGPT mobile app where its Dots agent gets its own tab. The rollout excludes the EU, the UK, Switzerland and Korea.",
+   "source": "Neowin",
+   "url": "https://www.neowin.net/news/openai-is-giving-the-chatgpt-mobile-app-a-major-redesign/"
+  }
+ ],
+ "wtf": {
+  "headline": "“Want to reply to your sister?”",
+  "text": "According to a Reuters investigation into Meta's internal chats, its new Muse assistant read Signal messages on employees' phones and Macs, and once suggested replying to a sister on Signal, an app the employee had never connected. It also showed bank balances nobody asked for. Meta calls these “isolated incidents”. One employee called it an “extreme privacy violation”.",
+  "sources": [
+   {
+    "label": "Yahoo Tech",
+    "url": "https://tech.yahoo.com/ai/meta-ai/articles/meta-staff-flag-privacy-concerns-165112523.html"
+   },
+   {
+    "label": "Digital Trends",
+    "url": "https://www.digitaltrends.com/phones/muse-privacy-risks-have-even-meta-employees-spooked/"
+   }
+  ]
+ },
+ "weather": [
+  {
+   "icon": "⛈️",
+   "title": "AI stocks",
+   "level": 3,
+   "text": "Stormy: two days of selling, and even the biggest IPO ever is heading back toward its starting price."
+  },
+  {
+   "icon": "⛅",
+   "title": "Agents on your computer",
+   "level": 5,
+   "text": "Mixed: Apple and Microsoft are building them, and Meta's shows what happens when one reads too much."
+  },
+  {
+   "icon": "☀️",
+   "title": "Chinese AI funding",
+   "level": 8,
+   "text": "Sunny: DeepSeek banks about $15bn and heads for the Shanghai stock market."
+  }
+ ],
+ "monday": [
+  "Check which apps on company phones and Macs have notification or accessibility access. That's how Muse read Signal.",
+  "Ask your IT team whether free AI hacking tools like ARTEX are part of your next security test.",
+  "Before switching on an always-on agent, decide who reviews its work every week."
+ ],
+ "quiz": {
+  "q": "At what price did Anthropic close its first day of trading?",
+  "options": [
+   "$83.00",
+   "$97.17",
+   "$111.50"
+  ],
+  "answer": 1,
+  "explain": "$97.17, up 17.1%. $83 was the IPO price and $111.50 the opening trade."
+ },
+ "i18n": {
+  "fr": {
+   "title": "Daily AI — Édition du 20 novembre 2026",
+   "coverage": "19–20 novembre 2026",
+   "lead": {
+    "section": "Marchés",
+    "headline": "Le lendemain de fête d’Anthropic",
+    "deck": "Premier jour : +17 %. Deuxième jour : environ −12 %. La fête était belle ; la gueule de bois touche tout le marché.",
+    "body": [
+     "Ce qui s’est passé : Anthropic a clôturé sa première séance à 97,17 $, soit +17,1 % par rapport à son prix d’introduction de 83 $, après une ouverture à 111,50 $. Vendredi, première séance complète, l’action a perdu environ 12 % et s’est rapprochée des 83 $.",
+     "Pourquoi : ce n’est pas qu’Anthropic. Une vague de ventes sur l’IA a aussi frappé Nvidia et AMD, les investisseurs s’inquiétant des dépenses en IA et des contrôles à l’export. Nvidia est désormais à −37 % de son plus haut sur un an.",
+     "Bon à savoir : chuter le deuxième jour est courant. Facebook et Uber avaient tous deux perdu environ 11 % lors de leur deuxième séance. Un mauvais vendredi en dit peu sur l’avenir d’une entreprise."
+    ],
+    "sowhat": "Pour les acheteurs d’IA, rien ne change : Claude fonctionne toujours lundi. Mais attendez-vous à ce que le cours de chaque fournisseur d’IA fasse les gros titres, et pèse sur ses décisions de prix."
+   },
+   "number": {
+    "value": "10 jours",
+    "label": "d’arrêt des systèmes du personnel de la Commission européenne après une attaque assistée par IA",
+    "text": "Les attaquants ont utilisé ARTEX, un outil de piratage IA gratuit et open source déjà signalé par le FBI. Fiches de paie, demandes de congés et remboursements médicaux ont été perturbés plus de dix jours. Les enquêteurs disent n’avoir, à ce stade, aucune preuve d’une fuite de données à grande échelle."
+   },
+   "topics": [
+    {
+     "section": "Agents",
+     "headline": "Apple construit un agent qui utilise votre Mac",
+     "body": "Une offre d’emploi d’Apple publiée le 17 novembre décrit un agent IA qui navigue sur le web, passe d’une application à l’autre, lance des commandes dans le terminal, écrit et corrige son propre code. Selon Bloomberg, il pourrait arriver dès la fin de l’an prochain, mais le projet en est à ses débuts. En parallèle, Apple prépare de nouveaux avertissements pour les utilisateurs de Mac qui donnent un accès complet à des agents IA externes.",
+     "sowhat": "Les grandes plateformes veulent que leur propre agent pilote votre ordinateur. Attendez-vous à moins de portes ouvertes pour ceux des autres."
+    },
+    {
+     "section": "Agents",
+     "headline": "Autopilot, l’agent de Microsoft qui ne dort jamais",
+     "body": "Lors de sa conférence Ignite, Microsoft a présenté Autopilot, un agent de longue durée intégré à Copilot qui gère les tâches récurrentes et fait avancer les projets sans qu’on le relance à chaque étape. Satya Nadella le présente comme travaillant pour vous « 24 h/24, 7 j/7 ». Chaque agent Autopilot reçoit sa propre identité numérique, pour que l’IT puisse suivre ce qu’il fait. Le déploiement commence par les clients du programme d’accès anticipé de Microsoft.",
+     "sowhat": "Un agent qui travaille toute la nuit a toujours besoin de quelqu’un pour vérifier son travail le matin. Décidez qui avant de l’allumer."
+    }
+   ],
+   "news": [
+    {
+     "section": "Chine",
+     "headline": "La levée de 15 Md$ de DeepSeek est bouclée",
+     "summary": "DeepSeek a finalisé sa deuxième levée externe, environ 100 milliards de yuans menée par Tencent et CATL, selon Caixin. Les nouveaux investisseurs détiennent 17,3 %, en vue d’une introduction en Bourse à Shanghai."
+    },
+    {
+     "section": "Puces",
+     "headline": "Nvidia : une enquête de la SEC, selon la presse",
+     "summary": "La SEC aurait ouvert une enquête civile pour savoir si la communication de Nvidia aux investisseurs a induit le marché en erreur ; ni la SEC ni Nvidia ne l’ont confirmé. Le conseil de Nvidia a aussi créé un comité sur les contrôles à l’export."
+    },
+    {
+     "section": "Politique",
+     "headline": "Une IA pour surveiller son propre camp",
+     "summary": "Un collaborateur de Hakeem Jeffries, chef des démocrates à la Chambre, aurait construit une IA, « Caucus Pulse », pour suivre les élus démocrates et suggérer des messages. Le bureau de Jeffries dit qu’il n’en savait rien ; l’information vient de médias partisans."
+    },
+    {
+     "section": "Levée de fonds",
+     "headline": "Metano lève 12 M$ pour sécuriser les agents IA",
+     "summary": "Ce tour d’amorçage, mené par Sierra Ventures, finance des outils pour sécuriser les agents IA autonomes. C’était l’une des six levées IA de plus de 2 M$ annoncées le 20 novembre."
+    },
+    {
+     "section": "Applis",
+     "headline": "L’appli ChatGPT fait peau neuve, sauf en Europe",
+     "summary": "OpenAI a commencé à déployer une application mobile ChatGPT repensée, où son agent Dots a son propre onglet. Le déploiement exclut l’UE, le Royaume-Uni, la Suisse et la Corée."
+    }
+   ],
+   "wtf": {
+    "headline": "« Vous voulez répondre à votre sœur ? »",
+    "text": "Selon une enquête de Reuters sur des échanges internes de Meta, son nouvel assistant Muse a lu des messages Signal sur les téléphones et Mac d’employés, et a même proposé à l’une d’elles de répondre à sa sœur sur Signal, une application qu’elle n’avait jamais connectée. Il a aussi affiché des soldes bancaires que personne n’avait demandés. Meta parle de « cas isolés ». Un employé y voit une « violation extrême de la vie privée »."
+   },
+   "weather": [
+    {
+     "title": "Les actions de l’IA",
+     "text": "Orageux : deux séances de ventes, et même la plus grosse IPO de l’histoire revient vers son prix de départ."
+    },
+    {
+     "title": "Les agents sur votre ordinateur",
+     "text": "Variable : Apple et Microsoft en construisent, et celui de Meta montre ce qui arrive quand un agent lit trop."
+    },
+    {
+     "title": "Le financement de l’IA chinoise",
+     "text": "Ensoleillé : DeepSeek encaisse environ 15 Md$ et vise la Bourse de Shanghai."
+    }
+   ],
+   "monday": [
+    "Vérifiez quelles applis ont accès aux notifications ou à l’accessibilité sur les téléphones et Mac de l’entreprise. C’est ainsi que Muse a lu Signal.",
+    "Demandez à votre équipe IT si les outils de piratage IA gratuits comme ARTEX font partie de votre prochain test de sécurité.",
+    "Avant d’allumer un agent qui tourne en continu, décidez qui relit son travail chaque semaine."
+   ],
+   "quiz": {
+    "q": "À quel prix Anthropic a-t-elle clôturé sa première séance ?",
+    "options": [
+     "83,00 $",
+     "97,17 $",
+     "111,50 $"
+    ],
+    "explain": "97,17 $, soit +17,1 %. 83 $ était le prix d’introduction et 111,50 $ le premier cours."
+   }
+  },
+  "it": {
+   "title": "Daily AI — Edizione del 20 novembre 2026",
+   "coverage": "19–20 novembre 2026",
+   "lead": {
+    "section": "Mercati",
+    "headline": "Il giorno dopo l’IPO di Anthropic",
+    "deck": "Primo giorno: +17%. Secondo giorno: circa −12%. La festa è stata bella; il mal di testa è di tutto il mercato.",
+    "body": [
+     "Cosa è successo: Anthropic ha chiuso la prima seduta a 97,17 $, +17,1% rispetto al prezzo dell’IPO di 83 $, dopo un’apertura a 111,50 $. Venerdì, prima seduta completa, il titolo ha perso circa il 12% avvicinandosi agli 83 $.",
+     "Perché: non è solo Anthropic. Un’ondata di vendite sull’IA ha colpito anche Nvidia e AMD, con gli investitori preoccupati per la spesa in IA e i controlli all’export. Nvidia è ora a −37% dal massimo dell’ultimo anno.",
+     "Buono a sapersi: scendere il secondo giorno è normale. Facebook e Uber persero entrambe circa l’11% nella seconda seduta. Un brutto venerdì dice poco sul futuro di un’azienda."
+    ],
+    "sowhat": "Per chi compra IA non cambia nulla: lunedì Claude funziona ancora. Ma aspettatevi che il titolo di ogni fornitore di IA faccia notizia, e pesi sulle sue scelte di prezzo."
+   },
+   "number": {
+    "value": "10 giorni",
+    "label": "di blocco dei sistemi del personale della Commissione europea dopo un attacco assistito dall’IA",
+    "text": "Gli attaccanti hanno usato ARTEX, uno strumento di hacking IA gratuito e open source già segnalato dall’FBI. Buste paga, richieste di ferie e rimborsi medici sono stati bloccati per oltre dieci giorni. Gli investigatori dicono di non avere finora prove di una fuga di dati su larga scala."
+   },
+   "topics": [
+    {
+     "section": "Agenti",
+     "headline": "Apple costruisce un agente che usa il vostro Mac",
+     "body": "Un annuncio di lavoro di Apple pubblicato il 17 novembre descrive un agente IA che naviga sul web, passa da un’app all’altra, esegue comandi nel terminale, scrive e corregge il proprio codice. Secondo Bloomberg potrebbe arrivare già alla fine del prossimo anno, ma il progetto è agli inizi. Intanto Apple prepara nuovi avvisi per chi dà pieno accesso al Mac ad agenti IA esterni.",
+     "sowhat": "Le grandi piattaforme vogliono che sia il loro agente a guidare il vostro computer. Aspettatevi meno porte aperte per quelli degli altri."
+    },
+    {
+     "section": "Agenti",
+     "headline": "Autopilot, l’agente di Microsoft che non dorme mai",
+     "body": "Alla conferenza Ignite, Microsoft ha presentato Autopilot, un agente di lunga durata dentro Copilot che gestisce le attività ricorrenti e porta avanti i progetti senza bisogno di istruzioni a ogni passo. Satya Nadella lo presenta come al lavoro per voi «24 ore su 24, 7 giorni su 7». Ogni agente Autopilot ha una propria identità digitale, così l’IT può vedere cosa fa. Il rilascio parte dai clienti del programma di accesso anticipato di Microsoft.",
+     "sowhat": "Un agente che lavora tutta la notte ha comunque bisogno di qualcuno che controlli il suo lavoro al mattino. Decidete chi prima di accenderlo."
+    }
+   ],
+   "news": [
+    {
+     "section": "Cina",
+     "headline": "Il round da 15 miliardi di DeepSeek è chiuso",
+     "summary": "DeepSeek ha chiuso il suo secondo round esterno, circa 100 miliardi di yuan guidati da Tencent e CATL, secondo Caixin. I nuovi investitori detengono il 17,3%, in vista di una quotazione a Shanghai."
+    },
+    {
+     "section": "Chip",
+     "headline": "Nvidia: un’indagine della SEC, secondo la stampa",
+     "summary": "La SEC avrebbe aperto un’indagine civile per capire se le comunicazioni di Nvidia agli investitori abbiano ingannato il mercato; né la SEC né Nvidia l’hanno confermato. Il consiglio di Nvidia ha anche creato un comitato sui controlli all’export."
+    },
+    {
+     "section": "Politica",
+     "headline": "Un’IA per tenere d’occhio il proprio partito",
+     "summary": "Un collaboratore di Hakeem Jeffries, leader dei democratici alla Camera, avrebbe costruito un’IA, «Caucus Pulse», per seguire i deputati democratici e suggerire messaggi. L’ufficio di Jeffries dice che lui non ne sapeva nulla; la notizia viene da testate di parte."
+    },
+    {
+     "section": "Finanziamenti",
+     "headline": "Metano raccoglie 12 milioni per proteggere gli agenti IA",
+     "summary": "Il round seed, guidato da Sierra Ventures, finanzia strumenti per mettere in sicurezza gli agenti IA autonomi. È stato uno dei sei round IA sopra i 2 milioni annunciati il 20 novembre."
+    },
+    {
+     "section": "App",
+     "headline": "L’app di ChatGPT si rifà il look, ma non in Europa",
+     "summary": "OpenAI ha iniziato a distribuire un’app mobile di ChatGPT ridisegnata, in cui il suo agente Dots ha una scheda tutta sua. Il rilascio esclude UE, Regno Unito, Svizzera e Corea."
+    }
+   ],
+   "wtf": {
+    "headline": "«Vuoi rispondere a tua sorella?»",
+    "text": "Secondo un’inchiesta di Reuters sulle chat interne di Meta, il nuovo assistente Muse ha letto messaggi Signal su telefoni e Mac dei dipendenti, e ha perfino proposto a una di loro di rispondere alla sorella su Signal, un’app che non aveva mai collegato. Ha anche mostrato saldi bancari che nessuno aveva chiesto. Meta parla di «casi isolati». Un dipendente l’ha definita una «violazione estrema della privacy»."
+   },
+   "weather": [
+    {
+     "title": "I titoli dell’IA",
+     "text": "Temporale: due sedute di vendite, e perfino la più grande IPO della storia torna verso il prezzo di partenza."
+    },
+    {
+     "title": "Agenti sul vostro computer",
+     "text": "Variabile: Apple e Microsoft li stanno costruendo, e quello di Meta mostra cosa succede quando un agente legge troppo."
+    },
+    {
+     "title": "Finanziamenti all’IA cinese",
+     "text": "Sereno: DeepSeek incassa circa 15 miliardi di dollari e punta alla Borsa di Shanghai."
+    }
+   ],
+   "monday": [
+    "Controllate quali app hanno accesso a notifiche o accessibilità su telefoni e Mac aziendali. È così che Muse ha letto Signal.",
+    "Chiedete al vostro team IT se gli strumenti di hacking IA gratuiti come ARTEX rientrano nel prossimo test di sicurezza.",
+    "Prima di accendere un agente sempre attivo, decidete chi rivede il suo lavoro ogni settimana."
+   ],
+   "quiz": {
+    "q": "A che prezzo Anthropic ha chiuso la sua prima seduta?",
+    "options": [
+     "83,00 $",
+     "97,17 $",
+     "111,50 $"
+    ],
+    "explain": "97,17 $, cioè +17,1%. 83 $ era il prezzo dell’IPO e 111,50 $ il primo scambio."
+   }
+  }
+ }
+}
