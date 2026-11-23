@@ -1,0 +1,341 @@
+{
+ "date": "2026-11-23",
+ "edition": "Daily AI — Edition of 23 November 2026",
+ "title": "Daily AI — Edition of 23 November 2026",
+ "publisher": "Mathieu Delloye Consulting",
+ "coverage": "20–23 November 2026",
+ "reading": "4 min",
+ "lead": {
+  "id": "riemann-claude",
+  "section": "Science",
+  "headline": "Claude and the 167-year-old riddle",
+  "deck": "An Anthropic mathematician says he and Claude proved the Riemann hypothesis. A computer checked it. Humans are still reading.",
+  "body": [
+   "What happened: on Friday, Levent Alpöge, a mathematician at Anthropic, posted a four-page note saying that, working with Claude, he had found a proof of the Riemann hypothesis. It's the most famous open problem in maths, first posed in 1859, about where the prime numbers hide.",
+   "Why people take it seriously: the proof was written in Lean, a language in which a computer checks every step. By Saturday, the Lean and Mathlib communities said they had full confidence it is correct, according to several reports.",
+   "Still fuzzy: there's no full write-up humans can read yet, and the Clay Institute still lists the problem as unsolved, along with its $1 million prize. Mathematicians will want to understand the proof, not just trust the machine."
+  ],
+  "sowhat": "If it holds, AI just moved from writing your emails to cracking maths' hardest problem. Expect “we used AI for the hard part” to become a normal sentence in research.",
+  "sources": [
+   {
+    "label": "Scientific American",
+    "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+   },
+   {
+    "label": "Phys.org",
+    "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html"
+   }
+  ]
+ },
+ "number": {
+  "value": "5.3%",
+  "label": "the Nasdaq's fall on Friday, wiping out all its gains for 2026",
+  "text": "The Nasdaq closed at 22,617.73. The S&P 500 and the Dow officially entered a correction, meaning 10% below their highs. Chipmakers led the drop, with Nvidia down about 14%. Anthropic slid too, but stayed above its $83 IPO price.",
+  "source": {
+   "label": "CNN (20 Nov)",
+   "url": "https://us.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai"
+  }
+ },
+ "topics": [
+  {
+   "id": "amazon-decart",
+   "section": "Deals",
+   "headline": "Amazon goes shopping: $7.5bn for Decart",
+   "body": "Amazon is in advanced talks to buy Decart, an Israeli startup whose software makes AI models run more efficiently and frees up chip capacity, the Financial Times reported on Saturday. The price: about $7.5bn, up from a $4bn valuation in May. Decart already runs on Amazon's own Trainium chips. Anthropic had looked at buying it, then walked away. Neither company comments, and talks could still fall apart.",
+   "sowhat": "The AI race isn't only about bigger models. Squeezing more out of each chip is now worth billions, and that should show up in your cloud bill.",
+   "sources": [
+    {
+     "label": "PYMNTS (citing FT)",
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/"
+    },
+    {
+     "label": "MarketScreener",
+     "url": "https://www.marketscreener.com/news/amazon-nears-7-5-billion-deal-to-buy-ai-startup-decart-ce7851dad88bf622"
+    }
+   ]
+  },
+  {
+   "id": "dragos-canaries",
+   "section": "Security",
+   "headline": "Two million fake secrets, three leaks",
+   "body": "Security firm Dragos spent five months hiding fake passwords and unique links in about two million prompts sent to popular AI services, then watched where they turned up. The result: data from at least three AI providers was exposed, and attackers tried to use the fake keys. Some resellers on an AI marketplace could also read and keep customers' prompts, and some providers ignored “don't keep my data” settings.",
+   "sowhat": "Whatever you paste into an AI tool may live longer, and travel further, than you think. Treat prompts like emails to a stranger.",
+   "sources": [
+    {
+     "label": "Dragos",
+     "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "section": "Security",
+   "headline": "Nadella: more bugs found, more outages",
+   "summary": "At the New York Times DealBook Summit, Microsoft's CEO said AI now finds software flaws faster than companies can safely fix them. He warned that the rush to patch could mean more outages.",
+   "source": "Anadolu Agency",
+   "url": "https://aa.com.tr/en/world/microsoft-ceo-warns-ai-could-trigger-more-outages-as-cybersecurity-risks-grow/4130517"
+  },
+  {
+   "section": "Health",
+   "headline": "Spotting bladder cancer in old medical records",
+   "summary": "A University of Plymouth model found 85% of bladder cancer cases in about 70,000 Welsh health records, with some signals up to five years early. It works best in the last year before diagnosis and still needs testing elsewhere.",
+   "source": "University of Plymouth",
+   "url": "https://www.plymouth.ac.uk/news/bladder-cancer-detected-up-to-five-years-before-diagnosis-thanks-to-ai"
+  },
+  {
+   "section": "Funding",
+   "headline": "Agon raises $70m for European defence AI",
+   "summary": "The startup's Series A, led by Northzone, values it at $450m and funds a European defence AI lab. It has now raised $100m in total.",
+   "source": "Unite.AI",
+   "url": "https://unite.ai/agon-raises-70m-series-a-at-450m-valuation-to-build-defence-ai-lab"
+  },
+  {
+   "section": "Science",
+   "headline": "OpenAI tests its AI on drug chemistry",
+   "summary": "OpenAI published MedChemBench, a test of how well AI handles medicinal chemistry, the work of designing new drugs. Same week as the Riemann news: the labs want to be judged on science, not just chat.",
+   "source": "OpenAI",
+   "url": "https://openai.com/research/index/release/"
+  },
+  {
+   "section": "Security",
+   "headline": "ARTEX is back, now stealing AI keys",
+   "summary": "Amazon says groups it links, with moderate confidence, to China used the ARTEX AI hacking tool to steal AI API keys from exposed LiteLLM and Dify apps. Amazon's decoy servers logged the activity between 3 October and 5 November.",
+   "source": "AWS Security Blog",
+   "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/"
+  }
+ ],
+ "wtf": {
+  "headline": "The fake link that went to the office",
+  "text": "Among the two million bait prompts Dragos sent to AI services, one seeded link later popped up in a company's internal chat. Somewhere, a team was sharing a trap meant for hackers, without knowing who'd set it. Another bait prompt sent to a US provider ended up with a Chinese AI organisation. Your prompts get around more than you do.",
+  "sources": [
+   {
+    "label": "Dragos",
+    "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+   }
+  ]
+ },
+ "weather": [
+  {
+   "icon": "⛈️",
+   "title": "AI stocks",
+   "level": 2,
+   "text": "Stormy: the Nasdaq has given back its whole year, and chipmakers took the biggest hit."
+  },
+  {
+   "icon": "⛅",
+   "title": "Your prompts' privacy",
+   "level": 4,
+   "text": "Mixed: fake secrets leaked from three providers, and stolen AI keys are now a business."
+  },
+  {
+   "icon": "☀️",
+   "title": "AI in science",
+   "level": 9,
+   "text": "Sunny: a claimed Riemann proof checked by computer, and a new test for drug chemistry."
+  }
+ ],
+ "monday": [
+  "List the AI tools your team pastes client data into, and check each one's data-retention settings.",
+  "If you run LiteLLM, Dify or similar tools, make sure they aren't open to the internet and rotate their API keys.",
+  "Ask your cloud provider whether your AI costs will change as cheaper ways to run models arrive."
+ ],
+ "quiz": {
+  "q": "In what year was the Riemann hypothesis first posed?",
+  "options": [
+   "1859",
+   "1900",
+   "1959"
+  ],
+  "answer": 0,
+  "explain": "1859, by Bernhard Riemann. In 1900 Hilbert put it on his famous list of problems; in 2000 the Clay Institute made it a $1 million Millennium Prize problem."
+ },
+ "i18n": {
+  "fr": {
+   "title": "Daily AI — Édition du 23 novembre 2026",
+   "coverage": "20–23 novembre 2026",
+   "lead": {
+    "section": "Science",
+    "headline": "Claude et l’énigme vieille de 167 ans",
+    "deck": "Un mathématicien d’Anthropic dit avoir prouvé l’hypothèse de Riemann avec Claude. Un ordinateur l’a vérifiée. Les humains lisent encore.",
+    "body": [
+     "Ce qui s’est passé : vendredi, Levent Alpöge, mathématicien chez Anthropic, a publié une note de quatre pages affirmant qu’en travaillant avec Claude, il avait trouvé une preuve de l’hypothèse de Riemann. C’est le plus célèbre problème ouvert des mathématiques, posé en 1859, sur la répartition des nombres premiers.",
+     "Pourquoi on le prend au sérieux : la preuve est écrite en Lean, un langage dans lequel un ordinateur vérifie chaque étape. Dès samedi, les communautés Lean et Mathlib se disaient pleinement confiantes dans sa justesse, selon plusieurs médias.",
+     "Encore flou : il n’existe pas encore de version complète lisible par des humains, et l’Institut Clay considère toujours le problème comme non résolu, prix d’un million de dollars compris. Les mathématiciens voudront comprendre la preuve, pas seulement faire confiance à la machine."
+    ],
+    "sowhat": "Si elle tient, l’IA est passée de la rédaction de vos e-mails au problème le plus dur des maths. Attendez-vous à ce que « l’IA a fait la partie difficile » devienne une phrase banale en recherche."
+   },
+   "number": {
+    "value": "5,3 %",
+    "label": "la chute du Nasdaq vendredi, qui efface tous ses gains de 2026",
+    "text": "Le Nasdaq a clôturé à 22 617,73 points. Le S&P 500 et le Dow sont officiellement entrés en correction, soit 10 % sous leurs plus hauts. Les fabricants de puces ont mené la baisse, Nvidia perdant environ 14 %. Anthropic a aussi reculé, mais reste au-dessus de son prix d’introduction de 83 $."
+   },
+   "topics": [
+    {
+     "section": "Rachats",
+     "headline": "Amazon fait ses courses : 7,5 Md$ pour Decart",
+     "body": "Amazon est en négociations avancées pour racheter Decart, une start-up israélienne dont le logiciel fait tourner les modèles d’IA plus efficacement et libère de la capacité de calcul, selon le Financial Times samedi. Le prix : environ 7,5 Md$, contre une valorisation de 4 Md$ en mai. Decart tourne déjà sur les puces Trainium d’Amazon. Anthropic avait envisagé de la racheter, puis renoncé. Aucune des deux entreprises ne commente, et les discussions peuvent encore échouer.",
+     "sowhat": "La course à l’IA ne se joue pas qu’avec de plus gros modèles. Tirer plus de chaque puce vaut désormais des milliards, et cela devrait se voir sur votre facture cloud."
+    },
+    {
+     "section": "Sécurité",
+     "headline": "Deux millions de faux secrets, trois fuites",
+     "body": "L’entreprise de sécurité Dragos a passé cinq mois à cacher de faux mots de passe et des liens uniques dans environ deux millions de prompts envoyés à des services d’IA populaires, puis a observé où ils réapparaissaient. Résultat : des données d’au moins trois fournisseurs d’IA ont été exposées, et des attaquants ont tenté d’utiliser les fausses clés. Des revendeurs d’une place de marché d’IA pouvaient aussi lire et garder les prompts des clients, et certains fournisseurs ignoraient les réglages « ne conservez pas mes données ».",
+     "sowhat": "Ce que vous collez dans un outil d’IA peut vivre plus longtemps, et voyager plus loin, que vous ne le pensez. Traitez vos prompts comme des e-mails à un inconnu."
+    }
+   ],
+   "news": [
+    {
+     "section": "Sécurité",
+     "headline": "Nadella : plus de failles trouvées, plus de pannes",
+     "summary": "Au DealBook Summit du New York Times, le patron de Microsoft a expliqué que l’IA trouve désormais les failles plus vite que les entreprises ne peuvent les corriger sans risque. Selon lui, la course aux correctifs pourrait provoquer davantage de pannes."
+    },
+    {
+     "section": "Santé",
+     "headline": "Repérer le cancer de la vessie dans les dossiers médicaux",
+     "summary": "Un modèle de l’université de Plymouth a repéré 85 % des cancers de la vessie dans environ 70 000 dossiers médicaux gallois, avec certains signaux jusqu’à cinq ans avant. Il est plus fiable dans l’année précédant le diagnostic et doit encore être testé ailleurs."
+    },
+    {
+     "section": "Levée de fonds",
+     "headline": "Agon lève 70 M$ pour l’IA de défense européenne",
+     "summary": "Cette série A, menée par Northzone, valorise la start-up 450 M$ et finance un laboratoire européen d’IA de défense. Elle a désormais levé 100 M$ au total."
+    },
+    {
+     "section": "Science",
+     "headline": "OpenAI teste son IA sur la chimie des médicaments",
+     "summary": "OpenAI a publié MedChemBench, un test de la capacité de l’IA en chimie médicinale, le métier qui conçoit les nouveaux médicaments. Même semaine que Riemann : les labos veulent être jugés sur la science, pas seulement sur la conversation."
+    },
+    {
+     "section": "Sécurité",
+     "headline": "ARTEX revient, et vole des clés d’IA",
+     "summary": "Amazon indique que des groupes qu’il relie, avec une confiance modérée, à la Chine ont utilisé l’outil de piratage IA ARTEX pour voler des clés d’API d’IA sur des applis LiteLLM et Dify exposées. Ses serveurs-pièges ont enregistré l’activité entre le 3 octobre et le 5 novembre."
+    }
+   ],
+   "wtf": {
+    "headline": "Le faux lien qui est allé au bureau",
+    "text": "Parmi les deux millions de prompts-pièges envoyés par Dragos à des services d’IA, un lien piégé a réapparu dans la messagerie interne d’une entreprise. Quelque part, une équipe se partageait un piège destiné aux pirates, sans savoir qui l’avait posé. Un autre prompt envoyé à un fournisseur américain a fini chez une organisation chinoise d’IA. Vos prompts voyagent plus que vous."
+   },
+   "weather": [
+    {
+     "title": "Les actions de l’IA",
+     "text": "Orageux : le Nasdaq a rendu toute son année, et les fabricants de puces ont pris le plus gros coup."
+    },
+    {
+     "title": "La confidentialité de vos prompts",
+     "text": "Variable : de faux secrets ont fuité chez trois fournisseurs, et les clés d’IA volées sont devenues un business."
+    },
+    {
+     "title": "L’IA dans la science",
+     "text": "Ensoleillé : une preuve de Riemann vérifiée par ordinateur, et un nouveau test en chimie des médicaments."
+    }
+   ],
+   "monday": [
+    "Listez les outils d’IA dans lesquels votre équipe colle des données clients, et vérifiez leurs réglages de conservation.",
+    "Si vous utilisez LiteLLM, Dify ou des outils similaires, vérifiez qu’ils ne sont pas ouverts sur Internet et renouvelez leurs clés d’API.",
+    "Demandez à votre fournisseur cloud si vos coûts d’IA vont baisser avec l’arrivée de façons moins chères de faire tourner les modèles."
+   ],
+   "quiz": {
+    "q": "En quelle année l’hypothèse de Riemann a-t-elle été formulée ?",
+    "options": [
+     "1859",
+     "1900",
+     "1959"
+    ],
+    "explain": "1859, par Bernhard Riemann. En 1900, Hilbert l’a inscrite dans sa célèbre liste de problèmes ; en 2000, l’Institut Clay en a fait un problème du Millénaire doté d’un million de dollars."
+   }
+  },
+  "it": {
+   "title": "Daily AI — Edizione del 23 novembre 2026",
+   "coverage": "20–23 novembre 2026",
+   "lead": {
+    "section": "Scienza",
+    "headline": "Claude e l’enigma di 167 anni",
+    "deck": "Un matematico di Anthropic dice di aver dimostrato l’ipotesi di Riemann con Claude. Un computer l’ha verificata. Gli umani stanno ancora leggendo.",
+    "body": [
+     "Cosa è successo: venerdì Levent Alpöge, matematico di Anthropic, ha pubblicato una nota di quattro pagine in cui afferma di aver trovato, lavorando con Claude, una dimostrazione dell’ipotesi di Riemann. È il problema aperto più famoso della matematica, posto nel 1859, sulla distribuzione dei numeri primi.",
+     "Perché viene presa sul serio: la dimostrazione è scritta in Lean, un linguaggio in cui un computer controlla ogni passaggio. Già sabato le comunità Lean e Mathlib si dicevano pienamente fiduciose che sia corretta, secondo diverse testate.",
+     "Ancora da chiarire: non esiste ancora una versione completa leggibile dagli umani, e il Clay Institute considera il problema ancora irrisolto, premio da un milione di dollari compreso. I matematici vorranno capire la dimostrazione, non solo fidarsi della macchina."
+    ],
+    "sowhat": "Se regge, l’IA è passata dallo scrivere le vostre email al problema più difficile della matematica. Aspettatevi che «l’IA ha fatto la parte difficile» diventi una frase normale nella ricerca."
+   },
+   "number": {
+    "value": "5,3%",
+    "label": "il calo del Nasdaq venerdì, che cancella tutti i guadagni del 2026",
+    "text": "Il Nasdaq ha chiuso a 22.617,73 punti. L’S&P 500 e il Dow sono ufficialmente entrati in correzione, cioè il 10% sotto i massimi. I produttori di chip hanno guidato il calo, con Nvidia a circa −14%. Anche Anthropic è scesa, ma resta sopra il prezzo dell’IPO di 83 $."
+   },
+   "topics": [
+    {
+     "section": "Acquisizioni",
+     "headline": "Amazon fa shopping: 7,5 miliardi per Decart",
+     "body": "Amazon è in trattative avanzate per acquistare Decart, startup israeliana il cui software fa girare i modelli di IA in modo più efficiente e libera capacità di calcolo, secondo il Financial Times di sabato. Il prezzo: circa 7,5 miliardi di dollari, contro una valutazione di 4 miliardi a maggio. Decart gira già sui chip Trainium di Amazon. Anthropic aveva valutato l’acquisto, poi ha rinunciato. Nessuna delle due aziende commenta, e le trattative possono ancora saltare.",
+     "sowhat": "La corsa all’IA non si gioca solo con modelli più grandi. Spremere di più ogni chip ora vale miliardi, e dovrebbe vedersi nella vostra bolletta cloud."
+    },
+    {
+     "section": "Sicurezza",
+     "headline": "Due milioni di falsi segreti, tre fughe",
+     "body": "La società di sicurezza Dragos ha passato cinque mesi a nascondere false password e link unici in circa due milioni di prompt inviati a servizi di IA popolari, per poi osservare dove ricomparivano. Risultato: i dati di almeno tre fornitori di IA sono stati esposti, e alcuni attaccanti hanno provato a usare le false chiavi. Alcuni rivenditori di un marketplace di IA potevano anche leggere e conservare i prompt dei clienti, e certi fornitori ignoravano le impostazioni «non conservate i miei dati».",
+     "sowhat": "Ciò che incollate in uno strumento di IA può vivere più a lungo, e viaggiare più lontano, di quanto pensiate. Trattate i prompt come email a uno sconosciuto."
+    }
+   ],
+   "news": [
+    {
+     "section": "Sicurezza",
+     "headline": "Nadella: più falle trovate, più blackout",
+     "summary": "Al DealBook Summit del New York Times, l’amministratore delegato di Microsoft ha detto che l’IA trova ormai le falle più in fretta di quanto le aziende riescano a correggerle in sicurezza. Secondo lui, la corsa alle patch potrebbe causare più interruzioni."
+    },
+    {
+     "section": "Salute",
+     "headline": "Scovare il cancro alla vescica nelle cartelle cliniche",
+     "summary": "Un modello dell’Università di Plymouth ha individuato l’85% dei tumori alla vescica in circa 70.000 cartelle cliniche gallesi, con alcuni segnali fino a cinque anni prima. Funziona meglio nell’ultimo anno prima della diagnosi e va ancora testato altrove."
+    },
+    {
+     "section": "Finanziamenti",
+     "headline": "Agon raccoglie 70 milioni per l’IA della difesa europea",
+     "summary": "La serie A, guidata da Northzone, valuta la startup 450 milioni di dollari e finanzia un laboratorio europeo di IA per la difesa. Il totale raccolto sale a 100 milioni."
+    },
+    {
+     "section": "Scienza",
+     "headline": "OpenAI mette alla prova la sua IA sulla chimica dei farmaci",
+     "summary": "OpenAI ha pubblicato MedChemBench, un test di quanto l’IA se la cava in chimica farmaceutica, il lavoro che progetta nuovi farmaci. Stessa settimana di Riemann: i laboratori vogliono essere giudicati sulla scienza, non solo sulla chat."
+    },
+    {
+     "section": "Sicurezza",
+     "headline": "Torna ARTEX, ora ruba chiavi di IA",
+     "summary": "Amazon dice che gruppi che collega, con moderata fiducia, alla Cina hanno usato lo strumento di hacking IA ARTEX per rubare chiavi API di IA da app LiteLLM e Dify esposte. I suoi server esca hanno registrato l’attività tra il 3 ottobre e il 5 novembre."
+    }
+   ],
+   "wtf": {
+    "headline": "Il link finto che è andato in ufficio",
+    "text": "Tra i due milioni di prompt esca inviati da Dragos ai servizi di IA, un link trappola è ricomparso nella chat interna di un’azienda. Da qualche parte, un team si passava una trappola pensata per gli hacker, senza sapere chi l’avesse piazzata. Un altro prompt inviato a un fornitore americano è finito a un’organizzazione cinese di IA. I vostri prompt viaggiano più di voi."
+   },
+   "weather": [
+    {
+     "title": "I titoli dell’IA",
+     "text": "Temporale: il Nasdaq ha restituito tutto l’anno, e i produttori di chip hanno preso il colpo più duro."
+    },
+    {
+     "title": "La privacy dei vostri prompt",
+     "text": "Variabile: falsi segreti sono trapelati da tre fornitori, e le chiavi di IA rubate sono diventate un business."
+    },
+    {
+     "title": "L’IA nella scienza",
+     "text": "Sereno: una dimostrazione di Riemann verificata al computer, e un nuovo test sulla chimica dei farmaci."
+    }
+   ],
+   "monday": [
+    "Elencate gli strumenti di IA in cui il vostro team incolla dati dei clienti, e controllate le loro impostazioni di conservazione.",
+    "Se usate LiteLLM, Dify o strumenti simili, verificate che non siano esposti su Internet e rinnovate le loro chiavi API.",
+    "Chiedete al vostro fornitore cloud se i costi dell’IA cambieranno con l’arrivo di modi più economici per far girare i modelli."
+   ],
+   "quiz": {
+    "q": "In che anno è stata formulata l’ipotesi di Riemann?",
+    "options": [
+     "1859",
+     "1900",
+     "1959"
+    ],
+    "explain": "Nel 1859, da Bernhard Riemann. Nel 1900 Hilbert la inserì nella sua celebre lista di problemi; nel 2000 il Clay Institute ne fece un problema del Millennio da un milione di dollari."
+   }
+  }
+ }
+}
